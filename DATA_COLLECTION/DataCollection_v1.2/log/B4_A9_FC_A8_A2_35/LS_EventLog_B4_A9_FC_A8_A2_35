@@ -1,0 +1,803 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0100 24074  100 24074    0     0   6610      0  0:00:03  0:00:03 --:--:--  6608
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "\"1614241000\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/1",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:19:34+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:16:27+00:00",
+            "Id": "1",
+            "Message": "[FW Update Info] [Management Subsystem Health] BMC image update from 3.01.07 to 3.01.07 success",
+            "MessageArgs": [
+                "redfish/v1/Managers/Self/LogServices/OEMSEL"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 1",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/2",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:19:36+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:17:18+00:00",
+            "Id": "2",
+            "Message": "[Time synchronization] [BMC Time synchronization] BMC system time synchronization method:PCH-RTC",
+            "MessageArgs": [
+                "redfish/v1/Managers/Self/LogServices/OEMSEL"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 2",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/3",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:30+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:30:00+00:00",
+            "Id": "3",
+            "Message": "[Time synchronization] [BMC Time synchronization] BMC system time synchronization method:PCH-RTC",
+            "MessageArgs": [
+                "redfish/v1/Managers/Self/LogServices/OEMSEL"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 3",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/4",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:31+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:30:00+00:00",
+            "Id": "4",
+            "Message": "[LAN Info] [BMC] NCSI Shared NIC Ethernet Interface(OCP card) Detect Failed",
+            "MessageArgs": [
+                "redfish/v1/Managers/Self/LogServices/OEMSEL"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 4",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/5",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:32+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:28:15+00:00",
+            "Id": "5",
+            "Message": "[Power Unit] [Power Unit] Power Off / Power Down - Asserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 5",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/6",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:33+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:28:15+00:00",
+            "Id": "6",
+            "Message": "[Power Unit] [Power Unit] AC Lost / Power input lost - Asserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 6",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/7",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:34+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:29:21+00:00",
+            "Id": "7",
+            "Message": "[Fan_SYS0_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 7",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/8",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:36+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:29:21+00:00",
+            "Id": "8",
+            "Message": "[Fan_SYS1_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 8",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/9",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:37+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:29:21+00:00",
+            "Id": "9",
+            "Message": "[Fan_SYS2_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 9",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/10",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:38+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:29:21+00:00",
+            "Id": "10",
+            "Message": "[Fan_SYS3_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 10",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/11",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:39+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:29:21+00:00",
+            "Id": "11",
+            "Message": "[Fan_SYS4_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 11",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/12",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:40+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:29:21+00:00",
+            "Id": "12",
+            "Message": "[Fan_SYS5_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 12",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/13",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:41+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:29:21+00:00",
+            "Id": "13",
+            "Message": "[Fan_SYS6_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 13",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/14",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:41+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:29:21+00:00",
+            "Id": "14",
+            "Message": "[Fan_SYS7_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 14",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/15",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:42+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:29:23+00:00",
+            "Id": "15",
+            "Message": "[PSU0_Status] [Power Supply] Power Supply Input Lost (AC/DC) - Unit Off For Insufficient Input Voltage - Asserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 15",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/16",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:44+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:29:25+00:00",
+            "Id": "16",
+            "Message": "[PSU0_Status] [Power Supply] Power Supply Input Lost (AC/DC) - Unit Off For Insufficient Input Voltage - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 16",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/17",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:45+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:29:26+00:00",
+            "Id": "17",
+            "Message": "[Chassis] [Physical Security] General Chassis Intrusion - Asserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 17",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/18",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:46+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:31:04+00:00",
+            "Id": "18",
+            "Message": "[Power Unit] [Power Unit] Power Off / Power Down - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 18",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/19",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:47+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:31:42+00:00",
+            "Id": "19",
+            "Message": "[SPS FW Health] [OEM] Firmware Status - Boot Guard Health Event - Asserted",
+            "MessageArgs": [
+                "redfish/v1/Managers/Self/LogServices/SEL"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 19",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/20",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:32:34+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:32:28+00:00",
+            "Id": "20",
+            "Message": "[Login Info] [Login success] Login success -- Account:  root/  IP:10.10.14.187",
+            "MessageArgs": [
+                "redfish/v1/Managers/Self/LogServices/OEMSEL"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 20",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/21",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:34:51+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:34:29+00:00",
+            "Id": "21",
+            "Message": "[FW Update Info] [Management Subsystem Health] CPLD image update - Start to update CPLD image",
+            "MessageArgs": [
+                "redfish/v1/Managers/Self/LogServices/OEMSEL"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 21",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/22",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:36:07+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:36:04+00:00",
+            "Id": "22",
+            "Message": "[FW Update Info] [Management Subsystem Health] CPLD image update from d.0.6.8 to d.0.6.8 success",
+            "MessageArgs": [
+                "redfish/v1/Managers/Self/LogServices/OEMSEL"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 22",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/23",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:39:20+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:39:16+00:00",
+            "Id": "23",
+            "Message": "[BMC FW Health] [Management Subsystem Health] Management controller off-line (BMC cold reset) - Asserted",
+            "MessageArgs": [
+                "redfish/v1/Managers/Self/LogServices/SEL"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 23",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/24",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:43:39+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:41:57+00:00",
+            "Id": "24",
+            "Message": "[Time synchronization] [BMC Time synchronization] BMC system time synchronization method:PCH-RTC",
+            "MessageArgs": [
+                "redfish/v1/Managers/Self/LogServices/OEMSEL"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 24",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/25",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:43:40+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:41:58+00:00",
+            "Id": "25",
+            "Message": "[LAN Info] [BMC] NCSI Shared NIC Ethernet Interface(OCP card) Detect Failed",
+            "MessageArgs": [
+                "redfish/v1/Managers/Self/LogServices/OEMSEL"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 25",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/26",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:43:41+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:41:19+00:00",
+            "Id": "26",
+            "Message": "[Fan_SYS0_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 26",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/27",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:43:42+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:41:19+00:00",
+            "Id": "27",
+            "Message": "[Fan_SYS1_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 27",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/28",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:43:43+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:41:19+00:00",
+            "Id": "28",
+            "Message": "[Fan_SYS2_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 28",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/29",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:43:44+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:41:19+00:00",
+            "Id": "29",
+            "Message": "[Fan_SYS3_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 29",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/30",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:43:45+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:41:19+00:00",
+            "Id": "30",
+            "Message": "[Fan_SYS4_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 30",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/31",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:43:47+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:41:19+00:00",
+            "Id": "31",
+            "Message": "[Fan_SYS5_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 31",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/32",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:43:48+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:41:19+00:00",
+            "Id": "32",
+            "Message": "[Fan_SYS6_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 32",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/33",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:43:49+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:41:19+00:00",
+            "Id": "33",
+            "Message": "[Fan_SYS7_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 33",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/34",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:43:50+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:41:24+00:00",
+            "Id": "34",
+            "Message": "[Chassis] [Physical Security] General Chassis Intrusion - Asserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 34",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/35",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/36",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:48:39+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:46:55+00:00",
+            "Id": "36",
+            "Message": "[Time synchronization] [BMC Time synchronization] BMC system time synchronization method:PCH-RTC",
+            "MessageArgs": [
+                "redfish/v1/Managers/Self/LogServices/OEMSEL"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 36",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/37",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:48:40+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:46:55+00:00",
+            "Id": "37",
+            "Message": "[LAN Info] [BMC] NCSI Shared NIC Ethernet Interface(OCP card) Detect Failed",
+            "MessageArgs": [
+                "redfish/v1/Managers/Self/LogServices/OEMSEL"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 37",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/38",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:48:41+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T07:47:36+00:00",
+            "Id": "38",
+            "Message": "[Login Info] [Login success] Login success -- Account:  root/  IP:10.10.14.187",
+            "MessageArgs": [
+                "redfish/v1/Managers/Self/LogServices/OEMSEL"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 38",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/39",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:06:07+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T08:04:24+00:00",
+            "Id": "39",
+            "Message": "[Time synchronization] [BMC Time synchronization] BMC system time synchronization method:PCH-RTC",
+            "MessageArgs": [
+                "redfish/v1/Managers/Self/LogServices/OEMSEL"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 39",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/40",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:06:08+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T08:04:24+00:00",
+            "Id": "40",
+            "Message": "[LAN Info] [BMC] NCSI Shared NIC Ethernet Interface(OCP card) Detect Failed",
+            "MessageArgs": [
+                "redfish/v1/Managers/Self/LogServices/OEMSEL"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 40",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/41",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:06:08+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T08:02:39+00:00",
+            "Id": "41",
+            "Message": "[Power Unit] [Power Unit] Power Off / Power Down - Asserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 41",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/42",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:06:10+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T08:03:45+00:00",
+            "Id": "42",
+            "Message": "[Fan_SYS0_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 42",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/43",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:06:10+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T08:03:45+00:00",
+            "Id": "43",
+            "Message": "[Fan_SYS1_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 43",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/44",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:06:11+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T08:03:45+00:00",
+            "Id": "44",
+            "Message": "[Fan_SYS2_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 44",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/45",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:06:12+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T08:03:45+00:00",
+            "Id": "45",
+            "Message": "[Fan_SYS3_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 45",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/46",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:06:14+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T08:03:45+00:00",
+            "Id": "46",
+            "Message": "[Fan_SYS4_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 46",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/47",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:06:15+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T08:03:45+00:00",
+            "Id": "47",
+            "Message": "[Fan_SYS5_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 47",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/48",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:06:16+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T08:03:45+00:00",
+            "Id": "48",
+            "Message": "[Fan_SYS6_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 48",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/49",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:06:18+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T08:03:45+00:00",
+            "Id": "49",
+            "Message": "[Fan_SYS7_Status] [Fan] Device Inserted / Device Present - Deasserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 49",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/50",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:06:19+00:00",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2021-02-25T08:03:47+00:00",
+            "Id": "50",
+            "Message": "[PSU0_Status] [Power Supply] Power Supply Input Lost (AC/DC) - Unit Off For Insufficient Input Voltage - Asserted",
+            "MessageArgs": [
+                "redfish/v1/Chassis/Self/LogServices/Logs"
+            ],
+            "MessageId": "QrtpOem.1.0.Alert",
+            "Name": "Log entry 50",
+            "Severity": "Critical"
+        }
+    ],
+    "Members@odata.count": 58,
+    "Members@odata.nextLink": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries?$skip=50",
+    "Name": "Log Service Entries Collection"
+}

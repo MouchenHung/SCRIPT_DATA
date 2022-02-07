@@ -1,0 +1,238 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: channel
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: 1,
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: passwordStatus
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100  4841    0  4841    0     0   2705      0 --:--:--  0:00:01 --:--:--  2704
+[
+    {
+        "Id": "DevType2_DIMM10",
+        "Name": "DevType2_DIMM10",
+        "CapacityMiB": "0",
+        "Manufacturer": "NO DIMM",
+        "SerialNumber": "NO DIMM",
+        "PartNumber": "NO DIMM",
+        "State": "Absent",
+        "DeviceLocator": "CPU0_F0",
+        "OperatingSpeedMhz": "0",
+        "Description": "NA",
+        "MemoryDeviceType": "DDR4",
+        "AllowedSpeedMHz": "NA"
+    },
+    {
+        "Id": "DevType2_DIMM8",
+        "Name": "DevType2_DIMM8",
+        "CapacityMiB": "0",
+        "Manufacturer": "NO DIMM",
+        "SerialNumber": "NO DIMM",
+        "PartNumber": "NO DIMM",
+        "State": "Absent",
+        "DeviceLocator": "CPU0_E0",
+        "OperatingSpeedMhz": "0",
+        "Description": "NA",
+        "MemoryDeviceType": "DDR4",
+        "AllowedSpeedMHz": "NA"
+    },
+    {
+        "Id": "DevType2_DIMM5",
+        "Name": "DevType2_DIMM5",
+        "CapacityMiB": "0",
+        "Manufacturer": "NO DIMM",
+        "SerialNumber": "NO DIMM",
+        "PartNumber": "NO DIMM",
+        "State": "Absent",
+        "DeviceLocator": "CPU0_C1",
+        "OperatingSpeedMhz": "0",
+        "Description": "NA",
+        "MemoryDeviceType": "DDR4",
+        "AllowedSpeedMHz": "NA"
+    },
+    {
+        "Id": "DevType2_DIMM9",
+        "Name": "DevType2_DIMM9",
+        "CapacityMiB": "0",
+        "Manufacturer": "NO DIMM",
+        "SerialNumber": "NO DIMM",
+        "PartNumber": "NO DIMM",
+        "State": "Absent",
+        "DeviceLocator": "CPU0_E1",
+        "OperatingSpeedMhz": "0",
+        "Description": "NA",
+        "MemoryDeviceType": "DDR4",
+        "AllowedSpeedMHz": "NA"
+    },
+    {
+        "Id": "DevType2_DIMM2",
+        "Name": "DevType2_DIMM2",
+        "CapacityMiB": "0",
+        "Manufacturer": "NO DIMM",
+        "SerialNumber": "NO DIMM",
+        "PartNumber": "NO DIMM",
+        "State": "Absent",
+        "DeviceLocator": "CPU0_B0",
+        "OperatingSpeedMhz": "0",
+        "Description": "NA",
+        "MemoryDeviceType": "DDR4",
+        "AllowedSpeedMHz": "NA"
+    },
+    {
+        "Id": "DevType2_DIMM14",
+        "Name": "DevType2_DIMM14",
+        "CapacityMiB": "0",
+        "Manufacturer": "NO DIMM",
+        "SerialNumber": "NO DIMM",
+        "PartNumber": "NO DIMM",
+        "State": "Absent",
+        "DeviceLocator": "CPU0_H0",
+        "OperatingSpeedMhz": "0",
+        "Description": "NA",
+        "MemoryDeviceType": "DDR4",
+        "AllowedSpeedMHz": "NA"
+    },
+    {
+        "Id": "DevType2_DIMM0",
+        "Name": "DevType2_DIMM0",
+        "CapacityMiB": "32768",
+        "Manufacturer": "Samsung",
+        "SerialNumber": "1732-3670663C",
+        "PartNumber": "M393A4K40BB2-CTD    ",
+        "State": "Enabled",
+        "DeviceLocator": "CPU0_A0",
+        "OperatingSpeedMhz": "2666",
+        "Description": "NA",
+        "MemoryDeviceType": "DDR4",
+        "AllowedSpeedMHz": "NA"
+    },
+    {
+        "Id": "DevType2_DIMM11",
+        "Name": "DevType2_DIMM11",
+        "CapacityMiB": "0",
+        "Manufacturer": "NO DIMM",
+        "SerialNumber": "NO DIMM",
+        "PartNumber": "NO DIMM",
+        "State": "Absent",
+        "DeviceLocator": "CPU0_F1",
+        "OperatingSpeedMhz": "0",
+        "Description": "NA",
+        "MemoryDeviceType": "DDR4",
+        "AllowedSpeedMHz": "NA"
+    },
+    {
+        "Id": "DevType2_DIMM13",
+        "Name": "DevType2_DIMM13",
+        "CapacityMiB": "0",
+        "Manufacturer": "NO DIMM",
+        "SerialNumber": "NO DIMM",
+        "PartNumber": "NO DIMM",
+        "State": "Absent",
+        "DeviceLocator": "CPU0_G1",
+        "OperatingSpeedMhz": "0",
+        "Description": "NA",
+        "MemoryDeviceType": "DDR4",
+        "AllowedSpeedMHz": "NA"
+    },
+    {
+        "Id": "DevType2_DIMM1",
+        "Name": "DevType2_DIMM1",
+        "CapacityMiB": "0",
+        "Manufacturer": "NO DIMM",
+        "SerialNumber": "NO DIMM",
+        "PartNumber": "NO DIMM",
+        "State": "Absent",
+        "DeviceLocator": "CPU0_A1",
+        "OperatingSpeedMhz": "0",
+        "Description": "NA",
+        "MemoryDeviceType": "DDR4",
+        "AllowedSpeedMHz": "NA"
+    },
+    {
+        "Id": "DevType2_DIMM15",
+        "Name": "DevType2_DIMM15",
+        "CapacityMiB": "0",
+        "Manufacturer": "NO DIMM",
+        "SerialNumber": "NO DIMM",
+        "PartNumber": "NO DIMM",
+        "State": "Absent",
+        "DeviceLocator": "CPU0_H1",
+        "OperatingSpeedMhz": "0",
+        "Description": "NA",
+        "MemoryDeviceType": "DDR4",
+        "AllowedSpeedMHz": "NA"
+    },
+    {
+        "Id": "DevType2_DIMM4",
+        "Name": "DevType2_DIMM4",
+        "CapacityMiB": "0",
+        "Manufacturer": "NO DIMM",
+        "SerialNumber": "NO DIMM",
+        "PartNumber": "NO DIMM",
+        "State": "Absent",
+        "DeviceLocator": "CPU0_C0",
+        "OperatingSpeedMhz": "0",
+        "Description": "NA",
+        "MemoryDeviceType": "DDR4",
+        "AllowedSpeedMHz": "NA"
+    },
+    {
+        "Id": "DevType2_DIMM6",
+        "Name": "DevType2_DIMM6",
+        "CapacityMiB": "0",
+        "Manufacturer": "NO DIMM",
+        "SerialNumber": "NO DIMM",
+        "PartNumber": "NO DIMM",
+        "State": "Absent",
+        "DeviceLocator": "CPU0_D0",
+        "OperatingSpeedMhz": "0",
+        "Description": "NA",
+        "MemoryDeviceType": "DDR4",
+        "AllowedSpeedMHz": "NA"
+    },
+    {
+        "Id": "DevType2_DIMM3",
+        "Name": "DevType2_DIMM3",
+        "CapacityMiB": "0",
+        "Manufacturer": "NO DIMM",
+        "SerialNumber": "NO DIMM",
+        "PartNumber": "NO DIMM",
+        "State": "Absent",
+        "DeviceLocator": "CPU0_B1",
+        "OperatingSpeedMhz": "0",
+        "Description": "NA",
+        "MemoryDeviceType": "DDR4",
+        "AllowedSpeedMHz": "NA"
+    },
+    {
+        "Id": "DevType2_DIMM12",
+        "Name": "DevType2_DIMM12",
+        "CapacityMiB": "0",
+        "Manufacturer": "NO DIMM",
+        "SerialNumber": "NO DIMM",
+        "PartNumber": "NO DIMM",
+        "State": "Absent",
+        "DeviceLocator": "CPU0_G0",
+        "OperatingSpeedMhz": "0",
+        "Description": "NA",
+        "MemoryDeviceType": "DDR4",
+        "AllowedSpeedMHz": "NA"
+    },
+    {
+        "Id": "DevType2_DIMM7",
+        "Name": "DevType2_DIMM7",
+        "CapacityMiB": "0",
+        "Manufacturer": "NO DIMM",
+        "SerialNumber": "NO DIMM",
+        "PartNumber": "NO DIMM",
+        "State": "Absent",
+        "DeviceLocator": "CPU0_D1",
+        "OperatingSpeedMhz": "0",
+        "Description": "NA",
+        "MemoryDeviceType": "DDR4",
+        "AllowedSpeedMHz": "NA"
+    }
+]

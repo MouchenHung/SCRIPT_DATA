@@ -1,0 +1,36 @@
+Collect BMC data script (Version 1.01) - 2020/12/22
+Start to collection data, please wait about 5 minutes.
+Dump BMC console.
+Done.
+Dump BMC configuration.
+Done.
+Dump BMC syslog
+Done.
+tar -zcvf ../BMCCLLOG.tgz ../log/ 2>&1
+tar: Removing leading `../' from member names
+../log/
+../log/B4_A9_FC_99_F9_3F/
+../log/B4_A9_FC_99_F9_3F/WebUI_SEL_HEX_B4_A9_FC_99_F9_3F
+../log/B4_A9_FC_99_F9_3F/BMC_Dump.B4_A9_FC_99_F9_3F.dat
+../log/B4_A9_FC_99_F9_3F/Sensor_List_B4_A9_FC_99_F9_3F
+../log/B4_A9_FC_99_F9_3F/INTF/
+../log/B4_A9_FC_99_F9_3F/INTF/System_Inventory_Power.txt
+../log/B4_A9_FC_99_F9_3F/INTF/System_Inventory_Storage.txt
+../log/B4_A9_FC_99_F9_3F/INTF/System_Inventory_Process.txt
+../log/B4_A9_FC_99_F9_3F/INTF/System_Inventory_Thermal.txt
+../log/B4_A9_FC_99_F9_3F/INTF/System_Inventory_System.txt
+../log/B4_A9_FC_99_F9_3F/INTF/System_Inventory_PCIE_Funciton.txt
+../log/B4_A9_FC_99_F9_3F/INTF/System_Inventory_Memory.txt
+../log/B4_A9_FC_99_F9_3F/INTF/System_Inventory_Baseboard.txt
+../log/B4_A9_FC_99_F9_3F/execute_fetch_bmc_info.log
+../log/B4_A9_FC_99_F9_3F/Fru_Print_B4_A9_FC_99_F9_3F
+../log/B4_A9_FC_99_F9_3F/bmc-info.B4_A9_FC_99_F9_3F
+../log/B4_A9_FC_99_F9_3F/execute_fetch_bmc_mesg.log
+../log/B4_A9_FC_99_F9_3F/execute_startup.log
+../log/B4_A9_FC_99_F9_3F/syslog.B4_A9_FC_99_F9_3F
+../log/B4_A9_FC_99_F9_3F/System_B4_A9_FC_99_F9_3F
+../log/B4_A9_FC_99_F9_3F/PSU_B4_A9_FC_99_F9_3F
+../log/B4_A9_FC_99_F9_3F/McInfo_B4_A9_FC_99_F9_3F
+../log/B4_A9_FC_99_F9_3F/WebUI_SEL_TEXT_B4_A9_FC_99_F9_3F
+../log/B4_A9_FC_99_F9_3F/Network_Settings_B4_A9_FC_99_F9_3F
+../log/B4_A9_FC_99_F9_3F/execute_fetch_bmc_file.log

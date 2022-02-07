@@ -1,0 +1,76 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: channel
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: 1,
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: passwordStatus
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100  1124    0  1124    0     0    857      0 --:--:--  0:00:01 --:--:--   857
+[
+    {
+        "baseboard_info": [
+            {
+                "Name": "Manager",
+                "Description": "BMC",
+                "FirmwareVersion": "2.11.00",
+                "Model": "136562130",
+                "State": "Enabled",
+                "PowerState": "On"
+            }
+        ],
+        "NetworkInterface": [
+            {
+                "id": 0,
+                "Name": "usb0",
+                "MACAddress": "5A:19:AA:96:3A:7F",
+                "InterfaceEnabled": "true",
+                "IPv4Addresses": "169.254.0.17",
+                "HostName": "NA",
+                "State": "Enabled",
+                "FullDuplex": "NA",
+                "PermanentMACAddress": "NA",
+                "WWPN": "NA"
+            },
+            {
+                "id": 1,
+                "Name": "bond0",
+                "MACAddress": "B4:A9:FC:99:F9:3F",
+                "InterfaceEnabled": "true",
+                "IPv4Addresses": "10.10.11.56",
+                "HostName": "QCTB4A9FC99F93F",
+                "State": "Enabled",
+                "FullDuplex": "true",
+                "PermanentMACAddress": "B4:A9:FC:99:F9:3F",
+                "WWPN": "NA"
+            },
+            {
+                "id": 2,
+                "Name": "eth0",
+                "MACAddress": "B4:A9:FC:99:F9:3F",
+                "InterfaceEnabled": "true",
+                "IPv4Addresses": "NA",
+                "HostName": "NA",
+                "State": "NA",
+                "FullDuplex": "NA",
+                "PermanentMACAddress": "B4:A9:FC:99:F9:3F",
+                "WWPN": "NA"
+            },
+            {
+                "id": 3,
+                "Name": "eth1",
+                "MACAddress": "B4:A9:FC:99:F9:3F",
+                "InterfaceEnabled": "false",
+                "IPv4Addresses": "NA",
+                "HostName": "NA",
+                "State": "NA",
+                "FullDuplex": "NA",
+                "PermanentMACAddress": "B4:A9:FC:99:F9:3F",
+                "WWPN": "NA"
+            }
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+Event ID		Time Stamp					Severity	Sensor Name			Sensor Type				Description
+	18		Jan/21/2021    07:31:27		[Information]	[Login Info]	[Login success]	Login success -- Account:  root /  IP:10.10.14.32
+	17		Jan/21/2021    07:27:02		[Information]	[PSU Redundancy]	[Power Supply]	Fully Redundant (Redundancy Regained) - Asserted
+	16		Jan/21/2021    07:26:58		[Information]	[PSU1_Status]	[Power Supply]	Predictive Failure - VIN_UV_WARNING - Deasserted
+	15		Jan/21/2021    07:26:58		[Information]	[PSU1_Status]	[Power Supply]	Power Supply Input Lost (AC/DC) - Input Undervoltage Fault - Deasserted
+	14		Jan/21/2021    07:26:58		[Information]	[PSU1_Status]	[Power Supply]	Power Supply Input Lost (AC/DC) - Unit Off For Insufficient Input Voltage - Deasserted
+	13		Jan/21/2021    07:26:58		[Warning]		[PSU Redundancy]	[Power Supply]	Redundancy Lost - Asserted
+	12		Jan/21/2021    07:26:54		[Warning]		[PSU1_Status]	[Power Supply]	Predictive Failure - VIN_UV_WARNING - Asserted
+	11		Jan/21/2021    07:26:54		[Critical]		[PSU1_Status]	[Power Supply]	Power Supply Input Lost (AC/DC) - Input Undervoltage Fault - Asserted
+	10		Jan/21/2021    07:26:54		[Critical]		[PSU1_Status]	[Power Supply]	Power Supply Input Lost (AC/DC) - Unit Off For Insufficient Input Voltage - Asserted
+	9		Jan/21/2021    07:26:48		[Information]	[PSU Redundancy]	[Power Supply]	Fully Redundant (Redundancy Regained) - Asserted
+	8		Jan/21/2021    07:26:45		[Information]	[PSU0_Status]	[Power Supply]	Predictive Failure - VIN_UV_WARNING - Deasserted
+	7		Jan/21/2021    07:26:45		[Information]	[PSU0_Status]	[Power Supply]	Power Supply Input Lost (AC/DC) - Input Undervoltage Fault - Deasserted
+	6		Jan/21/2021    07:26:45		[Information]	[PSU0_Status]	[Power Supply]	Power Supply Input Lost (AC/DC) - Unit Off For Insufficient Input Voltage - Deasserted
+	5		Jan/21/2021    07:26:45		[Warning]		[PSU Redundancy]	[Power Supply]	Redundancy Lost - Asserted
+	4		Jan/21/2021    07:26:41		[Warning]		[PSU0_Status]	[Power Supply]	Predictive Failure - VIN_UV_WARNING - Asserted
+	3		Jan/21/2021    07:26:41		[Critical]		[PSU0_Status]	[Power Supply]	Power Supply Input Lost (AC/DC) - Input Undervoltage Fault - Asserted
+	2		Jan/21/2021    07:26:41		[Critical]		[PSU0_Status]	[Power Supply]	Power Supply Input Lost (AC/DC) - Unit Off For Insufficient Input Voltage - Asserted
+	1		Jan/21/2021    07:25:08		[Information]	[Event Log]	[Event Logging Disabled]	Log Area Reset/Cleared - Asserted

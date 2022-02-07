@@ -1,0 +1,70 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0100  1757  100  1757    0     0    595      0  0:00:02  0:00:02 --:--:--   595
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "\"1614238759\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/1",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:46+00:00",
+            "Description": "SEL 33",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:31:42+00:00",
+            "Id": "1",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Firmware Status - Boot Guard Health Event - Asserted",
+            "MessageId": "0xA01700",
+            "Name": "SEL 33",
+            "SensorNumber": 23,
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/2",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:39:19+00:00",
+            "Description": "SEL 37",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:39:16+00:00",
+            "Id": "2",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers"
+                }
+            },
+            "Message": "Management controller off-line (BMC cold reset) - Asserted",
+            "MessageId": "0x0202FF",
+            "Name": "SEL 37",
+            "SensorNumber": 122,
+            "SensorType": "Management Subsystem Health",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/3",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:48:39+00:00",
+            "Description": "SEL 65",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:48:37+00:00",
+            "Id": "3",
+            "Message": "Firmware Status - Boot Guard Health Event - Asserted",
+            "MessageId": "0xA01700",
+            "Name": "SEL 65",
+            "SensorNumber": 23,
+            "Severity": "Warning"
+        }
+    ],
+    "Members@odata.count": 3,
+    "Name": "Log Service Entries Collection"
+}

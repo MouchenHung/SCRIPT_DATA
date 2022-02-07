@@ -1,0 +1,39 @@
+-------------------------------
+Fetch BMC Information Script   
+-------------------------------
+
+Complete get FRU information
+Complete get WebUI SEL HEX
+Complete get WebUI SEL
+Complete get sensor list
+Complete get network setting
+Complete get MC information
+Complete get System information
+Complete get PSU information
+Complete get LogServices(SEL) information
+Complete get LogServices(OEMSEL) information
+Complete get LogServices(EventLog) information
+Complete get LogServices(BIOS) information
+Complete get LogServices(ChassisLogs) information
+Complete get System Inventory - System
+Complete get System Inventory - Processor
+Complete get System Inventory - Memory
+Complete get System Inventory - Baseboard
+Complete get System Inventory - Power
+Complete get System Inventory - Thermal
+Complete get System Inventory - PCIE Function
+Complete get System Inventory - Storage
+Completed!
+Session Result:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: channel
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: 1,
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: passwordStatus
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100    11    0    11    0     0      8      0 --:--:--  0:00:01 --:--:--     8
+{ "ok": 0 }

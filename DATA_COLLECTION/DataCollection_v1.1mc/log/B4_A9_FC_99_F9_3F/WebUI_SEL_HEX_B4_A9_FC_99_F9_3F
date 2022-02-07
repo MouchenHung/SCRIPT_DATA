@@ -1,0 +1,40 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: channel
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: 1,
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: passwordStatus
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0  2464    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0100  2464  100  2464    0     0    251      0  0:00:09  0:00:09 --:--:--   705
+      |Record|           |GenID|GenID |      |Sensor|        |EvtDir|Event|Event|Event|
+  ID  | Type | TimeStamp |(Low)|(High)|EvMRev| Type |Sensor #| Type |Data1|Data2|Data3|
+------|------|-----------|-----|------|------|------|--------|------|-----|-----|-----|
+ 0019h|   c3h| 5fe3560fh |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0018h|   c3h| 5fe35608h |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0017h|   c3h| 5fe355fah |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0016h|   c3h| 5fe355eeh |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0015h|   c3h| 5fe355e8h |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0014h|   c3h| 5fe35580h |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0013h|   c3h| 5fe3557ch |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0012h|   c3h| 5fe35569h |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0011h|   c3h| 5fe35563h |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0010h|   c3h| 5fe35516h |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 000fh|   c3h| 5fe3550fh |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  20h|
+ 000eh|   c3h| 5fe35500h |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 000dh|   c3h| 5fe354f5h |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 000ch|   c3h| 5fe354f0h |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 000bh|   c3h| 5fe3547ch |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  20h|
+ 000ah|   c3h| 5fe35479h |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0009h|   c3h| 5fe35476h |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0008h|   c3h| 5fe35461h |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0007h|   c3h| 5fe3545bh |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0006h|   c3h| 5fe35425h |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0005h|   c3h| 5fe3541fh |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0004h|   c3h| 5fe3540fh |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0003h|   c3h| 5fe35402h |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0002h|   c3h| 5fe353f9h |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0001h|   02h| 5fe353d3h |  20h|   00h|   04h|   10h|     70h|   6fh|  02h|  ffh|  ffh|

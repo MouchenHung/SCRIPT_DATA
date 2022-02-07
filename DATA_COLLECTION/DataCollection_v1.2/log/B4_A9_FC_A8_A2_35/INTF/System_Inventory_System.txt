@@ -1,0 +1,29 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: channel
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: 1,
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: passwordStatus
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   352    0   352    0     0    747      0 --:--:-- --:--:-- --:--:--   747
+[
+    {
+        "Name": "System",
+        "Description": "System Self",
+        "Model": "  ",
+        "IndicatorLED": "Off",
+        "Manufacturer": "NetApp Inc.",
+        "PowerState": "On",
+        "SerialNumber": "To be filled by O.E.M.",
+        "PartNumber": "H625C",
+        "SystemType": "Physical",
+        "State": "Enabled",
+        "AssetTag": "Reserved",
+        "BiosVersion": "3A01.AL",
+        "UUID": "A9B4EEEC-5E44-11EA-A45A-B4A9FCA8A235"
+    }
+]

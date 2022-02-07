@@ -1,0 +1,29 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: channel
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: 1,
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: passwordStatus
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   350    0   350    0     0    202      0 --:--:--  0:00:01 --:--:--   202
+[
+    {
+        "Name": "System",
+        "Description": "System Self",
+        "Model": "  ",
+        "IndicatorLED": "Off",
+        "Manufacturer": "Quanta Cloud Technology Inc.",
+        "PowerState": "Off",
+        "SerialNumber": "63",
+        "PartNumber": "H625C",
+        "SystemType": "Physical",
+        "State": "Enabled",
+        "AssetTag": "Reserved",
+        "BiosVersion": "2A05.YV",
+        "UUID": "FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF"
+    }
+]

@@ -1,0 +1,651 @@
+<46>  2020-12-18T08:05:03.593402+08:00 QCTB4A9FC99F93F rsyslogd: rsyslogd - -   [origin software="rsyslogd" swVersion="8.1901.0" x-pid="4683" x-info="https://www.rsyslog.com"] rsyslogd was HUPed - 
+<78>  2020-12-18T08:06:01.165360+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 4921 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:07:01.173482+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 5195 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:08:01.191842+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 5467 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:09:01.195858+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 5740 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:10:01.214400+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 6103 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:10:01.223905+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 6104 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T08:11:01.234959+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 6660 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:12:01.240503+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 7068 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:13:01.245065+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 7340 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:14:01.249251+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 7612 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:15:01.262660+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 7885 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:15:01.274163+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 7886 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T08:16:01.284332+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 8161 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:17:01.300906+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 8469 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:18:01.316561+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 9038 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:19:01.325313+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 9441 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:20:01.329288+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 9722 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:20:01.338830+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 9723 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T08:21:01.354869+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 10003 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:22:01.366857+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 10277 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:23:01.370853+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 10551 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:24:01.393012+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 10823 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:25:01.406918+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 11180 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:25:01.424740+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 11181 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T08:26:01.428982+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 11730 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:27:01.459226+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 12110 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:28:01.464184+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 12382 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:29:01.468109+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 12652 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:30:01.473485+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 13002 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:30:01.484142+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 13003 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T08:31:01.494444+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 13573 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:32:01.499011+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 13978 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:33:01.528533+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 14250 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<3>  2020-12-18T08:33:59.991764+08:00 QCTB4A9FC99F93F kernel: kernel - - [834054.848301] i2c i2c-5: send_bytes: Timed out sending data - 
+<78>  2020-12-18T08:34:01.537783+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 14523 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:35:01.544069+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 14798 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:35:01.551065+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 14799 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T08:36:01.558901+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 15073 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<132>  2020-12-18T08:36:14.881430+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:1069]IPMBIfc.c: Invalid checksum 1, size = 9 - 
+<132>  2020-12-18T08:36:14.889970+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:770]IPMBIfc.c : IPMB Checksum validation failed - 
+<78>  2020-12-18T08:37:01.595943+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 15376 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:38:01.605471+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 15947 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:39:01.610425+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 16362 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:40:01.614691+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 16635 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:40:01.623941+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 16636 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T08:41:01.628943+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 16912 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:42:01.633469+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 17182 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:43:01.643965+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 17456 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:44:01.648387+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 17732 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:45:01.662778+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 18295 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:45:01.678387+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 18296 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T08:46:01.685060+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 18741 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:47:01.689039+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 19013 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:48:01.693251+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 19287 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:49:01.723534+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 19557 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:50:01.733711+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 19831 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:50:01.748258+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 19832 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T08:51:01.764017+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 20268 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:52:01.773997+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 20778 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:53:01.778199+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 21105 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:54:01.791184+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 21386 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:55:01.797394+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 21658 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:55:01.813085+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 21659 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T08:56:01.835001+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 21934 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:57:01.853880+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 22214 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:58:01.868599+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 22797 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T08:59:01.877357+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 23206 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:00:01.901072+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 23480 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:00:01.908233+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 23481 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T09:01:01.912642+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 23764 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:02:01.916636+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 24036 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:03:01.924212+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 24424 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:04:01.931869+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 24957 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:05:01.935825+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 25323 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:05:01.956305+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 25324 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T09:06:01.967979+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 25603 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:07:01.977537+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 25879 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:08:01.989083+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 26155 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:09:02.008454+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 26628 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:10:01.024779+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 27117 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:10:01.030775+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 27118 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T09:11:01.039662+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 27449 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:12:01.044261+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 27722 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:13:01.061041+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 27997 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:14:01.066704+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 28273 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:15:01.070647+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 28547 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:15:01.085399+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 28548 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T09:16:01.101359+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 28967 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:17:01.117715+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 29483 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:18:01.133948+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 29828 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:19:01.145008+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 30101 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:20:01.148999+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 30376 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:20:01.158773+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 30377 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T09:21:01.184078+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 30652 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:22:01.209318+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 31150 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:23:01.222667+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 31627 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:24:01.227918+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 31928 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:25:01.231984+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 32199 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:25:01.241082+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 32200 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T09:26:01.250799+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 32476 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:27:01.264156+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 32750 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:28:01.274865+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 718 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:29:01.286898+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 1271 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:30:01.290924+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 1706 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:30:01.299137+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 1707 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T09:31:01.304767+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 1981 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:32:01.309465+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 2262 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:33:01.324212+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 2534 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<130>  2020-12-18T09:33:41.998620+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T09:33:42.157815+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<134>  2020-12-18T09:33:43.479740+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T09:33:43.497253+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-18T09:33:49.197723+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T09:33:49.400994+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<78>  2020-12-18T09:34:01.338741+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 2925 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<130>  2020-12-18T09:34:04.353865+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T09:34:04.579303+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<134>  2020-12-18T09:34:17.582089+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T09:34:17.583933+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T09:34:21.336208+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T09:34:21.338175+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-18T09:34:30.108711+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T09:34:30.389910+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<134>  2020-12-18T09:34:41.844146+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T09:34:41.850486+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<14>  2020-12-18T09:34:42.066569+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-0 - 
+<14>  2020-12-18T09:34:42.363104+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-1 - 
+<14>  2020-12-18T09:34:42.622668+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-10 - 
+<132>  2020-12-18T09:34:42.635899+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 WARNING][fru.c:114]Invalid FRU Header Version for ID : 10 - 
+<14>  2020-12-18T09:34:42.649612+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-32 - 
+<132>  2020-12-18T09:34:42.673361+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 WARNING][fru.c:114]Invalid FRU Header Version for ID : 32 - 
+<14>  2020-12-18T09:34:42.692504+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-33 - 
+<132>  2020-12-18T09:34:42.704382+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 WARNING][fru.c:114]Invalid FRU Header Version for ID : 33 - 
+<14>  2020-12-18T09:34:42.720837+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-35 - 
+<132>  2020-12-18T09:34:42.750705+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 WARNING][fru.c:114]Invalid FRU Header Version for ID : 35 - 
+<134>  2020-12-18T09:34:44.229040+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T09:34:44.230977+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T09:34:56.590905+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T09:34:56.592883+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-18T09:35:01.353915+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 3460 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:35:01.363961+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 3461 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<134>  2020-12-18T09:35:14.279396+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T09:35:14.286356+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T09:35:16.528685+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T09:35:16.532385+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T09:35:16.623434+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO] in ipmi cmd GetLanReq.ChannelNum=1 - 
+<134>  2020-12-18T09:35:52.033379+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T09:35:52.035327+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-18T09:36:00.150060+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T09:36:00.318983+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<78>  2020-12-18T09:36:01.393551+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 3948 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-18T09:36:12.955964+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T09:36:12.957968+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T09:36:15.478286+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T09:36:15.480139+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T09:36:22.758633+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T09:36:22.763778+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T09:36:26.998304+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T09:36:27.000168+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T09:36:30.646157+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T09:36:30.648016+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-18T09:37:01.405423+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 4384 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:38:01.410090+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 4658 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:39:01.419663+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 4936 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:40:01.424346+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 5211 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:40:01.433992+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 5212 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T09:41:01.442237+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 5488 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:42:01.446745+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 5758 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:43:01.464649+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 6102 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:44:01.483661+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 6658 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:45:01.498154+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 7052 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:45:01.522315+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 7053 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<3>  2020-12-18T09:45:21.591864+08:00 QCTB4A9FC99F93F kernel: kernel - - [838336.458890] i2c i2c-5: send_bytes: Timed out sending data - 
+<78>  2020-12-18T09:46:01.535102+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 7334 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:47:01.539071+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 7608 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:48:01.553607+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 7885 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:49:01.559415+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 8330 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:50:01.574027+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 8844 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:50:01.580905+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 8845 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T09:51:01.585254+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 9188 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:52:01.595240+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 9463 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:53:01.604248+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 9746 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:54:01.608212+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 10036 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:55:01.623576+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 10326 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:55:01.630908+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 10327 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T09:56:01.642136+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 10906 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:57:01.651552+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 11320 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:58:01.657398+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 11594 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T09:59:01.661943+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 11866 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:00:01.674064+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 12148 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:00:01.683946+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 12149 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T10:01:01.703695+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 12728 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:02:01.711685+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 13187 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:03:01.732189+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 13514 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<3>  2020-12-18T10:03:20.791883+08:00 QCTB4A9FC99F93F kernel: kernel - - [839415.662088] i2c i2c-5: send_bytes: Timed out sending data - 
+<3>  2020-12-18T10:03:22.791724+08:00 QCTB4A9FC99F93F kernel: kernel - - [839417.662069] i2c i2c-5: send_bytes: Timed out sending data - 
+<78>  2020-12-18T10:04:01.753955+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 14062 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:05:01.761803+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 14461 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:05:01.778346+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 14462 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T10:06:01.787970+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 14739 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:07:01.792670+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 15015 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:08:01.807766+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 15350 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:09:01.816337+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 15923 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:10:01.824664+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 16326 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:10:01.829720+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 16327 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T10:11:01.834300+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 16600 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:12:01.838253+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 16872 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:13:01.864423+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 17199 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:14:01.874559+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 17761 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:15:01.900530+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 18161 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:15:01.913927+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 18162 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T10:16:01.923682+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 18746 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:17:01.933935+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 19180 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:18:01.937898+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 19453 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:19:01.945430+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 19728 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:20:01.956778+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 20005 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:20:01.978120+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 20008 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T10:21:01.986586+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 20390 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:22:01.994703+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 20940 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:23:02.002968+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 21333 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:24:01.009844+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 21603 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:25:01.019229+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 21875 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:25:01.034008+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 21876 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T10:26:01.044393+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 22150 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:27:01.088462+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 22609 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:28:01.108746+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 23132 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:29:01.133678+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 23488 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:30:01.139569+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 23764 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:30:01.145008+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 23765 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T10:31:01.150634+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 24042 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:32:01.158886+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 24317 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:33:01.183563+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 24626 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:34:01.195968+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 25199 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:35:01.200383+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 25607 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:35:01.214712+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 25608 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T10:36:01.253945+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 26179 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:37:01.265486+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 26621 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<132>  2020-12-18T10:37:33.818681+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:1069]IPMBIfc.c: Invalid checksum 1, size = 9 - 
+<132>  2020-12-18T10:37:33.826312+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:770]IPMBIfc.c : IPMB Checksum validation failed - 
+<78>  2020-12-18T10:38:01.269677+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 26898 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:39:01.276682+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 27173 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:40:01.281031+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 27448 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:40:01.295235+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 27449 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T10:41:01.310660+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 27805 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:42:01.318691+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 28359 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:43:01.330504+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 28749 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:44:01.334707+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 29023 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:45:01.343662+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 29296 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:45:01.355833+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 29297 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T10:46:01.363798+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 29574 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:47:01.367767+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 29847 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:48:01.410292+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 30142 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:49:01.433427+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 30713 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:50:01.437528+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 31129 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:50:01.443922+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 31130 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T10:51:01.453906+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 31407 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:52:01.464903+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 31681 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:53:01.468899+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 31955 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:54:01.492514+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 32345 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:55:01.507309+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 458 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:55:01.524013+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 459 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T10:56:01.528502+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 852 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:57:01.532734+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 1130 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:58:01.537349+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 1417 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T10:59:01.541298+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 1691 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:00:01.547267+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 2174 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:00:01.555058+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 2175 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T11:01:01.582767+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 2704 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:02:01.596831+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 3055 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:03:01.612409+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 3331 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:04:01.616574+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 3605 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:05:01.620685+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 3881 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:05:01.629834+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 3882 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T11:06:01.639218+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 4229 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:07:01.646086+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 4795 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:08:01.653430+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 5186 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:09:01.671658+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 5768 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:10:01.675628+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 6194 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:10:01.687232+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 6195 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T11:11:01.691613+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 6475 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:12:01.697283+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 6749 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:13:01.726412+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 7267 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:14:01.734455+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 7749 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:15:01.743337+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 8256 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:15:01.753987+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 8257 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T11:16:01.770770+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 8757 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:17:01.777875+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 9080 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:18:01.782246+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 9358 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:19:01.798108+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 9750 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:20:01.804115+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 10301 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:20:01.815645+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 10302 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T11:21:01.823324+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 10719 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:22:01.828269+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 10993 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:23:01.833881+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 11268 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:24:01.838625+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 11537 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:25:01.842888+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 11809 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:25:01.854626+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 11810 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T11:26:01.875587+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 12133 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:27:01.894347+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 12693 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:28:01.898954+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 13099 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:29:01.915375+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 13371 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:30:01.930615+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 13643 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:30:01.939985+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 13644 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T11:31:01.955543+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 13923 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:32:01.963876+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 14196 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:33:01.976264+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 14470 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:34:01.995080+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 14838 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:35:02.021247+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 15381 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:35:02.045847+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 15382 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T11:36:01.049948+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 15760 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:37:01.053987+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 16032 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:38:01.058460+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 16304 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:39:01.066582+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 16868 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:40:01.071062+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 17309 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:40:01.094547+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 17310 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T11:41:01.100876+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 17590 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:42:01.107185+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 17866 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:43:01.114229+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 18138 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:44:01.118196+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 18412 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:45:01.126128+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 18872 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:45:01.148216+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 18873 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T11:46:01.165430+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 19381 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:47:01.170733+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 19710 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:48:01.174708+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 19985 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:49:01.178728+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 20262 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:50:01.183646+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 20535 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:50:01.193990+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 20536 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T11:51:01.205622+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 20815 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:52:01.210732+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 21090 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:53:01.228950+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 21583 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:54:01.247193+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 22069 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:55:01.265641+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 22370 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:55:01.287847+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 22371 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T11:56:01.295196+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 22648 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:57:01.304564+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 22922 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:58:01.308841+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 23195 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T11:59:01.314361+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 23471 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:00:01.338355+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 23917 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:00:01.370098+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 23918 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T12:01:01.389757+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 24429 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:02:01.395525+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 24763 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:03:01.399763+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 25036 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:04:01.404392+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 25309 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:05:01.419432+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 25751 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:05:01.433941+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 25753 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T12:06:01.444109+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 26267 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<132>  2020-12-18T12:06:17.826995+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:1069]IPMBIfc.c: Invalid checksum 1, size = 9 - 
+<132>  2020-12-18T12:06:17.832575+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:770]IPMBIfc.c : IPMB Checksum validation failed - 
+<78>  2020-12-18T12:07:01.448205+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 26600 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:08:01.452360+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 26875 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:09:01.456358+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 27153 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:10:01.468489+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 27430 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:10:01.481131+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 27431 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T12:11:01.496449+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 27723 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:12:01.505037+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 28303 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:13:01.509488+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 28733 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:14:01.523262+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 29284 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:15:01.539915+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 29742 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:15:01.549158+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 29743 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T12:16:01.554686+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 30021 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:17:01.559736+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 30296 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:18:01.564331+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 30569 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:19:01.574295+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 31130 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:20:01.581297+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 31611 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:20:01.594669+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 31612 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T12:21:01.604554+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 31902 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:22:01.625140+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 32178 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:23:01.629119+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 32450 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:24:01.638586+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 32722 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:25:01.644080+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 592 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:25:01.653963+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 593 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T12:26:01.661868+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 1125 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:27:01.685480+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 1621 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:28:01.691820+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 1924 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:29:01.695795+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 2204 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:30:01.704111+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 2477 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:30:01.715269+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 2478 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T12:31:01.719424+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 2760 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:32:01.731308+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 3347 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:33:01.735753+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 3783 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:34:01.739696+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 4056 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:35:01.748596+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 4334 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:35:01.753826+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 4335 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T12:36:01.762971+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 4614 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:37:01.775724+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 4994 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:38:01.788339+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 5535 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:39:01.792550+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 5953 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:40:01.796566+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 6227 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:40:01.804057+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 6228 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T12:41:01.813653+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 6508 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:42:01.824791+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 6786 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:43:01.829877+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 7057 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:44:01.837039+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 7372 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:45:01.862814+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 7957 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:45:01.876794+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 7958 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T12:46:01.880908+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 8383 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:47:01.885223+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 8666 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:48:01.889151+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 8943 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:49:01.899470+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 9219 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:50:01.908288+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 9494 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:50:01.923512+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 9495 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T12:51:01.941411+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 10015 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:52:01.983052+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 10499 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:53:01.993929+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 10804 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:54:02.003900+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 11084 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:55:01.008770+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 11352 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:55:01.025386+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 11353 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T12:56:01.033773+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 11628 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:57:01.073678+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 11978 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<132>  2020-12-18T12:57:42.709229+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:1069]IPMBIfc.c: Invalid checksum 1, size = 9 - 
+<132>  2020-12-18T12:57:42.712465+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:770]IPMBIfc.c : IPMB Checksum validation failed - 
+<132>  2020-12-18T12:57:44.710806+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:1069]IPMBIfc.c: Invalid checksum 1, size = 9 - 
+<132>  2020-12-18T12:57:44.714717+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:770]IPMBIfc.c : IPMB Checksum validation failed - 
+<78>  2020-12-18T12:58:01.089638+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 12523 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T12:59:01.094857+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 12931 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:00:01.121808+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 13504 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:00:01.134404+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 13505 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T13:01:01.139149+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 13918 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:02:01.143678+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 14192 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:03:01.147966+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 14464 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:04:01.156478+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 14757 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:05:01.174060+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 15336 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:05:01.198171+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 15337 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T13:06:01.205089+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 15789 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:07:01.209126+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 16066 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:08:01.216346+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 16338 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:09:01.222776+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 16612 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:10:01.235638+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 16888 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:10:01.241667+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 16889 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T13:11:01.258525+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 17372 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:12:01.266855+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 17865 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<132>  2020-12-18T13:12:03.850516+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:1069]IPMBIfc.c: Invalid checksum 1, size = 9 - 
+<132>  2020-12-18T13:12:03.858087+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:770]IPMBIfc.c : IPMB Checksum validation failed - 
+<132>  2020-12-18T13:12:36.849442+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:1069]IPMBIfc.c: Invalid checksum 1, size = 9 - 
+<132>  2020-12-18T13:12:36.857051+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:770]IPMBIfc.c : IPMB Checksum validation failed - 
+<78>  2020-12-18T13:13:01.271112+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 18182 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:14:01.277249+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 18457 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:15:01.281162+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 18732 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:15:01.288001+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 18733 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T13:16:01.292480+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 19010 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:17:01.296756+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 19285 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:18:01.315168+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 19723 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:19:01.326529+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 20234 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:20:01.330571+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 20573 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:20:01.344663+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 20574 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T13:21:01.349169+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 20854 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:22:01.354236+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 21128 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:23:01.363982+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 21400 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:24:01.382237+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 21675 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:25:01.399202+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 22256 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:25:01.413918+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 22257 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T13:26:01.418061+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 22686 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:27:01.422949+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 22960 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<130>  2020-12-18T13:27:09.047825+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T13:27:09.173061+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<134>  2020-12-18T13:27:10.818169+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:27:10.822098+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-18T13:27:15.969261+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T13:27:16.141341+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<130>  2020-12-18T13:27:29.065028+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T13:27:29.219881+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<134>  2020-12-18T13:27:40.582589+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:27:40.593285+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T13:27:43.677291+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:27:43.695770+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-18T13:27:53.287888+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T13:27:53.534002+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<78>  2020-12-18T13:28:01.454258+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 23520 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-18T13:28:04.693829+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:28:04.702638+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<14>  2020-12-18T13:28:04.895975+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-0 - 
+<14>  2020-12-18T13:28:05.153481+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-1 - 
+<14>  2020-12-18T13:28:05.413973+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-10 - 
+<132>  2020-12-18T13:28:05.446998+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 WARNING][fru.c:114]Invalid FRU Header Version for ID : 10 - 
+<14>  2020-12-18T13:28:05.473281+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-32 - 
+<132>  2020-12-18T13:28:05.516568+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 WARNING][fru.c:114]Invalid FRU Header Version for ID : 32 - 
+<14>  2020-12-18T13:28:05.561114+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-33 - 
+<132>  2020-12-18T13:28:05.587394+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 WARNING][fru.c:114]Invalid FRU Header Version for ID : 33 - 
+<14>  2020-12-18T13:28:05.630805+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-35 - 
+<132>  2020-12-18T13:28:05.665187+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 WARNING][fru.c:114]Invalid FRU Header Version for ID : 35 - 
+<134>  2020-12-18T13:28:07.488423+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:28:07.492826+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T13:28:19.288239+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:28:19.290792+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T13:28:34.641680+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:28:34.643658+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T13:28:36.650089+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:28:36.652062+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T13:28:36.762128+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO] in ipmi cmd GetLanReq.ChannelNum=1 - 
+<78>  2020-12-18T13:29:01.464085+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 23999 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-18T13:29:02.354462+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:29:02.359328+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-18T13:29:12.263436+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T13:29:12.509851+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<134>  2020-12-18T13:29:23.813435+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:29:23.816047+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T13:29:26.035085+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:29:26.037045+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T13:29:32.244108+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:29:32.246271+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T13:29:35.540322+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:29:35.543880+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T13:29:38.172823+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:29:38.174675+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-18T13:30:01.482609+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 24525 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:30:01.495325+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 24526 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<132>  2020-12-18T13:30:50.017601+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:1069]IPMBIfc.c: Invalid checksum 1, size = 9 - 
+<132>  2020-12-18T13:30:50.022694+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:770]IPMBIfc.c : IPMB Checksum validation failed - 
+<78>  2020-12-18T13:31:01.507743+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 25027 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:32:01.513988+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 25522 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:33:01.523099+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 25838 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:34:01.527037+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 26112 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:35:01.536248+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 26386 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:35:01.546524+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 26387 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T13:36:01.564130+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 26663 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:37:01.583390+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 26975 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:38:01.600551+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 27539 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:39:01.608178+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 27946 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:40:01.612401+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 28223 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:40:01.623816+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 28224 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T13:41:01.627836+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 28505 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:42:01.641277+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 28826 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<132>  2020-12-18T13:42:59.903715+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:1069]IPMBIfc.c: Invalid checksum 1, size = 9 - 
+<132>  2020-12-18T13:42:59.909834+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:770]IPMBIfc.c : IPMB Checksum validation failed - 
+<78>  2020-12-18T13:43:01.671357+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 29395 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:44:01.675808+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 29798 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:45:01.683608+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 30071 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:45:01.697725+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 30072 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T13:46:01.705053+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 30352 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:47:01.711001+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 30624 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:48:01.716888+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 30898 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:49:01.721118+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 31173 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:50:01.726576+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 31754 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:50:01.734603+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 31755 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T13:51:01.738858+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 32193 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:52:01.743930+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 32466 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:53:01.759894+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 32736 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<130>  2020-12-18T13:53:43.811365+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T13:53:43.948693+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<134>  2020-12-18T13:53:46.194063+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:53:46.196274+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-18T13:53:51.569567+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T13:53:51.655915+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<78>  2020-12-18T13:54:01.775550+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 724 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<130>  2020-12-18T13:54:04.722493+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T13:54:04.932738+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<134>  2020-12-18T13:54:15.813328+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:54:15.816329+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T13:54:18.629226+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:54:18.631072+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-18T13:55:01.783839+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 1300 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:55:01.813888+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 1301 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-18T13:56:01.823840+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 1790 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<132>  2020-12-18T13:56:07.032782+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:1069]IPMBIfc.c: Invalid checksum 1, size = 9 - 
+<132>  2020-12-18T13:56:07.039276+08:00 QCTB4A9FC99F93F IPMIMain: IPMIMain - -  [360 : 382 WARNING][IPMBIfc.c:770]IPMBIfc.c : IPMB Checksum validation failed - 
+<78>  2020-12-18T13:57:01.833933+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 2342 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T13:58:01.847345+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 2814 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<130>  2020-12-18T13:58:46.901332+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T13:58:47.112743+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<134>  2020-12-18T13:58:48.798779+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:58:48.800907+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-18T13:59:01.852631+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 3211 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<130>  2020-12-18T13:59:55.782461+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T13:59:55.872745+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<134>  2020-12-18T13:59:57.829731+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T13:59:57.842085+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-18T14:00:01.871169+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 3758 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-18T14:00:01.918325+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 3759 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<130>  2020-12-18T14:00:04.929953+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T14:00:05.174788+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<130>  2020-12-18T14:00:27.590367+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T14:00:27.756077+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<134>  2020-12-18T14:00:29.603047+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:00:29.604903+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-18T14:00:36.448551+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T14:00:36.623592+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<130>  2020-12-18T14:00:50.962582+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T14:00:51.152284+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<134>  2020-12-18T14:01:01.672360+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:01:01.674313+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-18T14:01:01.933860+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 4277 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-18T14:01:04.934255+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:01:04.936271+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-18T14:01:13.674331+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T14:01:13.894785+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<134>  2020-12-18T14:01:24.177240+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:01:24.182005+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<14>  2020-12-18T14:01:24.339031+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-0 - 
+<14>  2020-12-18T14:01:24.552669+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-1 - 
+<14>  2020-12-18T14:01:24.735805+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-10 - 
+<132>  2020-12-18T14:01:24.772788+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 WARNING][fru.c:114]Invalid FRU Header Version for ID : 10 - 
+<14>  2020-12-18T14:01:24.803238+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-32 - 
+<132>  2020-12-18T14:01:24.843968+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 WARNING][fru.c:114]Invalid FRU Header Version for ID : 32 - 
+<14>  2020-12-18T14:01:24.855052+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-33 - 
+<132>  2020-12-18T14:01:24.869907+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 WARNING][fru.c:114]Invalid FRU Header Version for ID : 33 - 
+<14>  2020-12-18T14:01:24.894268+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-35 - 
+<132>  2020-12-18T14:01:24.924772+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 WARNING][fru.c:114]Invalid FRU Header Version for ID : 35 - 
+<134>  2020-12-18T14:01:26.198282+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:01:26.200583+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T14:01:34.392838+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:01:34.404062+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T14:01:41.793659+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:01:41.795618+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T14:01:42.360621+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:01:42.364084+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T14:01:42.421674+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO] in ipmi cmd GetLanReq.ChannelNum=1 - 
+<78>  2020-12-18T14:02:01.939193+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 4719 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<130>  2020-12-18T14:02:09.158703+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T14:02:09.253804+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<134>  2020-12-18T14:02:10.428523+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:02:10.435597+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-18T14:02:16.016279+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T14:02:16.185940+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<130>  2020-12-18T14:02:28.829797+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T14:02:29.032640+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<134>  2020-12-18T14:02:40.698461+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:02:40.702020+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T14:02:43.851317+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:02:43.870293+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-18T14:02:53.683480+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T14:02:53.881672+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<78>  2020-12-18T14:03:01.953907+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 5282 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-18T14:03:04.701648+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:03:04.703992+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<14>  2020-12-18T14:03:04.899335+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-0 - 
+<14>  2020-12-18T14:03:05.142687+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-1 - 
+<14>  2020-12-18T14:03:05.316352+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-10 - 
+<132>  2020-12-18T14:03:05.354643+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 WARNING][fru.c:114]Invalid FRU Header Version for ID : 10 - 
+<14>  2020-12-18T14:03:05.372572+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-32 - 
+<132>  2020-12-18T14:03:05.411015+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 WARNING][fru.c:114]Invalid FRU Header Version for ID : 32 - 
+<14>  2020-12-18T14:03:05.433973+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-33 - 
+<132>  2020-12-18T14:03:05.456104+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 WARNING][fru.c:114]Invalid FRU Header Version for ID : 33 - 
+<14>  2020-12-18T14:03:05.477617+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-35 - 
+<132>  2020-12-18T14:03:05.526628+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 WARNING][fru.c:114]Invalid FRU Header Version for ID : 35 - 
+<134>  2020-12-18T14:03:07.383933+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:03:07.390364+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T14:03:19.703278+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:03:19.721611+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T14:03:36.447087+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:03:36.452222+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T14:03:38.136508+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:03:38.142479+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-18T14:03:38.242937+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO] in ipmi cmd GetLanReq.ChannelNum=1 - 
+<78>  2020-12-18T14:04:01.971993+08:00 QCTB4A9FC99F93F crond[4168]: crond 4168 -  crond: USER sysadmin pid 5757 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-18T14:04:05.126205+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:04:05.129994+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-18T14:04:14.657005+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:359]ServiceRet 0 - 
+<130>  2020-12-18T14:04:14.862263+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 CRITICAL][rest_default.c:393]channel no wRet 0 - 
+<134>  2020-12-18T14:04:25.602533+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]IPMI Session established successfully - 
+<134>  2020-12-18T14:04:25.604535+08:00 QCTB4A9FC99F93F spx_restservice: spx_restservice - -  [9650 : 9650 INFO]Privilege level for this session is 4 - 

@@ -1,0 +1,254 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: channel
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: 1,
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: passwordStatus
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0100  5524    0  5524    0     0   2171      0 --:--:--  0:00:02 --:--:--  2171
+[
+    {
+        "Powercontrol": [
+            {
+                "id": 0,
+                "Name": "Chassis Power Control",
+                "AverageConsumedWatts": "0",
+                "MaxConsumedWatts": "0",
+                "MinConsumedWatts": "0",
+                "IntervalInMinutes": "0",
+                "LimitInWatts": "500",
+                "LimitException": "HardPowerOff"
+            }
+        ],
+        "Voltages": [
+            {
+                "id": 0,
+                "Name": "Volt_P1V8_PCH",
+                "MemberId": "214",
+                "State": "Enabled",
+                "MinReadingRange": "0",
+                "MaxReadingRange": "2.4225",
+                "UpperThresholdFatal": "NA",
+                "UpperThresholdCritical": "1.938",
+                "UpperThresholdNonCritical": "NA",
+                "LowerThresholdNonCritical": "NA",
+                "LowerThresholdCritical": "1.691",
+                "LowerThresholdFatal": "NA"
+            },
+            {
+                "id": 1,
+                "Name": "Volt_P3V_BAT",
+                "MemberId": "215",
+                "State": "Enabled",
+                "MinReadingRange": "0",
+                "MaxReadingRange": "5.457",
+                "UpperThresholdFatal": "NA",
+                "UpperThresholdCritical": "3.638",
+                "UpperThresholdNonCritical": "NA",
+                "LowerThresholdNonCritical": "NA",
+                "LowerThresholdCritical": "2.461",
+                "LowerThresholdFatal": "NA"
+            },
+            {
+                "id": 2,
+                "Name": "Volt_CPU1_EFGH",
+                "MemberId": "223",
+                "State": "Absent",
+                "MinReadingRange": "0",
+                "MaxReadingRange": "1.8105",
+                "UpperThresholdFatal": "NA",
+                "UpperThresholdCritical": "1.2922",
+                "UpperThresholdNonCritical": "NA",
+                "LowerThresholdNonCritical": "NA",
+                "LowerThresholdCritical": "1.1005",
+                "LowerThresholdFatal": "NA"
+            },
+            {
+                "id": 3,
+                "Name": "Volt_P1V05_PCH",
+                "MemberId": "211",
+                "State": "Enabled",
+                "MinReadingRange": "0",
+                "MaxReadingRange": "1.8105",
+                "UpperThresholdFatal": "NA",
+                "UpperThresholdCritical": "1.1289",
+                "UpperThresholdNonCritical": "NA",
+                "LowerThresholdNonCritical": "NA",
+                "LowerThresholdCritical": "0.9585",
+                "LowerThresholdFatal": "NA"
+            },
+            {
+                "id": 4,
+                "Name": "Volt_PVCCIN_CPU0",
+                "MemberId": "216",
+                "State": "Absent",
+                "MinReadingRange": "0",
+                "MaxReadingRange": "2.4225",
+                "UpperThresholdFatal": "NA",
+                "UpperThresholdCritical": "2.147",
+                "UpperThresholdNonCritical": "NA",
+                "LowerThresholdNonCritical": "NA",
+                "LowerThresholdCritical": "1.4915",
+                "LowerThresholdFatal": "NA"
+            },
+            {
+                "id": 5,
+                "Name": "Volt_PVCCIO_CPU0",
+                "MemberId": "217",
+                "State": "Absent",
+                "MinReadingRange": "0",
+                "MaxReadingRange": "1.8105",
+                "UpperThresholdFatal": "NA",
+                "UpperThresholdCritical": "1.1857",
+                "UpperThresholdNonCritical": "NA",
+                "LowerThresholdNonCritical": "NA",
+                "LowerThresholdCritical": "0.8165",
+                "LowerThresholdFatal": "NA"
+            },
+            {
+                "id": 6,
+                "Name": "Volt_P12V_AUX",
+                "MemberId": "212",
+                "State": "Enabled",
+                "MinReadingRange": "0",
+                "MaxReadingRange": "16.065",
+                "UpperThresholdFatal": "NA",
+                "UpperThresholdCritical": "13.104",
+                "UpperThresholdNonCritical": "NA",
+                "LowerThresholdNonCritical": "NA",
+                "LowerThresholdCritical": "11.088",
+                "LowerThresholdFatal": "NA"
+            },
+            {
+                "id": 7,
+                "Name": "Volt_P5V",
+                "MemberId": "210",
+                "State": "Enabled",
+                "MinReadingRange": "0",
+                "MaxReadingRange": "6.6555",
+                "UpperThresholdFatal": "NA",
+                "UpperThresholdCritical": "5.4288",
+                "UpperThresholdNonCritical": "NA",
+                "LowerThresholdNonCritical": "NA",
+                "LowerThresholdCritical": "4.5414",
+                "LowerThresholdFatal": "NA"
+            },
+            {
+                "id": 8,
+                "Name": "Volt_P3V3",
+                "MemberId": "209",
+                "State": "Enabled",
+                "MinReadingRange": "0",
+                "MaxReadingRange": "4.4115",
+                "UpperThresholdFatal": "NA",
+                "UpperThresholdCritical": "3.5811",
+                "UpperThresholdNonCritical": "NA",
+                "LowerThresholdNonCritical": "NA",
+                "LowerThresholdCritical": "3.0102",
+                "LowerThresholdFatal": "NA"
+            },
+            {
+                "id": 9,
+                "Name": "Volt_CPU1_ABCD",
+                "MemberId": "222",
+                "State": "Absent",
+                "MinReadingRange": "0",
+                "MaxReadingRange": "1.8105",
+                "UpperThresholdFatal": "NA",
+                "UpperThresholdCritical": "1.2922",
+                "UpperThresholdNonCritical": "NA",
+                "LowerThresholdNonCritical": "NA",
+                "LowerThresholdCritical": "1.1005",
+                "LowerThresholdFatal": "NA"
+            },
+            {
+                "id": 10,
+                "Name": "Volt_CPU0_EFGH",
+                "MemberId": "221",
+                "State": "Absent",
+                "MinReadingRange": "0",
+                "MaxReadingRange": "1.8105",
+                "UpperThresholdFatal": "NA",
+                "UpperThresholdCritical": "1.2922",
+                "UpperThresholdNonCritical": "NA",
+                "LowerThresholdNonCritical": "NA",
+                "LowerThresholdCritical": "1.1005",
+                "LowerThresholdFatal": "NA"
+            },
+            {
+                "id": 11,
+                "Name": "Volt_PVCCIO_CPU1",
+                "MemberId": "219",
+                "State": "Absent",
+                "MinReadingRange": "0",
+                "MaxReadingRange": "1.8105",
+                "UpperThresholdFatal": "NA",
+                "UpperThresholdCritical": "1.1857",
+                "UpperThresholdNonCritical": "NA",
+                "LowerThresholdNonCritical": "NA",
+                "LowerThresholdCritical": "0.8165",
+                "LowerThresholdFatal": "NA"
+            },
+            {
+                "id": 12,
+                "Name": "Volt_P12V",
+                "MemberId": "208",
+                "State": "Enabled",
+                "MinReadingRange": "0",
+                "MaxReadingRange": "16.065",
+                "UpperThresholdFatal": "NA",
+                "UpperThresholdCritical": "13.104",
+                "UpperThresholdNonCritical": "NA",
+                "LowerThresholdNonCritical": "NA",
+                "LowerThresholdCritical": "11.088",
+                "LowerThresholdFatal": "NA"
+            },
+            {
+                "id": 13,
+                "Name": "Volt_PVCCIN_CPU1",
+                "MemberId": "218",
+                "State": "Absent",
+                "MinReadingRange": "0",
+                "MaxReadingRange": "2.4225",
+                "UpperThresholdFatal": "NA",
+                "UpperThresholdCritical": "2.147",
+                "UpperThresholdNonCritical": "NA",
+                "LowerThresholdNonCritical": "NA",
+                "LowerThresholdCritical": "1.4915",
+                "LowerThresholdFatal": "NA"
+            },
+            {
+                "id": 14,
+                "Name": "Volt_CPU0_ABCD",
+                "MemberId": "220",
+                "State": "Absent",
+                "MinReadingRange": "0",
+                "MaxReadingRange": "1.8105",
+                "UpperThresholdFatal": "NA",
+                "UpperThresholdCritical": "1.2922",
+                "UpperThresholdNonCritical": "NA",
+                "LowerThresholdNonCritical": "NA",
+                "LowerThresholdCritical": "1.1005",
+                "LowerThresholdFatal": "NA"
+            },
+            {
+                "id": 15,
+                "Name": "Volt_PVNN_PCH",
+                "MemberId": "213",
+                "State": "Enabled",
+                "MinReadingRange": "0",
+                "MaxReadingRange": "1.8105",
+                "UpperThresholdFatal": "NA",
+                "UpperThresholdCritical": "1.0792",
+                "UpperThresholdNonCritical": "NA",
+                "LowerThresholdNonCritical": "NA",
+                "LowerThresholdCritical": "0.7668",
+                "LowerThresholdFatal": "NA"
+            }
+        ]
+    }
+]

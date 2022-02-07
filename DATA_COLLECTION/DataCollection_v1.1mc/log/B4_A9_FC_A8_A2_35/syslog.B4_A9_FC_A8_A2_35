@@ -1,0 +1,769 @@
+<7>  2020-12-23T05:50:56.608663+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] On node 0 totalpages: 112640 - 
+<7>  2020-12-23T05:50:56.608730+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000]   Normal zone: 880 pages used for memmap - 
+<7>  2020-12-23T05:50:56.608801+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000]   Normal zone: 0 pages reserved - 
+<7>  2020-12-23T05:50:56.608902+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000]   Normal zone: 112640 pages, LIFO batch:31 - 
+<7>  2020-12-23T05:50:56.609058+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768 - 
+<7>  2020-12-23T05:50:56.609128+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] pcpu-alloc: [0] 0  - 
+<6>  2020-12-23T05:50:56.598012+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Booting Linux on physical CPU 0x0 - 
+<6>  2020-12-23T05:50:56.608105+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] CPU: ARMv6-compatible processor [410fb767] revision 7 (ARMv7), cr=00c5387d - 
+<6>  2020-12-23T05:50:56.608190+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT nonaliasing instruction cache - 
+<6>  2020-12-23T05:50:56.608298+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] OF: fdt: Machine model: WolfPass - 
+<6>  2020-12-23T05:50:56.608386+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Memory policy: Data cache writeback - 
+<6>  2020-12-23T05:50:56.608460+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Reserved memory: created CMA memory pool at 0x9a000000, size 16 MiB - 
+<6>  2020-12-23T05:50:56.608529+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] OF: reserved mem: initialized node framebuffer, compatible id shared-dma-pool - 
+<6>  2020-12-23T05:50:56.608594+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] cma: Reserved 16 MiB at 0x97000000 - 
+<6>  2020-12-23T05:50:56.608985+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] CPU: All CPU(s) started in SVC mode. - 
+<6>  2020-12-23T05:50:56.609193+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 111760 - 
+<6>  2020-12-23T05:50:56.609340+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes) - 
+<6>  2020-12-23T05:50:56.609407+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes) - 
+<6>  2020-12-23T05:50:56.609500+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Memory: 357112K/450560K available (7168K kernel code, 624K rwdata, 1704K rodata, 1024K init, 168K bss, 60680K reserved, 32768K cma-reserved) - 
+<6>  2020-12-23T05:50:56.609663+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] ftrace: allocating 22131 entries in 44 pages - 
+<6>  2020-12-23T05:50:56.609736+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16 - 
+<6>  2020-12-23T05:50:56.609806+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] clocksource: FTTMR010-TIMER2: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 77222644334 ns - 
+<6>  2020-12-23T05:50:56.609882+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000018] sched_clock: 32 bits at 24MHz, resolution 40ns, wraps every 86767015915ns - 
+<6>  2020-12-23T05:50:56.609953+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000096] Switching to timer-based delay loop, resolution 40ns - 
+<6>  2020-12-23T05:50:56.610021+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.001097] Calibrating delay loop (skipped), value calculated using timer frequency.. 49.50 BogoMIPS (lpj=247500) - 
+<6>  2020-12-23T05:50:56.610120+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.001150] pid_max: default: 32768 minimum: 301 - 
+<6>  2020-12-23T05:50:56.610204+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.001868] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes) - 
+<6>  2020-12-23T05:50:56.610276+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.001912] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes) - 
+<6>  2020-12-23T05:50:56.610342+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.003649] CPU: Testing write buffer coherency: ok - 
+<5>  2020-12-23T05:50:56.607978+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Linux version 5.2.8-ami (AMI@localhost) (gcc version 8.3.0 (GCC)) #1 Wed Dec 23 03:00:22 UTC 2020 - 
+<5>  2020-12-23T05:50:56.609265+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Kernel command line: root=/dev/ram0 ro ip=none ramdisk_blocksize=4096 mem=440M console=ttyS4,115200 rootfstype=squashfs bigphysarea=6144 clk_ignore_unused imagebooted=1 - 
+<5>  2020-12-23T05:50:56.609589+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] random: get_random_u32 called from cache_alloc_refill+0x418/0x908 with crng_init=0 - 
+<6>  2020-12-23T05:50:56.610406+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.005645] Setting up static identity map for 0x80100000 - 0x80100054 - 
+<6>  2020-12-23T05:50:56.619144+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.010439] devtmpfs: initialized - 
+<6>  2020-12-23T05:50:56.619253+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.026669] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns - 
+<6>  2020-12-23T05:50:56.619334+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.026728] futex hash table entries: 256 (order: -1, 3072 bytes) - 
+<6>  2020-12-23T05:50:56.619446+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.033630] pinctrl core: initialized pinctrl subsystem - 
+<6>  2020-12-23T05:50:56.619532+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.034616] NET: Registered protocol family 16 - 
+<6>  2020-12-23T05:50:56.619607+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.036744] DMA: preallocated 256 KiB pool for atomic coherent allocations - 
+<6>  2020-12-23T05:50:56.619674+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.038877] hw-breakpoint: found 6 breakpoint and 1 watchpoint registers. - 
+<6>  2020-12-23T05:50:56.619743+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.038909] hw-breakpoint: maximum watchpoint size is 4 bytes. - 
+<6>  2020-12-23T05:50:56.619877+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.106102] EDAC MC: Ver: 3.0.0 - 
+<6>  2020-12-23T05:50:56.619944+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.108713] clocksource: Switched to clocksource FTTMR010-TIMER2 - 
+<6>  2020-12-23T05:50:56.620045+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.801432] NET: Registered protocol family 2 - 
+<6>  2020-12-23T05:50:56.620125+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.802805] tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 4096 bytes) - 
+<6>  2020-12-23T05:50:56.620198+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.802896] TCP established hash table entries: 4096 (order: 2, 16384 bytes) - 
+<6>  2020-12-23T05:50:56.620270+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.802989] TCP bind hash table entries: 4096 (order: 2, 16384 bytes) - 
+<6>  2020-12-23T05:50:56.620340+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.803091] TCP: Hash tables configured (established 4096 bind 4096) - 
+<6>  2020-12-23T05:50:56.620404+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.803353] UDP hash table entries: 256 (order: 0, 4096 bytes) - 
+<6>  2020-12-23T05:50:56.620472+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.803425] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes) - 
+<6>  2020-12-23T05:50:56.620542+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.804022] NET: Registered protocol family 1 - 
+<6>  2020-12-23T05:50:56.620639+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.805717] RPC: Registered named UNIX socket transport module. - 
+<6>  2020-12-23T05:50:56.620722+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.805755] RPC: Registered udp transport module. - 
+<6>  2020-12-23T05:50:56.620792+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.805771] RPC: Registered tcp transport module. - 
+<6>  2020-12-23T05:50:56.620857+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.805781] RPC: Registered tcp NFSv4.1 backchannel transport module. - 
+<6>  2020-12-23T05:50:56.620926+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.806619] Trying to unpack rootfs image as initramfs... - 
+<6>  2020-12-23T05:50:56.620992+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.807444] rootfs image is not initramfs (invalid magic at start of compressed archive); looks like an initrd - 
+<6>  2020-12-23T05:50:56.621064+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.001559] Freeing initrd memory: 20904K - 
+<6>  2020-12-23T05:50:56.621132+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.005097] workingset: timestamp_bits=30 max_order=17 bucket_order=0 - 
+<6>  2020-12-23T05:50:56.621227+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.005295] bigphysarea: Allocated 6144 pages at 0x(ptrval). - 
+<6>  2020-12-23T05:50:56.621309+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.006593] squashfs: version 4.0 (2009/01/31) Phillip Lougher - 
+<6>  2020-12-23T05:50:56.621592+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.009002] jffs2: version 2.2. © 2001-2006 Red Hat, Inc. - 
+<6>  2020-12-23T05:50:56.621660+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.013306] NET: Registered protocol family 38 - 
+<6>  2020-12-23T05:50:56.621730+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.016012] Serial: 8250/16550 driver, 6 ports, IRQ sharing enabled - 
+<6>  2020-12-23T05:50:56.621828+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.020816] printk: console [ttyS4] disabled - 
+<6>  2020-12-23T05:50:56.621914+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.020986] 1e784000.serial: ttyS4 at MMIO 0x1e784000 (irq = 29, base_baud = 1500000) is a 16550A - 
+<6>  2020-12-23T05:50:56.621989+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.437738] printk: console [ttyS4] enabled - 
+<6>  2020-12-23T05:50:56.622123+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.451637] 1e78e000.serial: ttyS2 at MMIO 0x1e78e000 (irq = 31, base_baud = 1500000) is a 16550A - 
+<6>  2020-12-23T05:50:56.622257+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.470076] 1e78f000.serial: ttyS3 at MMIO 0x1e78f000 (irq = 32, base_baud = 1500000) is a 16550A - 
+<6>  2020-12-23T05:50:56.622488+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.514114] brd: module loaded - 
+<6>  2020-12-23T05:50:56.622570+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.529316] loop: module loaded - 
+<6>  2020-12-23T05:50:56.622646+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.559842] aspeed-smc 1e620000.spi: Using 40 MHz SPI frequency - 
+<6>  2020-12-23T05:50:56.622721+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.565931] aspeed-smc 1e620000.spi: mx66l1g45g (131072 Kbytes) - 
+<6>  2020-12-23T05:50:56.622791+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.572003] aspeed-smc 1e620000.spi: CE0 window [ 0x20000000 - 0x28000000 ] 128MB - 
+<6>  2020-12-23T05:50:56.622857+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.579597] aspeed-smc 1e620000.spi: CE1 window [ 0x28000000 - 0x2a000000 ] 32MB - 
+<6>  2020-12-23T05:50:56.622926+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.587009] aspeed-smc 1e620000.spi: read control register: 203c0d41 - 
+<6>  2020-12-23T05:50:56.624265+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.813129] aspeed-smc 1e630000.spi: Using 40 MHz SPI frequency - 
+<6>  2020-12-23T05:50:56.624558+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.845364] aspeed-smc 1e631000.spi: Using 40 MHz SPI frequency - 
+<6>  2020-12-23T05:50:56.624876+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.876489] Ethernet Channel Bonding Driver: v3.7.1 (April 27, 2011) - 
+<6>  2020-12-23T05:50:56.625580+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.888193] libphy: Fixed MDIO Bus: probed - 
+<6>  2020-12-23T05:50:56.625766+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.901683] ftgmac100 1e660000.ethernet: Read MAC address b4:a9:fc:a8:a2:35 from chip - 
+<6>  2020-12-23T05:50:56.625837+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.929169] libphy: ftgmac100_mdio: probed - 
+<6>  2020-12-23T05:50:56.625901+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.933318] ftgmac100 1e660000.ethernet (unnamed net_device) (uninitialized): eth%d: no PHY found - 
+<6>  2020-12-23T05:50:56.626032+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.947951] ftgmac100 1e660000.ethernet: Using NCSI interface - 
+<6>  2020-12-23T05:50:56.626096+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.954935] ftgmac100 1e660000.ethernet eth0: irq 18, mapped at 01206db2 - 
+<6>  2020-12-23T05:50:56.626201+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.962433] ftgmac100 1e680000.ethernet: Read MAC address b4:a9:fc:a8:a2:35 from chip - 
+<6>  2020-12-23T05:50:56.626285+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.991803] libphy: ftgmac100_mdio: probed - 
+<6>  2020-12-23T05:50:56.626363+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.000528] Broadcom BCM54612E 1e680000.ethernet--1:00: attached PHY driver [Broadcom BCM54612E] (mii_bus:phy_addr=1e680000.ethernet--1:00, irq=POLL) - 
+<6>  2020-12-23T05:50:56.626445+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.015136] ftgmac100 1e680000.ethernet eth1: irq 19, mapped at 78333cde - 
+<6>  2020-12-23T05:50:56.626516+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.022647] i2c /dev entries driver - 
+<6>  2020-12-23T05:50:56.626584+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.026791] sdhci: Secure Digital Host Controller Interface driver - 
+<6>  2020-12-23T05:50:56.626653+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.033099] sdhci: Copyright(c) Pierre Ossman - 
+<6>  2020-12-23T05:50:56.626981+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.120218] mmc0: SDHCI controller on sdhci_slot0 [sdhci_slot0.0] using PIO - 
+<5>  2020-12-23T05:50:56.621381+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.007539] NFS: Registering the id_resolver key type - 
+<5>  2020-12-23T05:50:56.621450+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.007644] Key type id_resolver registered - 
+<5>  2020-12-23T05:50:56.621521+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.007671] Key type id_legacy registered - 
+<5>  2020-12-23T05:50:56.622326+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.484238] random: fast init done - 
+<5>  2020-12-23T05:50:56.622394+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.487802] random: crng init done - 
+<5>  2020-12-23T05:50:56.623236+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.704186] Creating 8 MTD partitions on "1e620000.spi": - 
+<5>  2020-12-23T05:50:56.623304+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.709679] 0x0000000c0000-0x00000152a040 : "root" - 
+<5>  2020-12-23T05:50:56.623439+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.725184] 0x000001830000-0x000001d82000 : "www" - 
+<5>  2020-12-23T05:50:56.623570+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.740757] 0x000001da0000-0x000001e10000 : "dre" - 
+<5>  2020-12-23T05:50:56.623668+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.748058] 0x000002ec0000-0x00000432b040 : "root" - 
+<5>  2020-12-23T05:50:56.623827+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.763749] 0x000004630000-0x000004b82000 : "www" - 
+<5>  2020-12-23T05:50:56.623967+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.779263] 0x000004ba0000-0x000004c10000 : "dre" - 
+<5>  2020-12-23T05:50:56.624037+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.786516] 0x000005c00000-0x000007400000 : "conf" - 
+<5>  2020-12-23T05:50:56.624103+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.793944] 0x000007400000-0x000008c00000 : "conf" - 
+<4>  2020-12-23T05:50:56.619806+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.044455] aspeed-g5-pinctrl 1e6e2000.syscon:pinctrl: No GFX phandle found, some mux configurations may fail - 
+<4>  2020-12-23T05:50:56.622990+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.685529] Creating Partition for conf  - 
+<4>  2020-12-23T05:50:56.623085+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.689572] MTD Partition 6 : conf @ 0x5c00000 of Size 0x1800000 - 
+<4>  2020-12-23T05:50:56.623166+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.695590] MTD Partition 7 : conf @ 0x7400000 of Size 0x1800000 - 
+<4>  2020-12-23T05:50:56.623371+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.714492] mtd: partition "root" doesn't end on an erase/write block -- force read-only - 
+<4>  2020-12-23T05:50:56.623503+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.730038] mtd: partition "www" doesn't end on an erase/write block -- force read-only - 
+<4>  2020-12-23T05:50:56.623753+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.752995] mtd: partition "root" doesn't end on an erase/write block -- force read-only - 
+<4>  2020-12-23T05:50:56.623898+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.768488] mtd: partition "www" doesn't end on an erase/write block -- force read-only - 
+<4>  2020-12-23T05:50:56.624168+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.798885] mtd: partition "conf" extends beyond the end of device "1e620000.spi" -- size truncated to 0xc00000 - 
+<4>  2020-12-23T05:50:56.624492+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.837683] aspeed-smc: probe of 1e630000.spi failed with error -2 - 
+<4>  2020-12-23T05:50:56.624760+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.869984] aspeed-smc: probe of 1e631000.spi failed with error -2 - 
+<4>  2020-12-23T05:50:56.626721+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.078268] sdhci_slot0 : Using Irq 33 from DT - 
+<4>  2020-12-23T05:50:56.626820+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.082863] mmc0: Failed to set 32-bit DMA mask. - 
+<4>  2020-12-23T05:50:56.626906+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.087496] mmc0: No suitable DMA available - falling back to PIO - 
+<4>  2020-12-23T05:50:56.627053+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.128139] sdhci_slot1 : Using Irq 33 from DT - 
+<3>  2020-12-23T05:50:56.622057+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.443083] of_serial 1e78e000.serial: Error applying setting, reverse things back - 
+<3>  2020-12-23T05:50:56.622190+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.461523] of_serial 1e78f000.serial: Error applying setting, reverse things back - 
+<3>  2020-12-23T05:50:56.624348+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.819265] aspeed-smc 1e630000.spi: unrecognized JEDEC id bytes: 0a 0a 0a 0a 0a 0a - 
+<3>  2020-12-23T05:50:56.624421+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.826952] aspeed-smc 1e630000.spi: Aspeed SMC probe failed -2 - 
+<3>  2020-12-23T05:50:56.624630+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.851494] aspeed-smc 1e631000.spi: unrecognized JEDEC id bytes: 00 00 00 00 00 00 - 
+<3>  2020-12-23T05:50:56.624693+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.859279] aspeed-smc 1e631000.spi: Aspeed SMC probe failed -2 - 
+<3>  2020-12-23T05:50:56.625686+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.893527] ftgmac100 1e660000.ethernet: Error applying setting, reverse things back - 
+<3>  2020-12-23T05:50:56.625966+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.942294] ftgmac100 1e660000.ethernet: MII Probe failed! - 
+<7>  2020-12-23T05:50:56.683319+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   34.332520]  [KERNDEBUG] [/home/bruce/Desktop/s5xp/s5xp/workspace_wolfpass/Build/.build/eth-6.9.1.0.0-src/data/eth_mod.c:552]unable to open conf file: /conf/eth_usb0_host_mac.conf - 
+<7>  2020-12-23T05:50:56.683394+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   34.332545]  [KERNDEBUG] [/home/bruce/Desktop/s5xp/s5xp/workspace_wolfpass/Build/.build/eth-6.9.1.0.0-src/data/eth_mod.c:554]retval: FFFFFFFE - 
+<7>  2020-12-23T05:50:56.683573+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   34.434815]  [KERNDEBUG] [/home/bruce/Desktop/s5xp/s5xp/workspace_wolfpass/Build/.build/eth-6.9.1.0.0-src/data/eth_mod.c:552]unable to open conf file: /conf/eth_usb0_dev_mac.conf - 
+<7>  2020-12-23T05:50:56.683663+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   34.434842]  [KERNDEBUG] [/home/bruce/Desktop/s5xp/s5xp/workspace_wolfpass/Build/.build/eth-6.9.1.0.0-src/data/eth_mod.c:554]retval: FFFFFFFE - 
+<7>  2020-12-23T05:50:56.684391+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   34.798410]  [KERNDEBUG] [/home/bruce/Desktop/s5xp/s5xp/workspace_wolfpass/Build/.build/eth-6.9.1.0.0-src/data/ether.c:448]EthReqHandler(): Unimplemented CDC request : 67 - 
+<7>  2020-12-23T05:50:56.684465+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   34.815697]  [KERNDEBUG] [/home/bruce/Desktop/s5xp/s5xp/workspace_wolfpass/Build/.build/eth-6.9.1.0.0-src/data/ether.c:448]EthReqHandler(): Unimplemented CDC request : 67 - 
+<7>  2020-12-23T05:50:56.686889+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  122.190354] NCSI(eth0): User Disable NCSI Packages and Channels - 
+<6>  2020-12-23T05:50:56.677082+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.169863] mmc1: SDHCI controller on sdhci_slot1 [sdhci_slot1.0] using PIO - 
+<6>  2020-12-23T05:50:56.677286+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.176993] AST SoC SD/MMC Driver Init Success - 
+<6>  2020-12-23T05:50:56.677391+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.183297] xt_time: kernel timezone is -0000 - 
+<6>  2020-12-23T05:50:56.677472+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.188664] NET: Registered protocol family 10 - 
+<6>  2020-12-23T05:50:56.677543+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.196574] Segment Routing with IPv6 - 
+<6>  2020-12-23T05:50:56.677619+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.200943] NET: Registered protocol family 17 - 
+<6>  2020-12-23T05:50:56.677690+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.205534] 8021q: 802.1Q VLAN Support v1.8 - 
+<6>  2020-12-23T05:50:56.677824+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.223808] printk: console [netcon0] enabled - 
+<6>  2020-12-23T05:50:56.677897+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.228247] netconsole: network logging started - 
+<6>  2020-12-23T05:50:56.677967+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.232908] hctosys: unable to open rtc device (rtc0) - 
+<6>  2020-12-23T05:50:56.678462+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    4.234885] VFS: Mounted root (squashfs filesystem) readonly on device 1:0. - 
+<6>  2020-12-23T05:50:56.678534+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    4.245743] devtmpfs: mounted - 
+<6>  2020-12-23T05:50:56.678602+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    4.255305] Freeing unused kernel memory: 1024K - 
+<6>  2020-12-23T05:50:56.678675+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    4.262247] Checked W+X mappings: passed, no W+X pages found - 
+<6>  2020-12-23T05:50:56.678747+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    4.267942] Run /sbin/init as init process - 
+<6>  2020-12-23T05:50:56.679154+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.145882] Registered bus id: i2c-0 - 
+<6>  2020-12-23T05:50:56.679224+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.150806] Registered bus id: i2c-1 - 
+<6>  2020-12-23T05:50:56.679292+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.155657] Registered bus id: i2c-2 - 
+<6>  2020-12-23T05:50:56.679358+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.160699] Registered bus id: i2c-3 - 
+<6>  2020-12-23T05:50:56.679478+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.164856] Registered bus id: i2c-4 - 
+<6>  2020-12-23T05:50:56.679564+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.169254] Registered bus id: i2c-5 - 
+<6>  2020-12-23T05:50:56.679640+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.173572] Registered bus id: i2c-6 - 
+<6>  2020-12-23T05:50:56.679710+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.177764] Registered bus id: i2c-7 - 
+<6>  2020-12-23T05:50:56.679777+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.182335] Registered bus id: i2c-8 - 
+<6>  2020-12-23T05:50:56.679843+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.186599] Registered bus id: i2c-9 - 
+<6>  2020-12-23T05:50:56.679912+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.190928] Registered bus id: i2c-10 - 
+<6>  2020-12-23T05:50:56.679979+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.195834] Registered bus id: i2c-11 - 
+<6>  2020-12-23T05:50:56.680078+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.208942] Registered bus id: i2c-12 - 
+<6>  2020-12-23T05:50:56.680157+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.213206] Registered bus id: i2c-13 - 
+<6>  2020-12-23T05:50:56.680566+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   28.016825] Reset Common Driver, (c) 2009-2015 American Megatrends Inc. - 
+<6>  2020-12-23T05:50:56.680728+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.055128] KCS Common Driver, (c) 2009-2015 American Megatrends Inc. - 
+<6>  2020-12-23T05:50:56.680881+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.162393] Snoop Common Driver, (c) 2009-2015 American Megatrends Inc. - 
+<6>  2020-12-23T05:50:56.681305+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.501725] Watchdog Common Driver, (c) 2010 American Megatrends Inc. - 
+<6>  2020-12-23T05:50:56.681380+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.544269] PECI Common Driver, (c) 2009-2015 American Megatrends Inc. - 
+<6>  2020-12-23T05:50:56.681959+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.711925] PWMTACH Common Driver, (c) 2009-2015 American Megatrends Inc. - 
+<6>  2020-12-23T05:50:56.683470+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   34.429462]  [KERNINFO] Created new mac conf - 
+<6>  2020-12-23T05:50:56.683741+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   34.435298]  [KERNINFO] Created new mac conf - 
+<6>  2020-12-23T05:50:56.685437+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  110.767841] MCTP PCIE Common Driver, (c) 2014 American Megatrends Inc. - 
+<6>  2020-12-23T05:50:56.686753+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  118.928841] bonding: bond0 is being deleted... - 
+<6>  2020-12-23T05:50:56.686823+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  118.934984] bond0 (unregistering): Released all slaves - 
+<6>  2020-12-23T05:50:56.687025+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  124.440450] bonding: bond0 is being created... - 
+<6>  2020-12-23T05:50:56.729227+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  124.538468] bond0: Enslaving eth1 as a backup interface with a down link - 
+<6>  2020-12-23T05:50:56.729373+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  124.548011] ftgmac100 1e680000.ethernet eth1: Link is Up - 1Gbps/Full - flow control off - 
+<6>  2020-12-23T05:50:56.729459+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  124.586486] bond0: making interface eth0 the new active one - 
+<6>  2020-12-23T05:50:56.729533+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  124.592569] bond0: Enslaving eth0 as an active interface with an up link - 
+<6>  2020-12-23T05:50:56.729804+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  130.157858] 8021q: adding VLAN 0 to HW filter on device bond0 - 
+<6>  2020-12-23T05:50:56.729871+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  130.164240] bond0: link status definitely up for interface eth1, 1000 Mbps full duplex - 
+<6>  2020-12-23T05:50:56.729971+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  130.172570] bond0: link status definitely down for interface eth0, disabling it - 
+<6>  2020-12-23T05:50:56.730053+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  130.180148] bond0: making interface eth1 the new active one - 
+<5>  2020-12-23T05:50:56.677760+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.209965] Key type dns_resolver registered - 
+<5>  2020-12-23T05:50:56.678103+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.244272] RAMDISK: squashfs filesystem found at block 0 - 
+<5>  2020-12-23T05:50:56.678183+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.249881] RAMDISK: Loading 20904KiB [1 disk] into ram disk... |/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/ - 
+<4>  2020-12-23T05:50:56.627124+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.132739] mmc1: Failed to set 32-bit DMA mask. - 
+<4>  2020-12-23T05:50:56.676976+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.137374] mmc1: No suitable DMA available - falling back to PIO - 
+<4>  2020-12-23T05:50:56.678033+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.238536] clk: Not disabling unused clocks - 
+<4>  2020-12-23T05:50:56.678278+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.749749] -\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/ - 
+<4>  2020-12-23T05:50:56.678375+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    3.365162] -\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-done. - 
+<4>  2020-12-23T05:50:56.678858+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   19.599635] platform: loading out-of-tree module taints kernel. - 
+<4>  2020-12-23T05:50:56.679089+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.140587] ami_i2c : Using Irq 35 from DT - 
+<4>  2020-12-23T05:50:56.680232+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.224244] The GPIO Driver is loaded successfully. - 
+<4>  2020-12-23T05:50:56.680301+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.236033] APSEED AST SoC GPIO HW Driver, (c) 2009-2015 American Megatrends Inc. - 
+<4>  2020-12-23T05:50:56.680369+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   26.301909] [gpiomain_hw.c] Set PinNum 32 debounce.................... - 
+<4>  2020-12-23T05:50:56.680434+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   26.308815] [gpiomain_hw.c] Set PinNum 34 debounce.................... - 
+<4>  2020-12-23T05:50:56.680499+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   26.315593] [gpiomain_hw.c] Set PinNum 218 debounce.................... - 
+<4>  2020-12-23T05:50:56.680632+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   28.030279] ami_lpc : Using Irq 30 from DT - 
+<4>  2020-12-23T05:50:56.680812+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.068576] ami_kcs : Using Irq 30 from DT - 
+<4>  2020-12-23T05:50:56.680948+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.191566] ami_snoop : Using Irq 30 from DT - 
+<4>  2020-12-23T05:50:56.681011+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.212975] ADC Driver Version 1.0 - 
+<4>  2020-12-23T05:50:56.681079+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.216400] Copyright (c) 2009-2015 American Megatrends Inc. - 
+<4>  2020-12-23T05:50:56.681145+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.478765] AST2500 ADC, CV: -2 - 
+<4>  2020-12-23T05:50:56.681211+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.481935] ADC HW module loaded - 
+<4>  2020-12-23T05:50:56.681454+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.571578] ami_peci : Using Irq 36 from DT - 
+<4>  2020-12-23T05:50:56.681524+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.584577] The JTAG Driver is loaded successfully. - 
+<4>  2020-12-23T05:50:56.681591+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.632376] The CPLD Hardware Driver is loaded successfully - 
+<4>  2020-12-23T05:50:56.681659+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.644654] Network Interface Monitor Version 6.4.0 - 
+<4>  2020-12-23T05:50:56.681721+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.649675] Copyright (c) 2009-2015 American Megatrends Inc. - 
+<4>  2020-12-23T05:50:56.681785+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.681192] AST UARTROUTE Driver Version 103.0 - 
+<4>  2020-12-23T05:50:56.681879+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.685656] Copyright (c) 2010 American Megatrends Inc. - 
+<4>  2020-12-23T05:50:56.682028+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.741591] The eSPI Driver is loaded successfully. - 
+<4>  2020-12-23T05:50:56.682102+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.761514] ast_espi: eSPI mode is not enable - 
+<4>  2020-12-23T05:50:56.682168+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.806102] Initializing USB Devices - 
+<4>  2020-12-23T05:50:56.682232+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.809845] USB Device Endpoint Driver  - 
+<4>  2020-12-23T05:50:56.682296+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.813695] Copyright 2006 American Megatrends Inc. - 
+<4>  2020-12-23T05:50:56.682361+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.819081] USB Driver is Successfully Initialized - 
+<4>  2020-12-23T05:50:56.682917+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.833769] Loading iUSB Module... - 
+<4>  2020-12-23T05:50:56.683024+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.855748] ami_usbhub : Using Irq 37 from DT - 
+<4>  2020-12-23T05:50:56.683105+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.871437] Loading CDROM Device Module... - 
+<4>  2020-12-23T05:50:56.683177+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   33.091798] Loading Hdisk Device Module... - 
+<4>  2020-12-23T05:50:56.683249+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   33.096137] UsbConfigureHS(): USB Device 1 is running in High Speed - 
+<4>  2020-12-23T05:50:56.683814+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   34.449210] Loading Ethernet Device Module... - 
+<4>  2020-12-23T05:50:56.683879+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   34.455278] UsbConfigureHS(): USB Device 2 is running in High Speed - 
+<4>  2020-12-23T05:50:56.683946+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   34.621387] HUB port 2 reset - 
+<4>  2020-12-23T05:50:56.684011+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   34.624355] UsbConfigureHS(): USB Device 2 is running in High Speed - 
+<4>  2020-12-23T05:50:56.684078+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   34.694434] HUB port 2 reset - 
+<4>  2020-12-23T05:50:56.684170+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   34.697391] UsbConfigureHS(): USB Device 2 is running in High Speed - 
+<4>  2020-12-23T05:50:56.684250+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   34.782821] ProcessStandardRequest(): WARNING : Unsupported Request. EP Stalled - 
+<4>  2020-12-23T05:50:56.684322+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   34.790156] ProcessStandardRequest(): WARNING : bmRequestType: 0x1 bmRequest: 0xb - 
+<4>  2020-12-23T05:50:56.684536+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   35.707508] dev 0 does not connect to host - 
+<4>  2020-12-23T05:50:56.684604+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   36.734507] dev 1 does not connect to host - 
+<4>  2020-12-23T05:50:56.684715+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   36.944446] HUB port 0 reset - 
+<4>  2020-12-23T05:50:56.684798+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   36.947409] UsbConfigureHS(): USB Device 0 is running in High Speed - 
+<4>  2020-12-23T05:50:56.684872+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   37.017546] HUB port 0 reset - 
+<4>  2020-12-23T05:50:56.684935+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   37.020498] UsbConfigureHS(): USB Device 0 is running in High Speed - 
+<4>  2020-12-23T05:50:56.685000+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   37.968386] HUB port 1 reset - 
+<4>  2020-12-23T05:50:56.685066+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   37.971348] UsbConfigureHS(): USB Device 1 is running in High Speed - 
+<4>  2020-12-23T05:50:56.685131+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   38.041550] HUB port 1 reset - 
+<4>  2020-12-23T05:50:56.685195+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   38.044507] UsbConfigureHS(): USB Device 1 is running in High Speed - 
+<4>  2020-12-23T05:50:56.685260+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   41.775650] ami_gpio : Using Irq 21 from DT - 
+<4>  2020-12-23T05:50:56.685355+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   41.780576] ami_sgpio_master : Using Irq 38 from DT - 
+<4>  2020-12-23T05:50:56.685508+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  110.843737] ami_mctp : Using Irq 39 from DT - 
+<4>  2020-12-23T05:50:56.685575+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  110.848501] ami_scu : Using Irq 20 from DT - 
+<4>  2020-12-23T05:50:56.685642+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  110.852845] The MCTP Over PCIE HW Driver is loaded successfully. - 
+<4>  2020-12-23T05:50:56.685705+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  111.335364] Enable MCTP over PCIE Downstream function - 
+<4>  2020-12-23T05:50:56.685771+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  111.781677] NCSI Interface Driver Version 1.1 - 
+<4>  2020-12-23T05:50:56.685834+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  111.786143] Copyright (c) 2009-2015 American Megatrends Inc. - 
+<4>  2020-12-23T05:50:56.685932+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  111.794739] NCSI(eth0): Detect NCSI Packages and Channels - 
+<4>  2020-12-23T05:50:56.686017+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  111.803873] NCSI(eth0): Initializing the timer for change link status. - 
+<4>  2020-12-23T05:50:56.686094+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  111.810605] NCSI_Detect_Info>  - 
+<4>  2020-12-23T05:50:56.686164+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  114.688934] NCSI_Detect_Info> PackageID: 0: 7 - 
+<4>  2020-12-23T05:50:56.686227+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  115.168837] NCSI_Detect_Info> PackageID: 1: 7 - 
+<4>  2020-12-23T05:50:56.686293+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  115.648840] NCSI_Detect_Info> PackageID: 2: 7 - 
+<4>  2020-12-23T05:50:56.686359+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  116.128869] NCSI_Detect_Info> PackageID: 3: 7 - 
+<4>  2020-12-23T05:50:56.686426+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  116.609025] NCSI_Detect_Info> PackageID: 4: 7 - 
+<4>  2020-12-23T05:50:56.686519+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  117.088881] NCSI_Detect_Info> PackageID: 5: 7 - 
+<4>  2020-12-23T05:50:56.686603+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  117.568827] NCSI_Detect_Info> PackageID: 6: 7 - 
+<4>  2020-12-23T05:50:56.686681+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  118.048893] NCSI(eth0): No NCSI Interfaces detected - 
+<4>  2020-12-23T05:50:56.729604+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  124.639471] NCSI(eth0): Setting User Config Failed, link not up yet - 
+<4>  2020-12-23T05:50:56.730129+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  148.424161] ast_espi: eSPI mode is not enable - 
+<3>  2020-12-23T05:50:56.686956+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  124.431325] bonding: unable to delete non-existent bond0 - 
+<3>  2020-12-23T05:50:56.729669+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  129.882913] bond0: Could not set eth1 as active slave; either eth1 is down or the link is down - 
+<3>  2020-12-23T05:50:56.729736+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  129.891757] bond0: option active_slave: invalid value (eth1) - 
+<1>  2020-12-23T05:50:56.678947+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   19.644087] Helper Module Driver Version 1.2 - 
+<1>  2020-12-23T05:50:56.679020+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   19.648376] Copyright (c) 2009-2015 American Megatrends Inc. - 
+<46>  2020-12-23T05:50:57.599793+00:00 QCTB4A9FCA8A235 rsyslogd: rsyslogd - -  rsyslogd's groupid changed to 541 - 
+<46>  2020-12-23T05:50:57.601651+00:00 QCTB4A9FCA8A235 rsyslogd: rsyslogd - -  rsyslogd's userid changed to 404 - 
+<46>  2020-12-23T05:50:57.601934+00:00 QCTB4A9FCA8A235 rsyslogd: rsyslogd - -   [origin software="rsyslogd" swVersion="8.1901.0" x-pid="2234" x-info="https://www.rsyslog.com"] start - 
+<134>  2020-12-23T05:51:10.707859+00:00 QCTB4A9FCA8A235 hdserverapp: hdserverapp - -  [2427 : 2427 INFO]HDSERVER Session,  Secure Port value::5127 - 
+<38>  2020-12-23T05:51:12.740486+00:00 QCTB4A9FCA8A235 sshd[2447]: sshd 2447 -  Server listening on 0.0.0.0 port 22. - 
+<38>  2020-12-23T05:51:12.748124+00:00 QCTB4A9FCA8A235 sshd[2447]: sshd 2447 -  Server listening on :: port 22. - 
+<4>  2020-12-23T05:51:15.733363+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  176.563419] Loading HID Device Module... - 
+<4>  2020-12-23T05:51:15.733540+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  176.568874] UsbConfigureLS(): USB Device 3 is running in Low Speed - 
+<4>  2020-12-23T05:51:15.733643+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  176.718882] HUB port 3 reset - 
+<4>  2020-12-23T05:51:15.733729+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  176.721848] UsbConfigureLS(): USB Device 3 is running in Low Speed - 
+<4>  2020-12-23T05:51:15.733808+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  176.792146] HUB port 3 reset - 
+<4>  2020-12-23T05:51:15.733878+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  176.795109] UsbConfigureLS(): USB Device 3 is running in Low Speed - 
+<4>  2020-12-23T05:51:16.379980+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  178.183639] AST Video Capture Driver, (c) 2009-2015 American Megatrends Inc. - 
+<4>  2020-12-23T05:51:16.380198+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  178.191492] ami_videocap : Using Irq 40 from DT - 
+<134>  2020-12-23T05:51:21.441406+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2560 : 2560 INFO]Loading the Storelib Library - 
+<78>  2020-12-23T05:51:21.589824+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: crond (busybox 1.21.1) started, log level 8 - 
+<134>  2020-12-23T05:51:21.928074+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2560 : 2560 INFO]RAID Device ( 2) is not present on the bus 5 - 
+<134>  2020-12-23T05:51:21.944097+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2560 : 2560 INFO]RAID Device ( 2) is not present on the bus 2 - 
+<134>  2020-12-23T05:51:21.950948+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2560 : 2560 INFO]Error while initializing the storelib library - 
+<134>  2020-12-23T05:51:21.959813+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2560 : 2560 INFO]Error while intilizing the MegaRAID Controller - 
+<134>  2020-12-23T05:51:21.967714+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2560 : 2560 INFO]Loading the StorelibIT Library - 
+<134>  2020-12-23T05:51:22.489125+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2560 : 2560 INFO]SAS IT (HBA) Device ( a) is not present on the bus 5 - 
+<134>  2020-12-23T05:51:22.506290+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2560 : 2560 INFO]SAS IT (HBA) Device ( a) is not present on the bus 2 - 
+<134>  2020-12-23T05:51:22.520018+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2560 : 2560 INFO]Error while initializing the library, library type = 3 - 
+<134>  2020-12-23T05:51:22.525202+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2560 : 2560 INFO]Error while initlizing the SAS IT Controller - 
+<134>  2020-12-23T05:51:23.097947+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2560 : 2589 INFO]RAID Device ( 2) is not present on the bus 5 - 
+<134>  2020-12-23T05:51:23.106743+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2560 : 2589 INFO]RAID Device ( 2) is not present on the bus 2 - 
+<14>  2020-12-23T05:51:53.763132+00:00 QCTB4A9FCA8A235 luajit: luajit - -  libipmi:get_fru_info: fru-size obtained for device-0 - 
+<14>  2020-12-23T05:51:53.968639+00:00 QCTB4A9FCA8A235 luajit: luajit - -  libipmi:get_fru_info: fru-size obtained for device-1 - 
+<14>  2020-12-23T05:51:54.126377+00:00 QCTB4A9FCA8A235 luajit: luajit - -  libipmi:get_fru_info: fru-size obtained for device-10 - 
+<14>  2020-12-23T05:51:54.146630+00:00 QCTB4A9FCA8A235 luajit: luajit - -  libipmi:get_fru_info: fru-size obtained for device-32 - 
+<14>  2020-12-23T05:51:54.161283+00:00 QCTB4A9FCA8A235 luajit: luajit - -  libipmi:get_fru_info: fru-size obtained for device-33 - 
+<14>  2020-12-23T05:51:54.181256+00:00 QCTB4A9FCA8A235 luajit: luajit - -  libipmi:get_fru_info: fru-size obtained for device-35 - 
+<4>  2020-12-23T05:51:54.617420+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  216.463916] Device IDCODE = 0318a0dd ---> ALTERA CPLD - 
+<78>  2020-12-23T05:52:01.620375+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 3308 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<29>  2020-12-23T05:52:26.113138+00:00 QCTB4A9FCA8A235 timeoutd[3613]: timeoutd 3613 -  Daemon started. - 
+<78>  2020-12-23T05:53:01.629157+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 3805 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<130>  2020-12-23T05:53:55.791155+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [352 : 440 CRITICAL][Transport/Badpasswd.c:748]#012PasswordVerificationTask: WebUI failed password attempt, User shall be locked after Bad Password Threshold value if configured - 
+<130>  2020-12-23T05:53:56.611134+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][user_auth.c:565]pam_authenticate returned failure.. Error string (12)!! - 
+<78>  2020-12-23T05:54:01.641538+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 4137 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<130>  2020-12-23T05:54:04.164305+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][user_auth.c:565]pam_authenticate returned failure.. Error string (16)!! - 
+<130>  2020-12-23T05:54:04.823270+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:362]ServiceRet 0 - 
+<130>  2020-12-23T05:54:04.972161+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:396]channel no wRet 0 - 
+<134>  2020-12-23T05:54:08.639052+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T05:54:08.640782+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T05:54:08.868413+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [352 : 420 INFO]Set Password, userId: 2 - 
+<78>  2020-12-23T05:55:01.645386+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 4540 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T05:55:01.655978+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 4541 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T05:56:01.660128+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 4819 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T05:57:01.664212+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 5090 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T05:58:01.668457+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 5362 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<7>  2020-12-23T05:58:41.077631+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  622.937002]  [KERNDEBUG] [/home/bruce/Desktop/s5xp/s5xp/workspace_wolfpass/Build/.build/eth-6.9.1.0.0-src/data/ether.c:448]EthReqHandler(): Unimplemented CDC request : 67 - 
+<4>  2020-12-23T05:58:45.248440+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  627.101153] Reset MCTP Controller - 
+<130>  2020-12-23T05:58:46.975715+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [352 : 462 CRITICAL][PDKHW.c:2266]Unable to Read /conf/eventgen.ini Configuration File - 
+<130>  2020-12-23T05:58:46.982666+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [352 : 462 CRITICAL][PDKHW.c:2273]Failed to get the Section Count of /conf/eventgen.ini file - 
+<130>  2020-12-23T05:58:46.989634+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [352 : 462 CRITICAL][PDKHW.c:601]Failed to log De-asserted Events for PUS:ACLost Offset. - 
+<78>  2020-12-23T05:59:01.672185+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 5727 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<4>  2020-12-23T05:59:02.149790+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  644.007376] Reset MCTP Controller - 
+<4>  2020-12-23T05:59:03.097423+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  644.948808] Reset MCTP Controller - 
+<4>  2020-12-23T05:59:03.227423+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  645.080081] Reset MCTP Controller - 
+<6>  2020-12-23T05:59:03.327449+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  645.179356] LPC RESET - 
+<7>  2020-12-23T05:59:06.318508+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  648.174056]  [KERNDEBUG] [/home/bruce/Desktop/s5xp/s5xp/workspace_wolfpass/Build/.build/eth-6.9.1.0.0-src/data/ether.c:275]SendUsbData() : Error sending the packet for DevNo 2 epnum 3 - 
+<4>  2020-12-23T05:59:06.318322+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  648.168917] UsbWriteDataNonBlock(): device suspended - 
+<4>  2020-12-23T05:59:08.138560+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  649.993109] Reset MCTP Controller - 
+<4>  2020-12-23T05:59:08.267422+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  650.120985] Reset MCTP Controller - 
+<6>  2020-12-23T05:59:08.357474+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  650.213264] LPC RESET - 
+<4>  2020-12-23T05:59:31.868465+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  673.702918] UsbConfigureHS(): USB Device 0 is running in High Speed - 
+<4>  2020-12-23T05:59:31.868669+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  673.709229] UsbConfigureHS(): USB Device 1 is running in High Speed - 
+<4>  2020-12-23T05:59:31.868780+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  673.715510] UsbConfigureHS(): USB Device 2 is running in High Speed - 
+<4>  2020-12-23T05:59:31.868874+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  673.721796] UsbConfigureLS(): USB Device 3 is running in Low Speed - 
+<4>  2020-12-23T05:59:31.980870+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  673.830047] HUB port 0 reset - 
+<4>  2020-12-23T05:59:31.981055+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  673.833014] UsbConfigureHS(): USB Device 0 is running in High Speed - 
+<4>  2020-12-23T05:59:32.103143+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  673.954934] HUB port 1 reset - 
+<4>  2020-12-23T05:59:32.103326+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  673.957896] UsbConfigureHS(): USB Device 1 is running in High Speed - 
+<4>  2020-12-23T05:59:32.228019+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  674.079818] HUB port 2 reset - 
+<4>  2020-12-23T05:59:32.228205+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  674.082808] UsbConfigureHS(): USB Device 2 is running in High Speed - 
+<4>  2020-12-23T05:59:32.353869+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  674.205050] HUB port 3 reset - 
+<4>  2020-12-23T05:59:32.354056+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  674.208073] UsbConfigureLS(): USB Device 3 is running in Low Speed - 
+<4>  2020-12-23T05:59:43.467421+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  685.314683] CheckHdiskSupportedCmd(): SCSI Unsupported Command 0x85 for instance 0 - 
+<4>  2020-12-23T05:59:43.498503+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  685.349024] CheckHdiskSupportedCmd(): SCSI Unsupported Command 0x85 for instance 1 - 
+<78>  2020-12-23T06:00:01.680865+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 6308 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:00:01.700959+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 6309 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<134>  2020-12-23T06:00:14.797061+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [352 : 410 INFO]PDK_After_BIOS_POST_END> gSyncTimePCH - 
+<4>  2020-12-23T06:00:34.039796+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  735.729400] UsbConfigureHS(): USB Device 0 is running in High Speed - 
+<4>  2020-12-23T06:00:34.040049+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  735.735711] UsbConfigureHS(): USB Device 1 is running in High Speed - 
+<4>  2020-12-23T06:00:34.040210+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  735.741985] UsbConfigureHS(): USB Device 2 is running in High Speed - 
+<4>  2020-12-23T06:00:34.040330+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  735.748268] UsbConfigureLS(): USB Device 3 is running in Low Speed - 
+<4>  2020-12-23T06:00:34.399241+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  736.105479] HUB port 0 reset - 
+<4>  2020-12-23T06:00:34.399431+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  736.108448] UsbConfigureHS(): USB Device 0 is running in High Speed - 
+<4>  2020-12-23T06:00:34.473078+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  736.179625] HUB port 0 reset - 
+<4>  2020-12-23T06:00:34.473261+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  736.182593] UsbConfigureHS(): USB Device 0 is running in High Speed - 
+<4>  2020-12-23T06:00:34.561078+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  736.267519] HUB port 1 reset - 
+<4>  2020-12-23T06:00:34.561270+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  736.270490] UsbConfigureHS(): USB Device 1 is running in High Speed - 
+<4>  2020-12-23T06:00:34.635393+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  736.342016] HUB port 1 reset - 
+<4>  2020-12-23T06:00:34.635580+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  736.344985] UsbConfigureHS(): USB Device 1 is running in High Speed - 
+<4>  2020-12-23T06:00:34.726090+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  736.430146] HUB port 2 reset - 
+<4>  2020-12-23T06:00:34.726348+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  736.433132] UsbConfigureHS(): USB Device 2 is running in High Speed - 
+<4>  2020-12-23T06:00:34.796923+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  736.503394] HUB port 2 reset - 
+<4>  2020-12-23T06:00:34.797113+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  736.506378] UsbConfigureHS(): USB Device 2 is running in High Speed - 
+<4>  2020-12-23T06:00:34.886735+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  736.593183] HUB port 3 reset - 
+<4>  2020-12-23T06:00:34.886919+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  736.596204] UsbConfigureLS(): USB Device 3 is running in Low Speed - 
+<4>  2020-12-23T06:00:34.960983+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  736.667034] HUB port 3 reset - 
+<4>  2020-12-23T06:00:34.961168+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  736.670051] UsbConfigureLS(): USB Device 3 is running in Low Speed - 
+<4>  2020-12-23T06:00:35.558912+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  737.259125] ProcessStandardRequest(): WARNING : Unsupported Request. EP Stalled - 
+<4>  2020-12-23T06:00:35.559106+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  737.266471] ProcessStandardRequest(): WARNING : bmRequestType: 0x1 bmRequest: 0xb - 
+<7>  2020-12-23T06:00:35.564281+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  737.277861]  [KERNDEBUG] [/home/bruce/Desktop/s5xp/s5xp/workspace_wolfpass/Build/.build/eth-6.9.1.0.0-src/data/ether.c:448]EthReqHandler(): Unimplemented CDC request : 67 - 
+<7>  2020-12-23T06:00:38.602776+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  740.312532]  [KERNDEBUG] [/home/bruce/Desktop/s5xp/s5xp/workspace_wolfpass/Build/.build/eth-6.9.1.0.0-src/data/ether.c:448]EthReqHandler(): Unimplemented CDC request : 67 - 
+<7>  2020-12-23T06:00:38.612811+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  740.319795]  [KERNDEBUG] [/home/bruce/Desktop/s5xp/s5xp/workspace_wolfpass/Build/.build/eth-6.9.1.0.0-src/data/ether.c:448]EthReqHandler(): Unimplemented CDC request : 67 - 
+<78>  2020-12-23T06:01:01.850562+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 6825 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:02:01.861543+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 7097 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<3>  2020-12-23T06:02:43.822977+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  865.528850] i2c i2c-5: send_bytes: Timed out sending data - 
+<78>  2020-12-23T06:03:01.866984+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 7375 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:04:01.871090+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 7646 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:05:01.885267+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 7920 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:05:01.895596+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 7921 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T06:06:01.899797+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 8196 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:07:01.904334+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 8473 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:08:01.914752+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 8746 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:09:01.919188+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 9019 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:10:01.939464+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 9293 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:10:01.952880+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 9295 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<132>  2020-12-23T06:10:08.768941+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [352 : 374 WARNING][IPMBIfc.c:1069]IPMBIfc.c: Invalid checksum 1, size = 9 - 
+<132>  2020-12-23T06:10:08.775548+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [352 : 374 WARNING][IPMBIfc.c:770]IPMBIfc.c : IPMB Checksum validation failed - 
+<78>  2020-12-23T06:11:01.965472+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 9577 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:12:01.979294+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 9850 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:13:01.992149+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 10127 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<132>  2020-12-23T06:13:28.777011+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [352 : 374 WARNING][IPMBIfc.c:1069]IPMBIfc.c: Invalid checksum 1, size = 9 - 
+<132>  2020-12-23T06:13:28.784982+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [352 : 374 WARNING][IPMBIfc.c:770]IPMBIfc.c : IPMB Checksum validation failed - 
+<78>  2020-12-23T06:14:02.004607+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 10403 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:15:01.015366+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 10668 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:15:01.025077+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 10669 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<132>  2020-12-23T06:15:11.762859+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [352 : 374 WARNING][IPMBIfc.c:1069]IPMBIfc.c: Invalid checksum 1, size = 9 - 
+<132>  2020-12-23T06:15:11.775387+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [352 : 374 WARNING][IPMBIfc.c:770]IPMBIfc.c : IPMB Checksum validation failed - 
+<132>  2020-12-23T06:15:16.764659+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [352 : 374 WARNING][IPMBIfc.c:1069]IPMBIfc.c: Invalid checksum 1, size = 9 - 
+<132>  2020-12-23T06:15:16.771679+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [352 : 374 WARNING][IPMBIfc.c:770]IPMBIfc.c : IPMB Checksum validation failed - 
+<132>  2020-12-23T06:15:28.762308+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [352 : 374 WARNING][IPMBIfc.c:1069]IPMBIfc.c: Invalid checksum 1, size = 9 - 
+<132>  2020-12-23T06:15:28.777169+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [352 : 374 WARNING][IPMBIfc.c:770]IPMBIfc.c : IPMB Checksum validation failed - 
+<78>  2020-12-23T06:16:01.036752+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 10960 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:17:01.050163+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 11232 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:18:01.055135+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 11508 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:19:01.060800+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 11781 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:20:01.065634+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 12053 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:20:01.075066+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 12054 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T06:21:01.078975+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 12330 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:22:01.098064+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 12603 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:23:01.101986+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 12875 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:24:01.114467+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 13147 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:25:01.123282+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 13419 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:25:01.141768+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 13420 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T06:26:01.149478+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 13695 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:27:01.155841+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 13967 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:28:01.160264+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 14239 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:29:01.165008+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 14510 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:30:01.169786+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 14781 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:30:01.179631+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 14782 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T06:31:01.185187+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 15057 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:32:01.199829+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 15330 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:33:01.204120+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 15604 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:34:01.208935+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 15878 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:35:01.212825+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 16151 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:35:01.225650+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 16152 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T06:36:01.231411+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 16427 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:37:01.235635+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 16698 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:38:01.249397+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 16971 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:39:01.253390+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 17244 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:40:01.257633+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 17515 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:40:01.279128+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 17516 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T06:41:01.283680+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 17794 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:42:01.287645+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 18064 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:43:01.291805+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 18339 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:44:01.296174+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 18610 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:45:01.300607+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 18881 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:45:01.314747+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 18882 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T06:46:01.318637+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 19160 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:47:01.324831+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 19433 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<130>  2020-12-23T06:47:26.680375+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:362]ServiceRet 0 - 
+<130>  2020-12-23T06:47:26.852845+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:396]channel no wRet 0 - 
+<134>  2020-12-23T06:47:27.081726+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:47:27.099971+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:47:39.568805+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:47:39.571597+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:47:41.187311+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:47:41.189038+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:47:42.983867+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:47:42.985845+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:47:43.114751+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:47:43.116476+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:47:43.184383+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:47:43.186119+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:47:43.300719+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:47:43.303120+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:47:43.381233+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:47:43.383129+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:47:43.453851+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:47:43.456441+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:47:43.519405+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:47:43.521334+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:47:43.572210+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:47:43.574303+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:47:47.946654+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:47:47.948447+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T06:48:01.329122+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 19781 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-23T06:48:17.917461+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:48:17.919317+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:48:47.932824+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:48:47.934715+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T06:49:01.327996+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 20066 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-23T06:49:17.915129+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:49:17.916845+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:49:47.923242+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:49:47.925072+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T06:50:01.331901+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 20343 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:50:01.339223+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 20344 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<134>  2020-12-23T06:50:17.912815+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:50:17.914531+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:50:47.910934+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:50:47.912737+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T06:51:01.343336+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 20623 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-23T06:51:17.910406+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:51:17.912110+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:51:47.909921+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:51:47.911733+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T06:52:01.349344+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 20897 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-23T06:52:17.911758+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:52:17.913470+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:52:47.909682+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:52:47.911497+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T06:53:01.354944+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 21166 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-23T06:53:17.910507+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:53:17.912371+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:53:47.918645+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:53:47.920464+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T06:54:01.366243+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 21441 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-23T06:54:17.918985+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:54:17.921063+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:54:47.924690+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:54:47.926519+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T06:55:01.372263+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 21713 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T06:55:01.390710+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 21714 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<134>  2020-12-23T06:55:18.387519+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:55:18.389480+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:55:47.916013+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:55:47.918126+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T06:56:01.394698+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 21989 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-23T06:56:17.911251+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:56:17.912971+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:56:47.909639+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:56:47.911466+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T06:57:01.402042+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 22260 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-23T06:57:17.912994+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:57:17.914697+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:57:47.909428+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:57:47.911248+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T06:58:01.406321+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 22534 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-23T06:58:17.910556+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:58:17.912263+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:58:47.909057+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:58:47.910871+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T06:59:01.410306+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 22806 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-23T06:59:17.919079+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:59:17.920924+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T06:59:47.907569+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T06:59:47.909396+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T07:00:01.417038+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 23077 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:00:01.429769+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 23078 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<134>  2020-12-23T07:00:17.906444+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T07:00:17.908467+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T07:00:47.913066+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T07:00:47.915079+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T07:01:01.436884+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 23353 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-23T07:01:17.909425+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T07:01:17.911136+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T07:01:47.918940+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T07:01:47.935528+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T07:02:01.440820+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 23625 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-23T07:02:17.921842+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T07:02:17.923860+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T07:03:01.450533+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 23956 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:04:01.454566+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 24226 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:05:01.458546+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 24499 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:05:01.470266+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 24500 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T07:06:01.474123+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 24776 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:07:01.478862+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 25050 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:08:01.489531+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 25322 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:09:01.499207+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 25593 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:10:01.504336+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 25862 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:10:01.510916+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 25863 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T07:11:01.514807+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 26139 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:12:01.519255+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 26412 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:13:01.523182+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 26685 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:14:01.526910+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 26957 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:15:01.531854+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 27226 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:15:01.539865+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 27227 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T07:16:01.545788+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 27502 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:17:01.550360+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 27778 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:18:01.555092+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 28052 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:19:01.559062+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 28326 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:20:01.563055+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 28600 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:20:01.570053+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 28601 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T07:21:01.579728+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 28876 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:22:01.584554+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 29150 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:23:01.589814+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 29423 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:24:01.593563+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 29697 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:25:01.597528+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 29970 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:25:01.606308+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 29971 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T07:26:01.611071+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 30246 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:27:01.614889+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 30517 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:28:01.626168+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 30791 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:29:01.631867+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 31065 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:30:01.649204+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 31337 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:30:01.659565+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 31338 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T07:31:01.670880+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 31612 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:32:01.681432+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 31886 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:33:01.685228+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 32159 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:34:01.691314+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 32431 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:35:01.695437+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 32704 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:35:01.709534+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 32705 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T07:36:01.713513+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 580 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:37:01.718229+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 863 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:38:01.722104+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 1140 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:39:01.727370+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 1424 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:40:01.732831+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 1697 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:40:01.742684+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 1698 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T07:41:01.752777+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 1974 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:42:01.761319+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 2256 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:43:01.769715+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 2541 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:44:01.775444+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 2818 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:45:01.785073+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 3089 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:45:01.792805+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 3090 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T07:46:01.796759+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 3371 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:47:01.800838+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 3654 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:48:01.806081+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 3926 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:49:01.807326+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 4209 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:50:01.816002+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 4484 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:50:01.828163+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 4485 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T07:51:01.832124+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 4761 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:52:01.837199+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 5032 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:53:01.841704+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 5304 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:54:01.846245+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 5576 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:55:01.850404+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 5847 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:55:01.866630+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 5848 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T07:56:01.870672+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 6123 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:57:01.875032+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 6396 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:58:01.879578+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 6665 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T07:59:01.891312+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 6937 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:00:01.895604+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 7208 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:00:01.905612+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 7209 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T08:01:01.909801+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 7484 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:02:01.916595+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 7755 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:03:01.920586+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 8028 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:04:01.924516+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 8299 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:05:01.937570+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 8573 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:05:01.946592+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 8575 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T08:06:01.953353+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 8851 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:07:01.960715+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 9122 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:08:01.969984+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 9395 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:09:01.978945+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 9663 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:10:01.990957+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 9935 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:10:01.998612+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 9936 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T08:11:02.002533+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 10211 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:12:01.007118+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 10478 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:13:01.016579+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 10749 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:14:01.020425+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 11019 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:15:01.024470+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 11290 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:15:01.036497+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 11291 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T08:16:01.041195+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 11566 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:17:01.045934+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 11837 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:18:01.053905+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 12108 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:19:01.059094+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 12377 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:20:01.062857+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 12648 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:20:01.071492+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 12649 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<78>  2020-12-23T08:21:01.086593+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 12924 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<130>  2020-12-23T08:21:15.401101+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:362]ServiceRet 0 - 
+<130>  2020-12-23T08:21:15.505466+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:396]channel no wRet 0 - 
+<134>  2020-12-23T08:21:17.466520+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:21:17.468241+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-23T08:21:22.569023+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:362]ServiceRet 0 - 
+<130>  2020-12-23T08:21:22.745492+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:396]channel no wRet 0 - 
+<130>  2020-12-23T08:21:35.541621+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:362]ServiceRet 0 - 
+<130>  2020-12-23T08:21:35.655450+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:396]channel no wRet 0 - 
+<134>  2020-12-23T08:21:44.526115+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:21:44.527970+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:21:46.712973+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:21:46.714792+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-23T08:21:54.514541+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:362]ServiceRet 0 - 
+<130>  2020-12-23T08:21:54.685606+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:396]channel no wRet 0 - 
+<78>  2020-12-23T08:22:01.105785+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 13513 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-23T08:22:03.392232+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:03.393941+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<14>  2020-12-23T08:22:03.601441+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-0 - 
+<14>  2020-12-23T08:22:03.861979+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-1 - 
+<14>  2020-12-23T08:22:04.055186+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-10 - 
+<132>  2020-12-23T08:22:04.083295+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 WARNING][fru.c:114]Invalid FRU Header Version for ID : 10 - 
+<14>  2020-12-23T08:22:04.103364+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-32 - 
+<132>  2020-12-23T08:22:04.136131+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 WARNING][fru.c:114]Invalid FRU Header Version for ID : 32 - 
+<14>  2020-12-23T08:22:04.155329+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-33 - 
+<132>  2020-12-23T08:22:04.188786+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 WARNING][fru.c:114]Invalid FRU Header Version for ID : 33 - 
+<14>  2020-12-23T08:22:04.215175+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-35 - 
+<132>  2020-12-23T08:22:04.223865+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 WARNING][fru.c:114]Invalid FRU Header Version for ID : 35 - 
+<134>  2020-12-23T08:22:05.438139+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:05.440066+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:22:10.584751+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:10.590517+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:22:15.455186+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:15.457968+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:22:16.150249+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:16.152407+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:22:16.184815+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO] in ipmi cmd GetLanReq.ChannelNum=1 - 
+<134>  2020-12-23T08:22:32.888748+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:32.890481+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:22:33.412317+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:33.414013+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:22:33.867415+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:33.869658+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:22:34.902000+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:34.903704+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:22:35.442129+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:35.444918+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:22:36.176504+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:36.178203+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:22:37.213274+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:37.217335+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:22:38.223330+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:38.225162+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:22:38.622021+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:38.623721+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-23T08:22:45.707368+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:362]ServiceRet 0 - 
+<130>  2020-12-23T08:22:45.943902+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:396]channel no wRet 0 - 
+<134>  2020-12-23T08:22:54.847946+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:54.848247+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:22:56.661527+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:56.663229+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:22:59.626593+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:22:59.628553+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T08:23:01.115118+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 14050 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-23T08:23:02.861461+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:23:02.861753+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:23:05.501572+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:23:05.503267+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-23T08:23:33.550952+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:362]ServiceRet 0 - 
+<130>  2020-12-23T08:23:33.645259+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:396]channel no wRet 0 - 
+<134>  2020-12-23T08:23:34.684127+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:23:34.686258+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-23T08:23:39.576382+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:362]ServiceRet 0 - 
+<130>  2020-12-23T08:23:39.684834+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:396]channel no wRet 0 - 
+<130>  2020-12-23T08:23:52.776031+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:362]ServiceRet 0 - 
+<130>  2020-12-23T08:23:52.885509+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:396]channel no wRet 0 - 
+<78>  2020-12-23T08:24:01.156700+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 14636 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<134>  2020-12-23T08:24:02.164063+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:24:02.166378+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:24:04.631531+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:24:04.633237+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<130>  2020-12-23T08:24:12.428235+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:362]ServiceRet 0 - 
+<130>  2020-12-23T08:24:12.659380+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:396]channel no wRet 0 - 
+<134>  2020-12-23T08:24:21.135002+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:24:21.144358+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<14>  2020-12-23T08:24:21.265162+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-0 - 
+<14>  2020-12-23T08:24:21.445762+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-1 - 
+<14>  2020-12-23T08:24:21.615188+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-10 - 
+<132>  2020-12-23T08:24:21.647599+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 WARNING][fru.c:114]Invalid FRU Header Version for ID : 10 - 
+<14>  2020-12-23T08:24:21.671067+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-32 - 
+<132>  2020-12-23T08:24:21.702723+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 WARNING][fru.c:114]Invalid FRU Header Version for ID : 32 - 
+<14>  2020-12-23T08:24:21.728827+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-33 - 
+<132>  2020-12-23T08:24:21.775302+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 WARNING][fru.c:114]Invalid FRU Header Version for ID : 33 - 
+<14>  2020-12-23T08:24:21.809324+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-35 - 
+<132>  2020-12-23T08:24:21.871069+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 WARNING][fru.c:114]Invalid FRU Header Version for ID : 35 - 
+<134>  2020-12-23T08:24:23.247843+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:24:23.255109+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:24:28.833300+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:24:28.838900+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:24:33.553445+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:24:33.555702+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:24:34.251819+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:24:34.253531+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:24:34.281175+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO] in ipmi cmd GetLanReq.ChannelNum=1 - 
+<134>  2020-12-23T08:24:48.646365+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:24:48.648327+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:24:49.731949+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:24:49.733648+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:24:50.313293+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:24:50.316366+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:24:50.882858+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:24:50.885075+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:24:51.410417+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:24:51.412117+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:24:52.207484+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:24:52.209192+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:24:53.677161+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:24:53.678872+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:24:54.246913+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:24:54.248629+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<134>  2020-12-23T08:24:54.725440+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:24:54.727145+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 
+<78>  2020-12-23T08:25:01.170222+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 15174 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2020-12-23T08:25:01.178819+00:00 QCTB4A9FCA8A235 crond[2575]: crond 2575 -  crond: USER sysadmin pid 15175 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<130>  2020-12-23T08:25:02.072139+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:362]ServiceRet 0 - 
+<130>  2020-12-23T08:25:02.371351+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 CRITICAL][rest_default.c:396]channel no wRet 0 - 
+<134>  2020-12-23T08:25:11.797490+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]IPMI Session established successfully - 
+<134>  2020-12-23T08:25:11.803852+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [3263 : 3263 INFO]Privilege level for this session is 4 - 

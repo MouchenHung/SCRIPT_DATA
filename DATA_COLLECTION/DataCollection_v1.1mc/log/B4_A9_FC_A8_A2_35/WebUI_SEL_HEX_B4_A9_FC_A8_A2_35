@@ -1,0 +1,51 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: channel
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: 1,
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: passwordStatus
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0100  3432  100  3432    0     0    530      0  0:00:06  0:00:06 --:--:--   822
+      |Record|           |GenID|GenID |      |Sensor|        |EvtDir|Event|Event|Event|
+  ID  | Type | TimeStamp |(Low)|(High)|EvMRev| Type |Sensor #| Type |Data1|Data2|Data3|
+------|------|-----------|-----|------|------|------|--------|------|-----|-----|-----|
+ 0024h|   c3h| 5fe2feaah |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0023h|   c3h| 5fe2fea4h |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0022h|   c3h| 5fe2fe97h |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0021h|   c3h| 5fe2fe8ah |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0020h|   c3h| 5fe2fe84h |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 001fh|   c3h| 5fe2fe69h |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  20h|
+ 001eh|   c3h| 5fe2fe66h |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  20h|
+ 001dh|   c3h| 5fe2fe63h |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  20h|
+ 001ch|   c3h| 5fe2fe54h |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 001bh|   c3h| 5fe2fe4eh |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  20h|
+ 001ah|   c3h| 5fe2fe20h |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0019h|   c3h| 5fe2fe1ah |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0018h|   c3h| 5fe2fe0eh |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0017h|   c3h| 5fe2fe01h |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0016h|   c3h| 5fe2fdfah |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  20h|
+ 0015h|   c3h| 5fe2eb98h |  00h|   00h|   00h|   03h|     98h|   0ah|  0ah|  0eh|  bbh|
+ 0014h|   c3h| 5fe2e7fdh |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  bbh|
+ 0013h|   02h| 5fe2dccah |  2ch|   60h|   04h|   dch|     17h|   75h|  a0h|  17h|  00h|
+ 0012h|   02h| 5fe2dca6h |  20h|   00h|   04h|   09h|     77h|   efh|  00h|  ffh|  ffh|
+ 0011h|   02h| 5fe2dc95h |  20h|   00h|   04h|   09h|     77h|   6fh|  00h|  ffh|  ffh|
+ 0010h|   c3h| 5fe2db81h |  00h|   00h|   00h|   02h|     98h|   0ah|  0ah|  0eh|  bbh|
+ 000fh|   c3h| 5fe2db80h |  20h|   00h|   04h|   09h|     02h|   ffh|  02h|  ffh|  ffh|
+ 000eh|   c3h| 5fe2db7ch |  00h|   00h|   00h|   01h|     98h|   0ah|  0ah|  0eh|  bbh|
+ 000dh|   c3h| 5fe2db73h |  00h|   00h|   00h|   06h|     98h|   0ah|  0ah|  0eh|  bbh|
+ 000ch|   d0h| 5fe2dabdh |  4ch|   1ch|   00h|   20h|     00h|   02h|  ach|  0fh|  00h|
+ 000bh|   d0h| 5fe2dabdh |  4ch|   1ch|   00h|   20h|     00h|   02h|  90h|  0fh|  00h|
+ 000ah|   02h| 5fe2da66h |  20h|   00h|   04h|   04h|     57h|   88h|  01h|  ffh|  ffh|
+ 0009h|   02h| 5fe2da66h |  20h|   00h|   04h|   04h|     56h|   88h|  01h|  ffh|  ffh|
+ 0008h|   02h| 5fe2da66h |  20h|   00h|   04h|   04h|     55h|   88h|  01h|  ffh|  ffh|
+ 0007h|   02h| 5fe2da66h |  20h|   00h|   04h|   04h|     54h|   88h|  01h|  ffh|  ffh|
+ 0006h|   02h| 5fe2da66h |  20h|   00h|   04h|   04h|     53h|   88h|  01h|  ffh|  ffh|
+ 0005h|   02h| 5fe2da66h |  20h|   00h|   04h|   04h|     52h|   88h|  01h|  ffh|  ffh|
+ 0004h|   02h| 5fe2da66h |  20h|   00h|   04h|   04h|     51h|   88h|  01h|  ffh|  ffh|
+ 0003h|   02h| 5fe2da66h |  20h|   00h|   04h|   04h|     50h|   88h|  01h|  ffh|  ffh|
+ 0002h|   02h| 5fe2da47h |  20h|   00h|   04h|   05h|     feh|   6fh|  00h|  ffh|  ffh|
+ 0001h|   c4h| 5fe2da47h |  00h|   00h|   00h|   00h|     00h|   72h|  0ch|  72h|  0dh|

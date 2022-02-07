@@ -1,0 +1,37 @@
+==========================================================================
+                         BMC Data Collection Tool v1.2
+==========================================================================
+Version: 1.2
+Release Date: 2021.01.15
+
+[Table of Log Contain with command]:
+    | Item                    | Interface | Log File                           | Command
+    |-------------------------|-----------|------------------------------------|-------------------------------------------------------------------------------------
+    | BMC Console Log         | REST API  | BMC_Dump.<BMC_MAC>.dat             | "https://<BmcIpAddress>/api/logs/console-file"
+    | SEL Log (HEX)           | REST API  | WebUI_SEL_HEX_<BMC_MAC>            | "https://<BmcIpAddress>/api/logs/event-file"
+    | SEL Log (TEXT)          | REST API  | WebUI_SEL_TEXT_<BMC_MAC>           | "https://<BmcIpAddress>/api/logs/event"
+    | Syslog                  | REST API  | syslog.<BMC_MAC>                   | "https://<BmcIpAddress>/api/logs/syslog-file"
+    | Sensor                  | REST API  | Sensor_List_<BMC_MAC>              | "https://<BmcIpAddress>/api/logs/sensors"
+    | BMC Firmware Version    | RedFish   | McInfo_<BMC_MAC>                   | "https://<BmcIpAddress>/redfish/v1/Managers/Self"
+    | BIOS Firmware Version   | RedFish   | System_<BMC_MAC>                   | "https://<BmcIpAddress>/redfish/v1/Systems/Self"
+    | PSU Firmware Version    | RedFish   | PSU_<BMC_MAC>                      | "https://<BmcIpAddress>/redfish/v1/Chassis/Self/Power"
+    | LogServices SEL         | RedFish   | LS_SEL_<BMC_MAC>                   | "https://<BmcIpAddress>/redfish/v1/Managers/Self/LogServices/SEL/Entries"
+    | LogServices OEMSEL      | RedFish   | LS_OEMSEL_<BMC_MAC>                | "https://<BmcIpAddress>/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries"
+    | LogServices EventLog    | RedFish   | LS_EVENTLOG_<BMC_MAC>              | "https://<BmcIpAddress>/redfish/v1/Managers/Self/LogServices/EventLog/Entries"
+    | LogServices BIOS        | RedFish   | LS_BIOS_<BMC_MAC>                  | "https://<BmcIpAddress>/redfish/v1/Systems/Self/LogServices/BIOS/Entries"
+    | LogServices ChassisLogs | RedFish   | LS_ChassisLogs_<BMC_MAC>           | "https://<BmcIpAddress>/redfish/v1/Chassis/Self/LogServices/Logs/Entries"
+    | BMC Linux Status        | REST API  | bmc-info.<BMC_MAC>                 | "https://<BmcIpAddress>/api/logs/bmc-info-file"
+    | FRU                     | REST API  | Fru_Print_<BMC_MAC>                | "https://<BmcIpAddress>/api/fru"
+    | BMC Network Setting     | REST API  | Network_Settings_<BMC_MAC>         | "https://<BmcIpAddress>/api/settings/network"
+    | INTF System log         | REST API  | System_Inventory_System.txt        | "https://<BmcIpAddress>/api/host_inventory/host_interface_system_info"
+    | INTF Processor log      | REST API  | System_Inventory_Processor.txt     | "https://<BmcIpAddress>/api/host_inventory/host_interface_processor_info"
+    | INTF Memory log         | REST API  | System_Inventory_Memory.txt        | "https://<BmcIpAddress>/api/host_inventory/host_interface_memory_info"
+    | INTF Baseboard log      | REST API  | System_Inventory_Baseboard.txt     | "https://<BmcIpAddress>/api/host_inventory/host_interface_baseboard_info"
+    | INTF Power log          | REST API  | System_Inventory_Power.txt         | "https://<BmcIpAddress>/api/host_inventory/host_interface_power_info"
+    | INTF Thermal log        | REST API  | System_Inventory_Thermal.txt       | "https://<BmcIpAddress>/api/host_inventory/host_interface_thermal_info"
+    | INTF PCIE function log  | REST API  | System_Inventory_PCIE_Function.txt | "https://<BmcIpAddress>/api/host_inventory/host_interface_pcie_device_function_info"
+    | INTF Storage log        | REST API  | System_Inventory_PCIE_Storage.txt  | "https://<BmcIpAddress>/api/host_inventory/host_interface_storage_info"
+    | Tool Execution Log      |           | execute_fetch_bmc_file.log         |
+    | Tool Execution Log      |           | execute_fetch_bmc_info.log         |
+    | Tool Execution Log      |           | execute_fetch_bmc_mesg.log         |
+    | Tool Execution Log      |           | execute_startup.log                |

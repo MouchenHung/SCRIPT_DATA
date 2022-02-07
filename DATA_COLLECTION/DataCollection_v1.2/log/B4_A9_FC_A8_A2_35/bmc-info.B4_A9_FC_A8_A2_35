@@ -1,0 +1,388 @@
+<TOP>
+[H[JMem: 238140K used, 173640K free, 0K shrd, 9642392K buff, 9642440K cached
+CPU: 54.5% usr 45.4% sys  0.0% nic  0.0% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 3.65 2.18 1.32 3/184 6934
+[7m  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND[0m
+ 6895  1182 sysadmin R     3104  0.7   0 40.8 gzip -c /tmp/redis-dump.rdb
+  356     1 sysadmin S     530m131.8   0 18.1 /usr/local/bin/IPMIMain --daemoniz
+ 2830     1 sysadmin S     5032  1.2   0 13.6 /usr/local/bin/redfish_device -web
+ 6932  6929 sysadmin R     2972  0.7   0  9.0 top -n 1
+    7     2 sysadmin SW       0  0.0   0  4.5 [ksoftirqd/0]
+ 2488     1 sysadmin S    89568 21.7   0  0.0 /usr/local/bin/compmanager --daemo
+ 2414     1 sysadmin S    74396 18.0   0  0.0 /usr/local/bin/adviserd
+ 1811     1 sysadmin S    73948 17.9   0  0.0 /usr/local/bin/MCTPMain
+ 1227     1 sysadmin S    35088  8.5   0  0.0 /usr/bin/redis-server *:0
+ 1166  1165 sysadmin S    35032  8.5   0  0.0 /usr/local/bin/spx_restservice
+ 1165     1 sysadmin S    31696  7.6   0  0.0 /usr/local/sbin/lighttpd -f /conf/
+ 1611     1 sysadmin S    25096  6.0   0  0.0 luajit subagents/notify.lua
+  346     1 sysadmin S    24576  5.9   0  0.0 /usr/local/bin/processmanager
+  596     1 syslog   S    24536  5.9   0  0.0 /usr/sbin/rsyslogd
+ 1539     1 sysadmin S    22768  5.5   0  0.0 luajit subagents/redfishgroup-2-fn
+ 1348     1 sysadmin S    22708  5.5   0  0.0 luajit server.lua
+  344     1 sysadmin S    22468  5.4   0  0.0 /usr/local/bin/execdaemon
+ 1354     1 sysadmin S    16016  3.8   0  0.0 /usr/local/bin/redfish_pamauthd --
+ 2992     1 sysadmin S    11844  2.8   0  0.0 /usr/sbin/snmpd -c /var/snmpd.conf
+ 1696     1 sysadmin S    11324  2.7   0  0.0 luajit ./event-service/event-servi
+<IFCONFIG>
+bond0     Link encap:Ethernet  HWaddr B4:A9:FC:A8:A2:35  
+          inet addr:10.10.11.26  Bcast:10.10.255.255  Mask:255.255.0.0
+          inet6 addr: 2001:db8:1:0:b6a9:fcff:fea8:a235/64 Scope:Global
+          inet6 addr: fe80::b6a9:fcff:fea8:a235/64 Scope:Link
+          inet6 addr: 2001:db8:0:1:5b72:b7de:9789:7433/64 Scope:Global
+          UP BROADCAST RUNNING MASTER MULTICAST  MTU:1500  Metric:1
+          RX packets:95088 errors:0 dropped:24481 overruns:0 frame:0
+          TX packets:22488 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:25779952 (24.5 MiB)  TX bytes:24746830 (23.5 MiB)
+
+eth1      Link encap:Ethernet  HWaddr B4:A9:FC:A8:A2:35  
+          UP BROADCAST RUNNING SLAVE MULTICAST  MTU:1500  Metric:1
+          RX packets:95088 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:22488 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:25779952 (24.5 MiB)  TX bytes:24746830 (23.5 MiB)
+          Interrupt:19 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4325 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4325 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2788665 (2.6 MiB)  TX bytes:2788665 (2.6 MiB)
+
+usb0      Link encap:Ethernet  HWaddr 8E:6C:5E:E4:9E:AC  
+          inet addr:169.254.0.17  Bcast:169.254.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::8c6c:5eff:fee4:9eac/64 Scope:Link
+          UP BROADCAST RUNNING  MTU:1500  Metric:1
+          RX packets:109 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:83 errors:15 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:76682 (74.8 KiB)  TX bytes:25490 (24.8 KiB)
+
+<PS -AX>
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:05 init [3]
+    2 ?        S      0:00 [kthreadd]
+    4 ?        I<     0:00 [kworker/0:0H-kblockd]
+    6 ?        I<     0:00 [mm_percpu_wq]
+    7 ?        S      0:11 [ksoftirqd/0]
+    8 ?        S      0:00 [kdevtmpfs]
+    9 ?        I      0:01 [kworker/0:1-events_power_efficient]
+   10 ?        S      0:00 [oom_reaper]
+   11 ?        I<     0:00 [writeback]
+   13 ?        I      0:00 [kworker/u2:1-events_unbound]
+   79 ?        I<     0:00 [kblockd]
+   80 ?        I<     0:00 [edac-poller]
+   81 ?        I<     0:00 [rpciod]
+   82 ?        I<     0:00 [kworker/u3:0]
+   83 ?        I<     0:00 [xprtiod]
+   84 ?        S      0:00 [kswapd0]
+   85 ?        I<     0:00 [nfsiod]
+   86 ?        I<     0:00 [cifsiod]
+   87 ?        I<     0:00 [smb3decryptd]
+   88 ?        I<     0:00 [cifsfileinfoput]
+   89 ?        I<     0:00 [cifsoplockd]
+   92 ?        S      0:00 [hwrng]
+   95 ?        I<     0:00 [sdhci]
+   96 ?        S      0:00 [irq/33-mmc0]
+   97 ?        I      0:00 [kworker/0:2-events]
+   98 ?        I<     0:00 [sdhci]
+   99 ?        S      0:00 [irq/33-mmc1]
+  100 ?        I<     0:00 [ipv6_addrconf]
+  318 ?        SN     0:00 [jffs2_gcd_mtd3]
+  319 ?        SN     0:00 [jffs2_gcd_mtd7]
+  320 ?        RN     0:00 [jffs2_gcd_mtd8]
+  344 ?        Sl     0:04 /usr/local/bin/execdaemon
+  346 ?        Sl     0:00 /usr/local/bin/processmanager
+  355 ?        I<     0:00 [kworker/0:1H-events_highpri]
+  356 ttyS3    Ssl+   3:28 /usr/local/bin/IPMIMain --daemonize --reg-with-procmgr
+  366 ?        S      0:00 [USBDPC]
+  367 ?        I<     0:00 [usbe_eth_queue]
+  526 ?        I<     0:00 [NCSI]
+  596 ?        Ssl    0:00 /usr/sbin/rsyslogd
+  666 ?        I<     0:00 [bond0]
+  872 ?        Ss     0:00 udhcpc -b -p /var/run/udhcpc.bond0.pid -i bond0 -O 248 -O 101 -T 15
+ 1043 ?        Ss     0:00 dhcp6c -p /var/run/dhcp6c.eth.pid bond0
+ 1165 ?        Sl     0:14 /usr/local/sbin/lighttpd -f /conf/lighttpd.conf -m /usr/local/lib
+ 1166 ?        Sl     0:05 /usr/local/bin/spx_restservice
+ 1168 ?        S      0:00 /usr/local/bin/spx_restservice_ext
+ 1182 ?        S      0:01 /bin/sh /redisrsyncconf.sh /tmp/redis-dump.rdb.gz /conf/redis-dump.rdb.gz
+ 1227 ?        Ssl    0:24 /usr/bin/redis-server *:0
+ 1348 ?        S      0:07 luajit server.lua
+ 1354 ?        Ss     0:03 /usr/local/bin/redfish_pamauthd --daemonize --reg-with-procmgr
+ 1515 ?        S      0:00 luajit agent.lua
+ 1525 ?        S      0:00 luajit subagents/redfish-2-redfishgroup.lua
+ 1539 ?        S      0:00 luajit subagents/redfishgroup-2-fns.lua
+ 1549 ?        S      0:00 luajit subagents/telemetry.lua
+ 1561 ?        S      0:00 luajit ./extensions/ipmi/subagents/ipmi2redfish.lua
+ 1571 ?        S      0:00 luajit ./extensions/ipmi/subagents/sel2redfish.lua
+ 1611 ?        S      0:01 luajit subagents/notify.lua
+ 1696 ?        S      0:00 luajit ./event-service/event-service.lua
+ 1747 ?        S      0:00 luajit ./task-service/task-service.lua
+ 1791 ?        S      0:00 luajit subagents/qrtp-sel.lua
+ 1811 ?        Ssl    0:00 /usr/local/bin/MCTPMain
+ 1830 ?        S      0:00 /usr/local/bin/pam_helperd
+ 1993 ?        Ss     0:00 /usr/local/bin/syslogmonitord
+ 2004 ?        S      0:00 /usr/local/bin/Crashdump
+ 2024 ?        S      0:00 /usr/local/bin/dhcpmonitor
+ 2216 ?        Ss     0:00 /usr/sbin/sshd -p 22 -f /etc/ssh/sshd_config
+ 2278 ?        Ss     0:00 /usr/bin/dbus-daemon --system
+ 2351 ?        Ss     0:00 /usr/local/bin/cdserverapp
+ 2362 ?        Ss     0:00 /usr/local/bin/hdserverapp
+ 2386 ?        Ss     0:00 /usr/local/bin/vmapp
+ 2414 ?        Ssl    0:26 /usr/local/bin/adviserd
+ 2482 ?        Ss     0:00 /usr/local/bin/flasher
+ 2488 ?        Ssl    0:00 /usr/local/bin/compmanager --daemonize
+ 2510 ?        Ss     0:00 /usr/sbin/crond
+ 2830 ?        Sl     0:46 /usr/local/bin/redfish_device -webdir /conf/upnp
+ 2926 ?        S      0:00 /bin/sh /etc/rsyncconf.sh /conf /bkupconf
+ 2992 ?        S      0:04 /usr/sbin/snmpd -c /var/snmpd.conf -Ln udp:161,udp6:161 -p /var/run/netsnmp.pid
+ 3014 ?        SNs    0:00 /usr/sbin/qsnmptrapd
+ 3034 ?        Ss     0:00 /usr/local/bin/timeoutd
+ 3061 ttyS4    Ss+    0:00 /sbin/getty -L console 115200 vt100
+ 4428 ?        I      0:00 [kworker/u2:0-events_unbound]
+ 5967 ?        I      0:00 [kworker/u2:2-events_unbound]
+ 6087 ?        I      0:00 [kworker/u2:3-bond0]
+ 6910 ?        S      0:00 sh -c sleep 5
+ 6911 ?        S      0:00 sleep 5
+ 6939 ?        S      0:00 sh -c echo -e "<PS -AX>" >> /tmp/bmc-info.log; ps -ax >> /tmp/bmc-info.log
+ 6940 ?        R      0:00 ps -ax
+ 6942 ?        S      0:00 rsync -raq --temp-dir=/tmp/rsync_tmp --delete --exclude-from /etc/rsync-excludes /conf/ /bkupconf/
+ 6943 ?        D      0:00 rsync -raq --temp-dir=/tmp/rsync_tmp --delete --exclude-from /etc/rsync-excludes /conf/ /bkupconf/
+ 6944 ?        S      0:00 rsync /tmp/redis-dump.rdb.gz /conf/redis-dump.rdb.gz
+ 6945 ?        S      0:00 rsync /tmp/redis-dump.rdb.gz /conf/redis-dump.rdb.gz
+ 6946 ?        S      0:00 rsync -raq --temp-dir=/tmp/rsync_tmp --delete --exclude-from /etc/rsync-excludes /conf/ /bkupconf/
+<DATE>
+2021-02-25 08:17:58 AM GMT +0000
+<LSMOD>
+videocap 86016 1 - Live 0x7f31d000 (O)
+hid 36864 0 - Live 0x7f313000 (O)
+mctppcie_hw 16384 3 - Live 0x7f30e000 (O)
+mctppcie 40960 5 mctppcie_hw, Live 0x7f303000 (O)
+ncsi 77824 0 - Live 0x7f2ef000 (O)
+eth 28672 0 - Live 0x7f2e7000 (O)
+hdisk 24576 0 - Live 0x7f2e0000 (O)
+cdrom 24576 0 - Live 0x7f2d9000 (O)
+usb1_hw 28672 0 - Live 0x7f2d1000 (O)
+iUSB 1503232 3 hid,hdisk,cdrom, Live 0x7f161000 (O)
+usbe 102400 14 hid,eth,hdisk,cdrom,usb1_hw,iUSB, Live 0x7f147000 (O)
+espi 16384 0 - Live 0x7f142000 (O)
+pwmtach_hw 16384 0 - Live 0x7f13d000 (O)
+pwmtach 16384 2 pwmtach_hw, Live 0x7f138000 (O)
+uartroute 16384 0 - Live 0x7f133000 (O)
+netmon 16384 0 - Live 0x7f12e000 (O)
+cpld_hw 36864 0 - Live 0x7f124000 (O)
+jtag_hw 16384 1 cpld_hw, Live 0x7f11f000 (O)
+jtag 16384 3 cpld_hw,jtag_hw, Live 0x7f11a000 (O)
+peci_hw 16384 0 - Live 0x7f115000 (O)
+peci 16384 2 peci_hw, Live 0x7f110000 (O)
+watchdog_hw 16384 0 - Live 0x7f10b000 (O)
+watchdog 16384 2 watchdog_hw, Live 0x7f106000 (O)
+adc_hw 16384 0 - Live 0x7f101000 (O)
+adc 16384 2 adc_hw, Live 0x7f0fc000 (O)
+snoop_hw 16384 0 - Live 0x7f0f7000 (O)
+snoop 16384 2 snoop_hw, Live 0x7f0f2000 (O)
+kcs_hw 16384 6 - Live 0x7f0ed000 (O)
+kcs 20480 14 kcs_hw, Live 0x7f0e7000 (O)
+reset_hw 16384 0 - Live 0x7f0e2000 (O)
+reset 16384 4 snoop,reset_hw, Live 0x7f0dd000 (O)
+gpio_hw 24576 2 - Live 0x7f0d6000 (O)
+gpio 28672 6 gpio_hw, Live 0x7f0ce000 (O)
+i2c_hw 794624 3 - Live 0x7f00b000 (O)
+helper 20480 31 videocap,hid,mctppcie_hw,mctppcie,ncsi,eth,hdisk,cdrom,usb1_hw,iUSB,usbe,espi,pwmtach_hw,pwmtach,jtag_hw,jtag,peci_hw,peci,watchdog_hw,watchdog,adc_hw,adc,snoop_hw,snoop,kcs_hw,kcs,reset_hw,reset,gpio_hw,gpio,i2c_hw, Live 0x7f005000 (O)
+platform 16384 0 - Live 0x7f000000 (O)
+<DF>
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                20.8M     20.8M         0 100% /
+devtmpfs                174.2M         0    174.2M   0% /dev
+/dev/shm                201.1M      1.2M    199.9M   1% /var
+/dev/shm                201.1M    124.0K    200.9M   0% /run
+/dev/ram3                 5.4M      5.4M         0 100% /usr/local/www
+/dev/mtdblock3          448.0K    196.0K    252.0K  44% /dre
+/dev/mtdblock7           24.0M      1.1M     22.9M   5% /conf
+/dev/mtdblock8           12.0M    800.0K     11.2M   7% /bkupconf
+<CONF>
+total 289
+drw-r-xr-x   14 sysadmin sysadmin         0 Feb 25 08:17 .
+drwxr-xr-x   22 sysadmin sysadmin       401 Feb 25 06:40 ..
+-rw-rw-rw-    1 sysadmin sysadmin        24 Feb 25 07:16 AESIV
+-rw-rw-rw-    1 sysadmin sysadmin        44 Feb 25 07:16 AESKey
+-rw-r--r--    1 sysadmin sysadmin         0 Jan  1  2000 AMI
+-rwxr-xr-x    1 sysadmin sysadmin        29 Feb 25 06:16 BMC.conf
+drwxr-xr-x    6 sysadmin sysadmin         0 Feb 25 08:17 BMC1
+-rw-r--r--    1 sysadmin sysadmin         2 Feb 25 08:03 BootFlag
+-rw-r--r--    1 sysadmin sysadmin        16 Jan  1  2000 Dev_GUID.dat
+-rw-rw-rw-    1 sysadmin sysadmin        18 Feb 25 07:16 Fwversion
+-rw-r--r--    1 sysadmin sysadmin        44 Feb 25 08:05 IntelVersion
+-rw-rw-rw-    1 sysadmin sysadmin       795 Jan  1  2000 Preserve-AMI.ini
+-rw-r--r--    1 sysadmin sysadmin      6103 Feb 25 08:17 Redfish_IpmiSelMsgToRtp.rcmd
+-rw-r--r--    1 sysadmin sysadmin        57 Feb 25 08:17 RedisdbChecksum
+-rwxr-xr-x    1 sysadmin sysadmin      1586 Feb 25 06:16 UpdateIptablesconf.sh
+-rw-rw-rw-    1 sysadmin sysadmin         0 Feb 25 08:03 ac_lost.conf
+-rw-r--r--    1 sysadmin sysadmin       397 Feb 25 06:16 activedir.conf
+-rw-r--r--    1 sysadmin sysadmin        11 Feb 25 08:03 activeslave.conf
+-rw-r--r--    1 sysadmin sysadmin        10 Feb 25 06:16 adjtime
+-rw-r--r--    1 sysadmin sysadmin       105 Feb 25 06:36 adviserd.conf
+-rw-r--r--    1 sysadmin sysadmin      2002 Feb 25 06:16 asd_ssl.pem
+-rwxr-xr-x    1 sysadmin sysadmin       240 Feb 25 07:39 autorecord.conf
+-rw-r--r--    1 sysadmin sysadmin       385 Jan 25 07:20 backup_cfg_list-AMI.ini
+-rw-r--r--    1 sysadmin sysadmin     90356 Feb 25 08:17 bmc.logs
+-rw-r--r--    1 sysadmin sysadmin        22 Feb 25 06:34 bond.conf
+-rw-r--r--    1 sysadmin sysadmin      1623 Feb 25 06:16 ca-default.pem
+-rw-r--r--    1 sysadmin sysadmin      1623 Feb 25 06:16 ca.pem
+dr--r--r--    2 sysadmin sysadmin         0 Feb 25 07:17 certs
+drwxr-xr-x    2 sysadmin sysadmin         0 Feb 25 07:19 compbook
+-rw-r--r--    1 sysadmin sysadmin         6 Feb 25 06:29 console_tty
+drwxr-xr-x    2 sysadmin sysadmin         0 Jan  1  2000 crashdump
+drwxr-xr-x    2 sysadmin sysadmin         0 Jan  1  2000 crontabs
+-rwxr-xr-x    1 sysadmin sysadmin        50 Feb 25 06:36 dcmi.conf
+-rw-r--r--    1 sysadmin sysadmin        52 Feb 25 06:29 default_sh
+-rw-r--r--    1 sysadmin sysadmin        12 Feb 25 08:05 dhcp.preip_4
+-rw-r--r--    1 sysadmin sysadmin       229 Feb 25 06:16 dhcp6c.conf
+-rw-r--r--    1 sysadmin sysadmin        12 Feb 25 07:17 dhcp6c_duid.bond0
+-rw-r--r--    1 sysadmin sysadmin       322 Feb 25 06:16 dns.conf
+-rw-r--r--    1 sysadmin sysadmin       414 Feb 25 06:16 dns.tmp
+-rw-rw-rw-    1 sysadmin sysadmin        18 Feb 25 07:16 eth_usb0_dev_mac.conf
+-rw-rw-rw-    1 sysadmin sysadmin        18 Feb 25 07:16 eth_usb0_host_mac.conf
+-rwxr-xr-x    1 sysadmin sysadmin       268 Feb 25 06:16 handle_secure_or_nonsecure_connection.conf
+-rw-r--r--    1 sysadmin sysadmin        16 Feb 25 07:16 hostname
+-rw-r--r--    1 sysadmin sysadmin        25 Feb 25 06:16 hostname.conf
+-rw-r--r--    1 sysadmin sysadmin        46 Feb 25 07:16 hosts
+-rw-r--r--    1 sysadmin sysadmin       411 Dec  9 07:13 hosts.allow
+-rw-r--r--    1 sysadmin sysadmin       711 Dec  9 07:13 hosts.deny
+-rwxr-xr-x    1 sysadmin sysadmin      1124 Feb 25 06:16 hpm.conf
+lrwxrwxrwx    1 sysadmin sysadmin        18 Feb 25 08:06 if_inet6.txt -> /proc/net/if_inet6
+-rwxr-xr-x    1 sysadmin sysadmin        92 Feb 25 06:34 interfaces
+-rw-r--r--    1 sysadmin sysadmin      8682 Jan 25 07:20 inventory.ini
+-rw-r--r--    1 sysadmin sysadmin         0 Feb 25 08:05 invphypresence.txt
+-rw-rw-rw-    1 sysadmin sysadmin       837 Feb 25 08:03 ip6tables.conf
+-rw-r--r--    1 sysadmin sysadmin      1249 Feb 25 08:03 iptables.conf
+-rw-r--r--    1 sysadmin sysadmin       250 Feb 25 06:16 ldap.conf
+-rwxr-xr-x    1 sysadmin sysadmin      5037 Feb 25 06:35 lighttpd.conf
+-rwxr-xr-x    1 sysadmin sysadmin       231 Jan 25 07:20 lighttpd_ext.conf
+lrwxrwxrwx    1 sysadmin sysadmin        30 Jan  1  2000 localtime -> /usr/share/zoneinfo/Etc/GMT-00
+-rw-r--r--    1 sysadmin sysadmin      1309 Feb 25 06:16 mod_websocket.conf
+-rwxr-xr-x    1 sysadmin sysadmin      6661 Feb 25 06:16 mountall_dual.sh
+-rw-r--r--    1 sysadmin sysadmin      1066 Feb 25 07:17 multiple_hostname.csr
+-rw-r--r--    1 sysadmin sysadmin      1481 Feb 25 07:19 ncml.conf
+-rw-r--r--    1 sysadmin sysadmin        16 Feb 25 08:03 nicSelection
+-rw-r--r--    1 sysadmin sysadmin        74 Feb 25 06:16 nsswitch.conf
+-rw-r--r--    1 sysadmin sysadmin       429 Feb 25 06:16 ntp.conf
+-rw-r--r--    1 sysadmin sysadmin         7 Feb 25 06:16 ntp.stat
+-rw-r--r--    1 sysadmin sysadmin       283 Feb 25 06:16 openLdapGroup.conf
+-rw-r--r--    1 sysadmin sysadmin     10835 Sep 15 19:29 openssl.cnf
+-rw-r--r--    1 sysadmin sysadmin       432 Feb 25 06:16 pam_sshd
+-rw-r--r--    1 sysadmin sysadmin      1272 Feb 25 06:34 pam_withunix
+-rw-r--r--    1 sysadmin sysadmin       870 Feb 25 06:34 pam_wounix
+-rw-r--r--    1 sysadmin sysadmin       337 Feb 25 07:20 passwd
+-rw-rw-rw-    1 sysadmin sysadmin       151 Feb 25 07:16 password_secure_setting
+-rw-r--r--    1 sysadmin sysadmin        80 Jan 25 07:20 phycfg.conf
+-rw-r--r--    1 sysadmin sysadmin       372 Feb 25 06:34 qsnmptrapoid
+-rw-r--r--    1 sysadmin sysadmin         0 Feb 25 06:16 radius.conf.disabled
+-rwxr-xr-x    1 sysadmin sysadmin        63 Feb 25 06:16 radiuspriv.ini
+drwxr-xr-x    3 sysadmin sysadmin         0 Feb 25 07:18 redfish
+drwxr-xr-x    6 sysadmin sysadmin         0 Feb 25 07:18 redfish_cert
+-rw-r--r--    1 sysadmin sysadmin       879 Feb 25 06:16 redfish_lighttpd.conf
+-rwxr-xr-x    1 sysadmin sysadmin       132 Feb 25 06:16 redfish_lighttpd_bios.conf
+-rw-r--r--    1 sysadmin sysadmin     91355 Feb 25 08:17 redis-dump.rdb.gz
+-rw-r--r--    1 sysadmin sysadmin       124 Feb 25 08:05 resolv.conf
+-rwxr-xr-x    1 sysadmin sysadmin       175 Feb 25 06:16 rmedia.conf
+-rwxr-xr-x    1 sysadmin sysadmin         8 Feb 25 06:37 rmedia_cifs_cache
+-rwxr-xr-x    1 sysadmin sysadmin        41 Feb 25 06:16 rmedia_misc.conf
+-rw-rw-rw-    1 sysadmin sysadmin        78 Feb 25 08:06 rmedia_status
+drwxr-xr-x    2 sysadmin sysadmin         0 Jan  1  2000 root.ssh
+-rw-r--r--    1 sysadmin sysadmin      1460 Feb 25 07:17 rootCACert.pem
+-rw-r--r--    1 sysadmin sysadmin        41 Feb 25 07:17 rootCACert.srl
+-rw-r--r--    1 sysadmin sysadmin       157 Feb 25 06:16 rotate.conf
+-rwxr-xr-x    1 sysadmin sysadmin      1576 Feb 25 06:16 rsyslog.conf
+-rw-r--r--    1 sysadmin sysadmin        87 Feb 25 06:16 rt_tables
+-rw-r--r--    1 sysadmin sysadmin      3095 Feb 25 07:17 server.pem
+-rwxr-xr-x    1 sysadmin sysadmin       989 Feb 25 06:16 shadow
+-rw-r--r--    1 sysadmin sysadmin        23 Feb 25 06:16 singleport.conf
+drwx------    3 sysadmin sysadmin         0 Feb 25 08:06 snmp
+----------    1 sysadmin sysadmin       328 Feb 25 06:34 snmp_users.conf
+-rw-rw-r--    1 sysadmin sysadmin        64 Feb 25 06:16 snmpcfg.conf
+-rw-r--r--    1 sysadmin sysadmin         0 Feb 25 06:16 snmptrap_dest.conf
+-rw-r--r--    1 sysadmin sysadmin         2 Feb 25 08:05 ssdp.conf
+-rw-------    1 sysadmin sysadmin      1393 Feb 25 07:20 ssh_host_dsa_key
+-rw-------    1 sysadmin sysadmin       614 Feb 25 07:20 ssh_host_dsa_key.pub
+-rw-------    1 sysadmin sysadmin      1831 Feb 25 07:20 ssh_host_rsa_key
+-rw-------    1 sysadmin sysadmin       406 Feb 25 07:20 ssh_host_rsa_key.pub
+-rw-r--r--    1 sysadmin sysadmin      2965 Feb 25 06:16 ssh_server_config
+-rw-r--r--    1 sysadmin sysadmin       209 Feb 25 06:16 sslconf.ini
+-rw-r--r--    1 sysadmin sysadmin       576 Feb 25 06:16 stunnel.conf
+-rw-r--r--    1 sysadmin sysadmin       536 Feb 25 06:16 syslog.conf
+-rw-r--r--    1 sysadmin sysadmin        17 Jan  1  2000 timeouts
+-rw-r--r--    1 sysadmin sysadmin        45 Feb 25 06:16 timezone.conf
+drwxr-xr-x    2 sysadmin sysadmin         0 Feb 25 07:19 upnp
+drwxr-xr-x    3 sysadmin sysadmin         0 Feb 25 07:16 user_home
+-rw-r--r--    1 sysadmin sysadmin       960 Feb 25 07:32 usermacro.conf
+-rwxr-xr-x    1 sysadmin sysadmin        62 Feb 25 06:16 vlaninterfaces
+-rwxr-xr-x    1 sysadmin sysadmin       185 Feb 25 07:16 vlansetting.conf
+-rwxr-xr-x    1 sysadmin sysadmin       193 Feb 25 06:34 vmedia.conf
+<BMC1>
+total 285
+drwxr-xr-x    6 sysadmin sysadmin         0 Feb 25 08:17 .
+drw-r-xr-x   14 sysadmin sysadmin         0 Feb 25 08:17 ..
+-rw-------    1 sysadmin sysadmin        83 Jan  1  2000 BondCfg.ini
+-rw-------    1 sysadmin sysadmin     24791 Jan  1  2000 DCMIConfig.ini
+-rw-------    1 sysadmin sysadmin        36 Jan  1  2000 DualImageCfg.ini
+-rw-rw-rw-    1 sysadmin sysadmin        79 Feb 25 07:18 FixedUserInfo.ini
+-rw-------    1 sysadmin sysadmin       141 Jan  1  2000 FwVersion.ini
+-rwxrwxrwx    1 sysadmin sysadmin     54395 Feb 25 08:17 IPMIConfig.dat
+-rw-------    1 sysadmin sysadmin      2223 Jan  1  2000 IpmbChCfg.ini
+-rw-------    1 sysadmin sysadmin      6092 Jan  1  2000 LanChcfg1.ini
+-rw-------    1 sysadmin sysadmin      6092 Jan  1  2000 LanChcfg2.ini
+-rw-------    1 sysadmin sysadmin       372 Jan  1  2000 LanIfccfg.ini
+-rwxrwxrwx    1 sysadmin sysadmin      1622 Feb 25 08:17 SEL.dat
+-rw-------    1 sysadmin sysadmin       198 Jan  1  2000 SOLTriggerEvtConfig.ini
+-rw-------    1 sysadmin sysadmin      2271 Jan  1  2000 Smlinkipmbchcfg.ini
+-rw-------    1 sysadmin sysadmin      2199 Jan  1  2000 Smmchcfg.ini
+-rw-------    1 sysadmin sysadmin      2236 Jan  1  2000 SysifcChCfg.ini
+-rw-------    1 sysadmin sysadmin      2280 Jan  1  2000 ThirdIpmbChCfg.ini
+-rw-------    1 sysadmin sysadmin       195 Jan  1  2000 TriggerEvtConfig.ini
+-rw-------    1 sysadmin sysadmin      3271 Jan  1  2000 UserConfig.ini
+-rw-------    1 sysadmin sysadmin      1902 Jan  1  2000 UserEncPswd.ini
+-rw-------    1 sysadmin sysadmin        43 Jan  1  2000 amicfg.ini
+drwxr-xr-x    2 sysadmin sysadmin         0 Jan  1  2000 ast2500evb_S2I
+drwxr-xr-x    2 sysadmin sysadmin         0 Jan  1  2000 ast2500evb_S5X
+drwxr-xr-x    2 sysadmin sysadmin         0 Jan  1  2000 ast2500evb_S5XP
+-rw-------    1 sysadmin sysadmin       328 Jan  1  2000 bridgecfg.ini
+-rw-rw-rw-    1 sysadmin sysadmin       436 Feb 25 08:07 chassiscfg.ini
+-rw-------    1 sysadmin sysadmin     18506 Jan  1  2000 fwfirewallcfg.ini
+-rw-------    1 sysadmin sysadmin       104 Jan  1  2000 gencfg.ini
+-rw-------    1 sysadmin sysadmin     53207 Jan  1  2000 lancfg0.ini
+-rw-------    1 sysadmin sysadmin     53369 Jan  1  2000 lancfg1.ini
+-rw-------    1 sysadmin sysadmin       108 Jan  1  2000 loginadtcfg.ini
+-rw-------    1 sysadmin sysadmin        90 Jan  1  2000 misccfg.ini
+-rw-------    1 sysadmin sysadmin     26671 Jan  1  2000 pefcfg.ini
+-rw-rw-rw-    1 sysadmin sysadmin       171 Feb 25 08:17 pefrecorddetailscfg.ini
+-rw-rw-rw-    1 sysadmin sysadmin      1292 Feb 25 08:04 qsel.json
+-rw-------    1 sysadmin sysadmin      2347 Jan  1  2000 rmcpcfg0.ini
+-rw-------    1 sysadmin sysadmin      2347 Jan  1  2000 rmcpcfg1.ini
+-rwxrwxrwx    1 sysadmin sysadmin       260 Feb 25 07:18 rootpassword.dat
+-rw-rw-rw-    1 sysadmin sysadmin        37 Feb 25 07:16 selconfig.ini
+-rw-------    1 sysadmin sysadmin      4138 Jan  1  2000 serialcfg.ini
+-rw-------    1 sysadmin sysadmin      1700 Jan  1  2000 smtpcfg0.ini
+-rw-------    1 sysadmin sysadmin      1700 Jan  1  2000 smtpcfg1.ini
+-rw-------    1 sysadmin sysadmin       157 Jan  1  2000 solcfg0.ini
+-rw-------    1 sysadmin sysadmin       157 Jan  1  2000 solcfg1.ini
+-rw-rw-rw-    1 sysadmin sysadmin       329 Feb 25 08:07 systeminfo.ini
+-rw-rw-rw-    1 sysadmin sysadmin        92 Feb 25 08:07 wdogcfg.ini
+drwxr-xr-x    2 sysadmin sysadmin         0 Jan  1  2000 wolfpass
+<PLATFORM>
+total 62
+drwxr-xr-x    2 sysadmin sysadmin         0 Jan  1  2000 .
+drwxr-xr-x    6 sysadmin sysadmin         0 Feb 25 08:17 ..
+-rw-r--r--    1 sysadmin sysadmin       224 Jan 25 07:20 FRU.bin
+-rw-r--r--    1 sysadmin sysadmin      3167 Jan 25 07:20 IPMI.conf
+-rw-r--r--    1 sysadmin sysadmin     14752 Feb 17 01:10 SDR.dat
+-rwxr-xr-x    1 sysadmin sysadmin      4096 Jan 25 07:20 pid_normal
+-rwxr-xr-x    1 sysadmin sysadmin      4096 Jan 25 07:20 pid_setup00
+-rwxr-xr-x    1 sysadmin sysadmin      4096 Feb 25 02:09 pid_setup01
+-rwxr-xr-x    1 sysadmin sysadmin      4096 Jan 25 07:20 pid_setup03
+-rwxr-xr-x    1 sysadmin sysadmin      6144 Jan 25 07:20 pid_setup05
+-rwxr-xr-x    1 sysadmin sysadmin      9216 Jan 25 07:20 pid_setup08
+-rwxr-xr-x    1 sysadmin sysadmin     12288 Jan 25 07:20 pid_setup11

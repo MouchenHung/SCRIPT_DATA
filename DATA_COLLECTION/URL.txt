@@ -1,0 +1,34 @@
+* System
+https://10.10.11.56/api/host_inventory/host_interface_system_info
+
+* Processor
+https://10.10.11.56/api/host_inventory/host_interface_processor_info
+
+* Memory Controller
+https://10.10.11.56/api/host_inventory/host_interface_memory_info
+
+* Baseboard
+https://10.10.11.56/api/host_inventory/host_interface_baseboard_info
+
+* Power
+https://10.10.11.56/api/host_inventory/host_interface_power_info
+
+* Thermal
+https://10.10.11.56/api/host_inventory/host_interface_thermal_info
+
+* PCIE Device
+https://10.10.11.56/api/host_inventory/host_interface_pcie_device_info
+
+* PCIE Function
+https://10.10.11.56/api/host_inventory/host_interface_pcie_device_function_info
+
+* Storage
+https://10.10.11.56/api/host_inventory/host_interface_storage_info
+
+
+
+
+????CMD
+SESSION_RESULT=`curl -k -c cookies.txt -X POST -F 'username=root' -F 'password=calvin'?https://10.10.15.97/api/session`;TOKEN=${SESSION_RESULT#*CSRFToken\": \"};TOKEN=${TOKEN%\"*}
+curl -k -b cookies.txt -H "X-CSRFTOKEN: $TOKEN" -X GET -H content-type:application/json?https://10.10.15.97/api/sensors?| python -m json.tool
+curl -k -b cookies.txt -X DELETE -H "X-CSRFTOKEN: $TOKEN" -H "Cache-Control: no-cache" -H content-type:application/json "https://10.10.15.97/api/session" | python -m json.tool 

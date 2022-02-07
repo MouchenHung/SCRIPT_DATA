@@ -1,0 +1,35 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: channel
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: 1,
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: passwordStatus
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0100   475    0   475    0     0    131      0 --:--:--  0:00:03 --:--:--   131
+[
+    {
+        "id": 1,
+        "interface_name": "bond0",
+        "channel_number": 1,
+        "lan_enable": 1,
+        "mac_address": "B4:A9:FC:99:F9:3F",
+        "ipv4_enable": 1,
+        "ipv4_dhcp_enable": 0,
+        "ipv4_address": "10.10.11.56",
+        "ipv4_subnet": "255.255.0.0",
+        "ipv4_gateway": "10.10.10.204",
+        "ipv6_enable": 1,
+        "ipv6_dhcp_enable": 1,
+        "ipv6_address": "2001:db8:0:1:a40b:4ea3:b270:8aed",
+        "ipv6_index": 0,
+        "ipv6_prefix": 64,
+        "ipv6_gateway": "fe80::23a:7dff:fed0:6cc3",
+        "vlan_enable": 0,
+        "vlan_id": 0,
+        "vlan_priority": 0
+    }
+]

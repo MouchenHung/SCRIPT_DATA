@@ -1,0 +1,9 @@
+Collect BMC data script (Version 1.00) - 2020/08/31
+Start to collection data, please wait about 5 minutes.
+Dump BMC console.
+Done.
+Dump BMC configuration.
+Done.
+Dump BMC syslog
+Done.
+tar -zcvf ../BMCCLLOG.tgz ../log/ 2>&1

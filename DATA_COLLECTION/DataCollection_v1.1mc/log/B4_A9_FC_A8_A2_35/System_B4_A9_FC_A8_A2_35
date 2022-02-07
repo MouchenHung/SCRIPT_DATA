@@ -1,0 +1,209 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0100  3714  100  3714    0     0    783      0  0:00:04  0:00:04 --:--:--   992
+{
+    "@odata.context": "/redfish/v1/$metadata#ComputerSystem.ComputerSystem",
+    "@odata.etag": "\"1608703201\"",
+    "@odata.id": "/redfish/v1/Systems/Self",
+    "@odata.type": "#ComputerSystem.v1_8_0.ComputerSystem",
+    "Actions": {
+        "#ComputerSystem.Reset": {
+            "@Redfish.ActionInfo": "/redfish/v1/Systems/Self/ResetActionInfo",
+            "@Redfish.OperationApplyTimeSupport": {
+                "@odata.type": "#Settings.v1_2_2.OperationApplyTimeSupport",
+                "MaintenanceWindowDurationInSeconds": 600,
+                "MaintenanceWindowResource": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                },
+                "SupportedValues": [
+                    "Immediate",
+                    "AtMaintenanceWindowStart"
+                ]
+            },
+            "target": "/redfish/v1/Systems/Self/Actions/ComputerSystem.Reset"
+        }
+    },
+    "AssetTag": "Reserved",
+    "Bios": {
+        "@odata.id": "/redfish/v1/Systems/Self/Bios"
+    },
+    "BiosVersion": "2A09.AL",
+    "Boot": {
+        "BootNext": null,
+        "BootOptions": {
+            "@odata.id": "/redfish/v1/Systems/Self/BootOptions"
+        },
+        "BootOrder": [
+            "Boot0007",
+            "Boot0001",
+            "Boot0002",
+            "Boot0004",
+            "Boot0006"
+        ],
+        "BootOrderPropertySelection": "BootOrder",
+        "BootSourceOverrideEnabled": "Disabled",
+        "BootSourceOverrideEnabled@Redfish.AllowableValues": [
+            "Disabled",
+            "Once",
+            "Continuous"
+        ],
+        "BootSourceOverrideMode": "UEFI",
+        "BootSourceOverrideMode@Redfish.AllowableValues": [
+            "Legacy",
+            "UEFI"
+        ],
+        "BootSourceOverrideTarget": "Usb",
+        "BootSourceOverrideTarget@Redfish.AllowableValues": [
+            "None",
+            "Pxe",
+            "Floppy",
+            "Cd",
+            "Usb",
+            "Hdd",
+            "BiosSetup",
+            "Utilities",
+            "Diags",
+            "UefiShell",
+            "UefiTarget",
+            "SDCard",
+            "UefiHttp",
+            "RemoteDrive",
+            "UefiBootNext"
+        ],
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Systems/Self/Boot/Certificates"
+        },
+        "UefiTargetBootSourceOverride": null
+    },
+    "Description": "System Self",
+    "EthernetInterfaces": {
+        "@odata.id": "/redfish/v1/Systems/Self/EthernetInterfaces"
+    },
+    "HostName": null,
+    "HostingRoles": [
+        "ApplicationServer"
+    ],
+    "Id": "Self",
+    "IndicatorLED": "Off",
+    "IndicatorLED@Redfish.AllowableValues": [
+        "Lit",
+        "Blinking",
+        "Off"
+    ],
+    "Links": {
+        "Chassis": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/Self"
+            }
+        ],
+        "Chassis@odata.count": 1,
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/Self"
+            }
+        ],
+        "ManagedBy@odata.count": 1
+    },
+    "LogServices": {
+        "@odata.id": "/redfish/v1/Systems/Self/LogServices"
+    },
+    "Manufacturer": "NetApp Inc.",
+    "Memory": {
+        "@odata.id": "/redfish/v1/Systems/Self/Memory"
+    },
+    "MemoryDomains": {
+        "@odata.id": "/redfish/v1/Systems/Self/MemoryDomains"
+    },
+    "MemorySummary": {
+        "Status": {
+            "Health": "OK",
+            "HealthRollup": "OK",
+            "State": "Enabled"
+        },
+        "TotalSystemMemoryGiB": 32
+    },
+    "Model": "  ",
+    "Name": "System",
+    "NetworkInterfaces": {
+        "@odata.id": "/redfish/v1/Systems/Self/NetworkInterfaces"
+    },
+    "Oem": {
+        "AMI": {
+            "ManagerBootConfiguration": {
+                "ManagerBootMode@Redfish.AllowableValues": [
+                    "SoftReset",
+                    "ResetTimeout"
+                ]
+            }
+        },
+        "Ami": {
+            "@odata.type": "#AMIBIOSInventoryCRC.v1_0_0.AMIBIOSInventoryCRC",
+            "Bios": {
+                "Inventory": {
+                    "Crc": {
+                        "@odata.id": "/redfish/v1/Systems/Self/Oem/Ami/Inventory/Crc",
+                        "GroupCrcList": [
+                            {
+                                "CPU": 3033118948
+                            },
+                            {
+                                "PCIE": 3723514730
+                            },
+                            {
+                                "DIMM": 249495946
+                            }
+                        ]
+                    }
+                },
+                "RedfishVersion": "1.8.0",
+                "RtpVersion": "1.8.a"
+            }
+        },
+        "CPLDVersion": "13"
+    },
+    "PCIeDevices": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_05_00"
+        }
+    ],
+    "PCIeDevices@odata.count": 1,
+    "PCIeFunctions": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_05_00/PCIeFunctions/DevType3_DevIndex0"
+        }
+    ],
+    "PCIeFunctions@odata.count": 1,
+    "PartNumber": "H625C",
+    "PowerRestorePolicy": "AlwaysOn",
+    "PowerState": "On",
+    "ProcessorSummary": {
+        "Count": 2,
+        "Model": "Genuine Intel(R) CPU $0000%@, 24 Core(s), 48 Logical Processor(s)",
+        "Status": {
+            "Health": "OK",
+            "HealthRollup": "OK",
+            "State": "Enabled"
+        }
+    },
+    "Processors": {
+        "@odata.id": "/redfish/v1/Systems/Self/Processors"
+    },
+    "SKU": "  _D5X-MB",
+    "SecureBoot": {
+        "@odata.id": "/redfish/v1/Systems/Self/SecureBoot"
+    },
+    "SerialNumber": "371919000149",
+    "SimpleStorage": {
+        "@odata.id": "/redfish/v1/Systems/Self/SimpleStorage"
+    },
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Storage": {
+        "@odata.id": "/redfish/v1/Systems/Self/Storage"
+    },
+    "SystemType": "Physical",
+    "UUID": "A9B4EEEC-5E44-11EA-A45A-B4A9FCA8A235"
+}

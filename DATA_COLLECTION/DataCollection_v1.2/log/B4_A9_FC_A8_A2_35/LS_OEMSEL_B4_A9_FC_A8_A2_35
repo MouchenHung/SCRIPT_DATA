@@ -1,0 +1,399 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0100 10533  100 10533    0     0   3107      0  0:00:03  0:00:03 --:--:--  3107
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "\"1614240461\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/1",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:19:32+00:00",
+            "Description": "OEMSEL 1",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:16:27+00:00",
+            "Id": "1",
+            "Message": "BMC image update from 3.01.07 to 3.01.07 success",
+            "MessageId": "0x017301",
+            "Name": "OEMSEL 1",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/2",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:19:33+00:00",
+            "Description": "OEMSEL 11",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:17:18+00:00",
+            "Id": "2",
+            "Message": "BMC system time synchronization method:PCH-RTC",
+            "MessageId": "0xCD0F00",
+            "Name": "OEMSEL 11",
+            "SensorNumber": 0,
+            "SensorType": "OS Stop/Shutdown",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/3",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:19:33+00:00",
+            "Description": "OEMSEL 12",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:17:19+00:00",
+            "Id": "3",
+            "Message": "",
+            "MessageId": "0xE90F00",
+            "Name": "OEMSEL 12",
+            "SensorNumber": 0,
+            "SensorType": "OS Stop/Shutdown",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/4",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:19:33+00:00",
+            "Description": "OEMSEL 13",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:18:24+00:00",
+            "Id": "4",
+            "Message": "Login success -- Account:  root/  IP:10.10.14.187",
+            "MessageId": "0x0A0EBB",
+            "Name": "OEMSEL 13",
+            "SensorNumber": 152,
+            "SensorType": "Temperature",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/5",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:19:33+00:00",
+            "Description": "OEMSEL 14",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:18:30+00:00",
+            "Id": "5",
+            "Message": "Set password -- User ID: 2",
+            "MessageId": "0x02FFFF",
+            "Name": "OEMSEL 14",
+            "SensorNumber": 2,
+            "SensorType": "PowerUnit",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/6",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:19:33+00:00",
+            "Description": "OEMSEL 15",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:18:31+00:00",
+            "Id": "6",
+            "Message": "Logout    -- Account:  root/  IP:10.10.14.187",
+            "MessageId": "0x0A0EBB",
+            "Name": "OEMSEL 15",
+            "SensorNumber": 152,
+            "SensorType": "Voltage",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/7",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:19:34+00:00",
+            "Description": "OEMSEL 16",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:18:44+00:00",
+            "Id": "7",
+            "Message": "Login success -- Account:  root/  IP:10.10.14.187",
+            "MessageId": "0x0A0EBB",
+            "Name": "OEMSEL 16",
+            "SensorNumber": 152,
+            "SensorType": "Temperature",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/8",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:29+00:00",
+            "Description": "OEMSEL 30",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:30:00+00:00",
+            "Id": "8",
+            "Message": "BMC system time synchronization method:PCH-RTC",
+            "MessageId": "0xCD0F00",
+            "Name": "OEMSEL 30",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/9",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:31:30+00:00",
+            "Description": "OEMSEL 31",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:30:00+00:00",
+            "Id": "9",
+            "Message": "NCSI Shared NIC Ethernet Interface(OCP card) Detect Failed",
+            "MessageId": "0xE90F00",
+            "Name": "OEMSEL 31",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/10",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:32:33+00:00",
+            "Description": "OEMSEL 34",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:32:28+00:00",
+            "Id": "10",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self"
+                }
+            },
+            "Message": "Login success -- Account:  root/  IP:10.10.14.187",
+            "MessageId": "0x0A0EBB",
+            "Name": "OEMSEL 34",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/11",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:34:33+00:00",
+            "Description": "OEMSEL 35",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:34:29+00:00",
+            "Id": "11",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self"
+                }
+            },
+            "Message": "CPLD image update - Start to update CPLD image",
+            "MessageId": "0x000000",
+            "Name": "OEMSEL 35",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/12",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:36:06+00:00",
+            "Description": "OEMSEL 36",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:36:04+00:00",
+            "Id": "12",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems"
+                }
+            },
+            "Message": "CPLD image update from d.0.6.8 to d.0.6.8 success",
+            "MessageId": "0x000000",
+            "Name": "OEMSEL 36",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/13",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:43:38+00:00",
+            "Description": "OEMSEL 47",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:41:57+00:00",
+            "Id": "13",
+            "Message": "BMC system time synchronization method:PCH-RTC",
+            "MessageId": "0xCD0F00",
+            "Name": "OEMSEL 47",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/14",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:43:38+00:00",
+            "Description": "OEMSEL 48",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:41:58+00:00",
+            "Id": "14",
+            "Message": "NCSI Shared NIC Ethernet Interface(OCP card) Detect Failed",
+            "MessageId": "0xE90F00",
+            "Name": "OEMSEL 48",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/15",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:44:44+00:00",
+            "Description": "OEMSEL 49",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:44:40+00:00",
+            "Id": "15",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self"
+                }
+            },
+            "Message": "Login success -- Account:  root/  IP:10.10.14.187",
+            "MessageId": "0x0A0EBB",
+            "Name": "OEMSEL 49",
+            "SensorNumber": 16,
+            "SensorType": "Temperature",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/16",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:48:38+00:00",
+            "Description": "OEMSEL 61",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:46:55+00:00",
+            "Id": "16",
+            "Message": "BMC system time synchronization method:PCH-RTC",
+            "MessageId": "0xCD0F00",
+            "Name": "OEMSEL 61",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/17",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:48:38+00:00",
+            "Description": "OEMSEL 62",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:46:55+00:00",
+            "Id": "17",
+            "Message": "NCSI Shared NIC Ethernet Interface(OCP card) Detect Failed",
+            "MessageId": "0xE90F00",
+            "Name": "OEMSEL 62",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/18",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T07:48:38+00:00",
+            "Description": "OEMSEL 63",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T07:47:36+00:00",
+            "Id": "18",
+            "Message": "Login success -- Account:  root/  IP:10.10.14.187",
+            "MessageId": "0x0A0EBB",
+            "Name": "OEMSEL 63",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/19",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:06:06+00:00",
+            "Description": "OEMSEL 78",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T08:04:24+00:00",
+            "Id": "19",
+            "Message": "BMC system time synchronization method:PCH-RTC",
+            "MessageId": "0xCD0F00",
+            "Name": "OEMSEL 78",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/20",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:06:06+00:00",
+            "Description": "OEMSEL 79",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T08:04:24+00:00",
+            "Id": "20",
+            "Message": "NCSI Shared NIC Ethernet Interface(OCP card) Detect Failed",
+            "MessageId": "0xE90F00",
+            "Name": "OEMSEL 79",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/21",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:10:53+00:00",
+            "Description": "OEMSEL 82",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T08:10:50+00:00",
+            "Id": "21",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self"
+                }
+            },
+            "Message": "Login success -- Account:  root/  IP:10.10.14.187",
+            "MessageId": "0x0A0EBB",
+            "Name": "OEMSEL 82",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/22",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:16:10+00:00",
+            "Description": "OEMSEL 83",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T08:16:05+00:00",
+            "Id": "22",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self"
+                }
+            },
+            "Message": "Login success -- Account:  root/  IP:10.10.14.32",
+            "MessageId": "0x0A0E20",
+            "Name": "OEMSEL 83",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/23",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:16:11+00:00",
+            "Description": "OEMSEL 84",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T08:16:09+00:00",
+            "Id": "23",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self"
+                }
+            },
+            "Message": "Login success -- Account:  root/  IP:10.10.14.32",
+            "MessageId": "0x0A0E20",
+            "Name": "OEMSEL 84",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/24",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:16:28+00:00",
+            "Description": "OEMSEL 85",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T08:16:22+00:00",
+            "Id": "24",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self"
+                }
+            },
+            "Message": "Login success -- Account:  root/  IP:10.10.14.32",
+            "MessageId": "0x0A0E20",
+            "Name": "OEMSEL 85",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/OEMSEL/Entries/25",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2021-02-25T08:16:38+00:00",
+            "Description": "OEMSEL 86",
+            "EntryType": "SEL",
+            "EventTimestamp": "2021-02-25T08:16:33+00:00",
+            "Id": "25",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self"
+                }
+            },
+            "Message": "Logout    -- Account:  root/  IP:10.10.14.32",
+            "MessageId": "0x0A0E20",
+            "Name": "OEMSEL 86",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 25,
+    "Name": "Log Service Entries Collection"
+}

@@ -1,0 +1,524 @@
+<7>  2021-02-25T08:03:52.485070+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] On node 0 totalpages: 112640 - 
+<7>  2021-02-25T08:03:52.485196+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000]   Normal zone: 880 pages used for memmap - 
+<7>  2021-02-25T08:03:52.485321+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000]   Normal zone: 0 pages reserved - 
+<7>  2021-02-25T08:03:52.485481+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000]   Normal zone: 112640 pages, LIFO batch:31 - 
+<7>  2021-02-25T08:03:52.485757+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768 - 
+<7>  2021-02-25T08:03:52.485881+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] pcpu-alloc: [0] 0  - 
+<6>  2021-02-25T08:03:52.481875+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Booting Linux on physical CPU 0x0 - 
+<6>  2021-02-25T08:03:52.484103+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] CPU: ARMv6-compatible processor [410fb767] revision 7 (ARMv7), cr=00c5387d - 
+<6>  2021-02-25T08:03:52.484245+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT nonaliasing instruction cache - 
+<6>  2021-02-25T08:03:52.484418+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] OF: fdt: Machine model: WolfPass - 
+<6>  2021-02-25T08:03:52.484562+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Memory policy: Data cache writeback - 
+<6>  2021-02-25T08:03:52.484694+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Reserved memory: created CMA memory pool at 0x9a000000, size 16 MiB - 
+<6>  2021-02-25T08:03:52.484821+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] OF: reserved mem: initialized node framebuffer, compatible id shared-dma-pool - 
+<6>  2021-02-25T08:03:52.484946+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] cma: Reserved 16 MiB at 0x97000000 - 
+<6>  2021-02-25T08:03:52.485623+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] CPU: All CPU(s) started in SVC mode. - 
+<6>  2021-02-25T08:03:52.486010+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 111760 - 
+<6>  2021-02-25T08:03:52.486261+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes, linear) - 
+<6>  2021-02-25T08:03:52.486389+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes, linear) - 
+<6>  2021-02-25T08:03:52.486551+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off - 
+<6>  2021-02-25T08:03:52.486690+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Memory: 356772K/450560K available (7168K kernel code, 653K rwdata, 1792K rodata, 1024K init, 168K bss, 61020K reserved, 32768K cma-reserved) - 
+<6>  2021-02-25T08:03:52.486954+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] ftrace: allocating 22778 entries in 45 pages - 
+<6>  2021-02-25T08:03:52.487076+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16 - 
+<6>  2021-02-25T08:03:52.487202+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] clocksource: FTTMR010-TIMER2: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 77222644334 ns - 
+<6>  2021-02-25T08:03:52.487332+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000020] sched_clock: 32 bits at 24MHz, resolution 40ns, wraps every 86767015915ns - 
+<6>  2021-02-25T08:03:52.487453+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000102] Switching to timer-based delay loop, resolution 40ns - 
+<6>  2021-02-25T08:03:52.487616+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.001115] Calibrating delay loop (skipped), value calculated using timer frequency.. 49.50 BogoMIPS (lpj=247500) - 
+<6>  2021-02-25T08:03:52.487758+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.001169] pid_max: default: 32768 minimum: 301 - 
+<6>  2021-02-25T08:03:52.487895+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.001883] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes, linear) - 
+<6>  2021-02-25T08:03:52.488027+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.001930] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes, linear) - 
+<6>  2021-02-25T08:03:52.488148+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.003847] CPU: Testing write buffer coherency: ok - 
+<6>  2021-02-25T08:03:52.488272+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.005853] Setting up static identity map for 0x80100000 - 0x80100054 - 
+<6>  2021-02-25T08:03:52.488397+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.010383] devtmpfs: initialized - 
+<6>  2021-02-25T08:03:52.488523+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.027085] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns - 
+<6>  2021-02-25T08:03:52.488709+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.027149] futex hash table entries: 256 (order: -1, 3072 bytes, linear) - 
+<6>  2021-02-25T08:03:52.488857+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.034119] pinctrl core: initialized pinctrl subsystem - 
+<6>  2021-02-25T08:03:52.488993+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.035112] NET: Registered protocol family 16 - 
+<6>  2021-02-25T08:03:52.489118+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.037414] DMA: preallocated 256 KiB pool for atomic coherent allocations - 
+<6>  2021-02-25T08:03:52.489238+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.039638] hw-breakpoint: found 6 breakpoint and 1 watchpoint registers. - 
+<6>  2021-02-25T08:03:52.489361+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.039674] hw-breakpoint: maximum watchpoint size is 4 bytes. - 
+<6>  2021-02-25T08:03:52.489484+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.108555] EDAC MC: Ver: 3.0.0 - 
+<6>  2021-02-25T08:03:52.489666+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.111374] clocksource: Switched to clocksource FTTMR010-TIMER2 - 
+<6>  2021-02-25T08:03:52.489838+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.962477] NET: Registered protocol family 2 - 
+<6>  2021-02-25T08:03:52.489982+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.963880] tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 4096 bytes, linear) - 
+<5>  2021-02-25T08:03:52.483909+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Linux version 5.4.41-ami (AMI@localhost) (gcc version 8.3.0 (GCC)) #1 Thu Feb 25 06:29:42 UTC 2021 - 
+<5>  2021-02-25T08:03:52.486133+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] Kernel command line: root=/dev/ram0 ro ip=none ramdisk_blocksize=4096 mem=440M console=ttyS4,115200 rootfstype=squashfs bigphysarea=6144 clk_ignore_unused imagebooted=1 - 
+<5>  2021-02-25T08:03:52.486828+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.000000] random: get_random_u32 called from cache_alloc_refill+0x430/0x8e8 with crng_init=0 - 
+<6>  2021-02-25T08:03:52.515575+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.963981] TCP established hash table entries: 4096 (order: 2, 16384 bytes, linear) - 
+<6>  2021-02-25T08:03:52.515766+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.964074] TCP bind hash table entries: 4096 (order: 2, 16384 bytes, linear) - 
+<6>  2021-02-25T08:03:52.515906+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.964181] TCP: Hash tables configured (established 4096 bind 4096) - 
+<6>  2021-02-25T08:03:52.516037+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.964467] UDP hash table entries: 256 (order: 0, 4096 bytes, linear) - 
+<6>  2021-02-25T08:03:52.516164+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.964544] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes, linear) - 
+<6>  2021-02-25T08:03:52.516288+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.965139] NET: Registered protocol family 1 - 
+<6>  2021-02-25T08:03:52.516456+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.966842] RPC: Registered named UNIX socket transport module. - 
+<6>  2021-02-25T08:03:52.516604+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.966880] RPC: Registered udp transport module. - 
+<6>  2021-02-25T08:03:52.516734+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.966896] RPC: Registered tcp transport module. - 
+<6>  2021-02-25T08:03:52.516861+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.966907] RPC: Registered tcp NFSv4.1 backchannel transport module. - 
+<6>  2021-02-25T08:03:52.516985+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.967773] Trying to unpack rootfs image as initramfs... - 
+<6>  2021-02-25T08:03:52.517109+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    0.968646] rootfs image is not initramfs (invalid magic at start of compressed archive); looks like an initrd - 
+<6>  2021-02-25T08:03:52.517235+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.196946] Freeing initrd memory: 21216K - 
+<6>  2021-02-25T08:03:52.517360+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.200105] workingset: timestamp_bits=30 max_order=17 bucket_order=0 - 
+<6>  2021-02-25T08:03:52.517516+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.200359] bigphysarea: Allocated 6144 pages at 0x(ptrval). - 
+<6>  2021-02-25T08:03:52.517652+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.202020] squashfs: version 4.0 (2009/01/31) Phillip Lougher - 
+<6>  2021-02-25T08:03:52.518284+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.205231] jffs2: version 2.2. © 2001-2006 Red Hat, Inc. - 
+<6>  2021-02-25T08:03:52.518405+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.262638] NET: Registered protocol family 38 - 
+<6>  2021-02-25T08:03:52.518529+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.265447] Serial: 8250/16550 driver, 6 ports, IRQ sharing enabled - 
+<6>  2021-02-25T08:03:52.518707+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.270122] printk: console [ttyS4] disabled - 
+<6>  2021-02-25T08:03:52.518857+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.270291] 1e784000.serial: ttyS4 at MMIO 0x1e784000 (irq = 29, base_baud = 1500000) is a 16550A - 
+<6>  2021-02-25T08:03:52.518996+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.694467] printk: console [ttyS4] enabled - 
+<6>  2021-02-25T08:03:52.519250+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.708299] 1e78e000.serial: ttyS2 at MMIO 0x1e78e000 (irq = 31, base_baud = 1500000) is a 16550A - 
+<6>  2021-02-25T08:03:52.519497+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.727016] 1e78f000.serial: ttyS3 at MMIO 0x1e78f000 (irq = 32, base_baud = 1500000) is a 16550A - 
+<6>  2021-02-25T08:03:52.519925+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.770733] brd: module loaded - 
+<6>  2021-02-25T08:03:52.551030+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.786150] loop: module loaded - 
+<6>  2021-02-25T08:03:52.551186+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.814440] aspeed-smc 1e620000.spi: bus_width 2, Using 40 MHz SPI frequency - 
+<6>  2021-02-25T08:03:52.551323+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.821825] aspeed-smc 1e620000.spi: mx66l1g45g (131072 Kbytes) - 
+<6>  2021-02-25T08:03:52.551454+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.827786] aspeed-smc 1e620000.spi: CE0 window [ 0x20000000 - 0x28000000 ] 128MB - 
+<6>  2021-02-25T08:03:52.551581+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.835468] aspeed-smc 1e620000.spi: CE1 window [ 0x28000000 - 0x2a000000 ] 32MB - 
+<6>  2021-02-25T08:03:52.551705+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.842984] aspeed-smc 1e620000.spi: read control register: [203c0d41] - 
+<6>  2021-02-25T08:03:52.554136+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.069770] aspeed-smc 1e630000.spi: bus_width 2, Using 40 MHz SPI frequency - 
+<6>  2021-02-25T08:03:52.554660+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.097531] aspeed-smc 1e631000.spi: bus_width 2, Using 40 MHz SPI frequency - 
+<6>  2021-02-25T08:03:52.560851+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.125318] Ethernet Channel Bonding Driver: v3.7.1 (April 27, 2011) - 
+<6>  2021-02-25T08:03:52.561019+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.137284] libphy: Fixed MDIO Bus: probed - 
+<6>  2021-02-25T08:03:52.561276+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.150842] ftgmac100 1e660000.ethernet: Read MAC address b4:a9:fc:a8:a2:35 from chip - 
+<6>  2021-02-25T08:03:52.561396+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.178368] libphy: ftgmac100_mdio: probed - 
+<6>  2021-02-25T08:03:52.561514+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.182589] ftgmac100 1e660000.ethernet (unnamed net_device) (uninitialized): eth%d: no PHY found - 
+<6>  2021-02-25T08:03:52.561752+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.197220] ftgmac100 1e660000.ethernet: Using NCSI interface - 
+<6>  2021-02-25T08:03:52.561908+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.204222] ftgmac100 1e660000.ethernet eth0: irq 18, mapped at a4ba772f - 
+<6>  2021-02-25T08:03:52.562051+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.211772] ftgmac100 1e680000.ethernet: Read MAC address b4:a9:fc:a8:a2:35 from chip - 
+<6>  2021-02-25T08:03:52.562181+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.241143] libphy: ftgmac100_mdio: probed - 
+<6>  2021-02-25T08:03:52.562306+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.249952] Broadcom BCM54612E 1e680000.ethernet--1:00: attached PHY driver [Broadcom BCM54612E] (mii_bus:phy_addr=1e680000.ethernet--1:00, irq=POLL) - 
+<6>  2021-02-25T08:03:52.562437+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.264597] ftgmac100 1e680000.ethernet eth1: irq 19, mapped at 3e384580 - 
+<6>  2021-02-25T08:03:52.562563+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.272111] i2c /dev entries driver - 
+<6>  2021-02-25T08:03:52.562689+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.276209] sdhci: Secure Digital Host Controller Interface driver - 
+<6>  2021-02-25T08:03:52.562814+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.282517] sdhci: Copyright(c) Pierre Ossman - 
+<6>  2021-02-25T08:03:52.563254+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.372156] mmc0: SDHCI controller on sdhci_slot0 [sdhci_slot0.0] using ADMA - 
+<6>  2021-02-25T08:03:52.563633+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.414796] mmc1: SDHCI controller on sdhci_slot1 [sdhci_slot1.0] using ADMA - 
+<6>  2021-02-25T08:03:52.563755+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.422124] AST SoC SD/MMC Driver Init Success - 
+<6>  2021-02-25T08:03:52.563885+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.428512] xt_time: kernel timezone is -0000 - 
+<6>  2021-02-25T08:03:52.564043+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.433961] NET: Registered protocol family 10 - 
+<6>  2021-02-25T08:03:52.564182+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.442151] Segment Routing with IPv6 - 
+<6>  2021-02-25T08:03:52.564314+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.446447] NET: Registered protocol family 17 - 
+<6>  2021-02-25T08:03:52.564441+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.451039] 8021q: 802.1Q VLAN Support v1.8 - 
+<6>  2021-02-25T08:03:52.564694+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.471273] printk: console [netcon0] enabled - 
+<6>  2021-02-25T08:03:52.564819+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.475787] netconsole: network logging started - 
+<6>  2021-02-25T08:03:52.564942+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.480357] hctosys: unable to open rtc device (rtc0) - 
+<6>  2021-02-25T08:03:52.565873+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    4.587532] VFS: Mounted root (squashfs filesystem) readonly on device 1:0. - 
+<6>  2021-02-25T08:03:52.566004+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    4.598620] devtmpfs: mounted - 
+<6>  2021-02-25T08:03:52.566136+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    4.607697] Freeing unused kernel memory: 1024K - 
+<6>  2021-02-25T08:03:52.566260+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    4.614637] Checked W+X mappings: passed, no W+X pages found - 
+<6>  2021-02-25T08:03:52.566388+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    4.620335] Run /sbin/init as init process - 
+<6>  2021-02-25T08:03:52.567066+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.648019] Registered bus id: i2c-0 - 
+<6>  2021-02-25T08:03:52.567195+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.652975] Registered bus id: i2c-1 - 
+<6>  2021-02-25T08:03:52.567316+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.657864] Registered bus id: i2c-2 - 
+<6>  2021-02-25T08:03:52.567439+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.663094] Registered bus id: i2c-3 - 
+<6>  2021-02-25T08:03:52.567561+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.667301] Registered bus id: i2c-4 - 
+<6>  2021-02-25T08:03:52.567681+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.671607] Registered bus id: i2c-5 - 
+<6>  2021-02-25T08:03:52.567843+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.675799] Registered bus id: i2c-6 - 
+<6>  2021-02-25T08:03:52.567985+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.679933] Registered bus id: i2c-7 - 
+<6>  2021-02-25T08:03:52.568118+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.684238] Registered bus id: i2c-8 - 
+<6>  2021-02-25T08:03:52.568247+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.688384] Registered bus id: i2c-9 - 
+<6>  2021-02-25T08:03:52.568372+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.692694] Registered bus id: i2c-10 - 
+<6>  2021-02-25T08:03:52.568495+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.697009] Registered bus id: i2c-11 - 
+<6>  2021-02-25T08:03:52.568618+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.701248] Registered bus id: i2c-12 - 
+<6>  2021-02-25T08:03:52.568740+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.705648] Registered bus id: i2c-13 - 
+<6>  2021-02-25T08:03:52.569551+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   21.265485] Reset Common Driver, (c) 2009-2015 American Megatrends Inc. - 
+<6>  2021-02-25T08:03:52.569809+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.295125] KCS Common Driver, (c) 2009-2015 American Megatrends Inc. - 
+<6>  2021-02-25T08:03:52.570101+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.362402] Snoop Common Driver, (c) 2009-2015 American Megatrends Inc. - 
+<5>  2021-02-25T08:03:52.517783+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.203183] NFS: Registering the id_resolver key type - 
+<5>  2021-02-25T08:03:52.517913+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.203279] Key type id_resolver registered - 
+<5>  2021-02-25T08:03:52.518037+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.203305] Key type id_legacy registered - 
+<5>  2021-02-25T08:03:52.518161+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.205167] Key type cifs.idmap registered - 
+<5>  2021-02-25T08:03:52.519623+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.741235] random: fast init done - 
+<5>  2021-02-25T08:03:52.519782+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.744915] random: crng init done - 
+<5>  2021-02-25T08:03:52.552280+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.961855] Creating 8 MTD partitions on "1e620000.spi": - 
+<5>  2021-02-25T08:03:52.552406+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.967211] 0x0000000c0000-0x000001578040 : "root" - 
+<5>  2021-02-25T08:03:52.552649+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.982927] 0x0000018b0000-0x000001e05000 : "www" - 
+<5>  2021-02-25T08:03:52.552929+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.998349] 0x000001e20000-0x000001e90000 : "dre" - 
+<5>  2021-02-25T08:03:52.553070+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.005791] 0x000002ec0000-0x000004378040 : "root" - 
+<5>  2021-02-25T08:03:52.553333+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.021321] 0x0000046b0000-0x000004c05000 : "www" - 
+<5>  2021-02-25T08:03:52.553582+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.036905] 0x000004c20000-0x000004c90000 : "dre" - 
+<5>  2021-02-25T08:03:52.553710+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.044303] 0x000005c00000-0x000007400000 : "conf" - 
+<5>  2021-02-25T08:03:52.553834+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.051834] 0x000007400000-0x000008c00000 : "conf" - 
+<5>  2021-02-25T08:03:52.564565+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.455499] Key type dns_resolver registered - 
+<5>  2021-02-25T08:03:52.565245+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.491819] RAMDISK: squashfs filesystem found at block 0 - 
+<5>  2021-02-25T08:03:52.565386+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.497329] RAMDISK: Loading 21213KiB [1 disk] into ram disk... |/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/ - 
+<4>  2021-02-25T08:03:52.551870+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.942994] Creating Partition for conf  - 
+<4>  2021-02-25T08:03:52.552017+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.946958] MTD Partition 6 : conf @ 0x5c00000 of Size 0x1800000 - 
+<4>  2021-02-25T08:03:52.552153+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.953052] MTD Partition 7 : conf @ 0x7400000 of Size 0x1800000 - 
+<4>  2021-02-25T08:03:52.552531+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.972127] mtd: partition "root" doesn't end on an erase/write block -- force read-only - 
+<4>  2021-02-25T08:03:52.552770+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.987662] mtd: partition "www" doesn't end on an erase/write block -- force read-only - 
+<4>  2021-02-25T08:03:52.553206+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.010610] mtd: partition "root" doesn't end on an erase/write block -- force read-only - 
+<4>  2021-02-25T08:03:52.553461+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.026172] mtd: partition "www" doesn't end on an erase/write block -- force read-only - 
+<4>  2021-02-25T08:03:52.553963+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.056657] mtd: partition "conf" extends beyond the end of device "1e620000.spi" -- size truncated to 0xc00000 - 
+<4>  2021-02-25T08:03:52.554534+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.090947] aspeed-smc: probe of 1e630000.spi failed with error -2 - 
+<4>  2021-02-25T08:03:52.555647+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.118653] aspeed-smc: probe of 1e631000.spi failed with error -2 - 
+<4>  2021-02-25T08:03:52.562977+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.337689] sdhci_slot0 : Using Irq 33 from DT - 
+<4>  2021-02-25T08:03:52.563121+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.342665] 4 bits auto-detect - 
+<4>  2021-02-25T08:03:52.563385+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.380108] sdhci_slot1 : Using Irq 33 from DT - 
+<4>  2021-02-25T08:03:52.563508+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.385375] 4 bits auto-detect - 
+<4>  2021-02-25T08:03:52.565106+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.486057] clk: Not disabling unused clocks - 
+<4>  2021-02-25T08:03:52.565540+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    3.018609] -\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/ - 
+<4>  2021-02-25T08:03:52.565694+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    3.656217] -\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/done. - 
+<4>  2021-02-25T08:03:52.566513+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   14.034490] platform: loading out-of-tree module taints kernel. - 
+<4>  2021-02-25T08:03:52.566944+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.642945] ami_i2c : Using Irq 35 from DT - 
+<4>  2021-02-25T08:03:52.568899+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.716549] The GPIO Driver is loaded successfully. - 
+<4>  2021-02-25T08:03:52.569044+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   18.728580] APSEED AST SoC GPIO HW Driver, (c) 2009-2015 American Megatrends Inc. - 
+<4>  2021-02-25T08:03:52.569172+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   20.001215] [gpiomain_hw.c] Set PinNum 32 debounce.................... - 
+<4>  2021-02-25T08:03:52.569300+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   20.008753] [gpiomain_hw.c] Set PinNum 34 debounce.................... - 
+<4>  2021-02-25T08:03:52.569427+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   20.015611] [gpiomain_hw.c] Set PinNum 218 debounce.................... - 
+<4>  2021-02-25T08:03:52.569680+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   21.288850] ami_lpc : Using Irq 30 from DT - 
+<4>  2021-02-25T08:03:52.569964+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.314423] ami_kcs : Using Irq 30 from DT - 
+<3>  2021-02-25T08:03:52.519124+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.699746] of_serial 1e78e000.serial: Error applying setting, reverse things back - 
+<3>  2021-02-25T08:03:52.519375+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    1.718456] of_serial 1e78f000.serial: Error applying setting, reverse things back - 
+<3>  2021-02-25T08:03:52.554276+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.077107] aspeed-smc 1e630000.spi: unrecognized JEDEC id bytes: 0a 00 01 00 0a 0a - 
+<3>  2021-02-25T08:03:52.554403+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.084929] aspeed-smc 1e630000.spi: Aspeed SMC probe failed -2 - 
+<3>  2021-02-25T08:03:52.554785+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.104837] aspeed-smc 1e631000.spi: unrecognized JEDEC id bytes: 00 00 00 00 00 00 - 
+<3>  2021-02-25T08:03:52.554909+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.112637] aspeed-smc 1e631000.spi: Aspeed SMC probe failed -2 - 
+<3>  2021-02-25T08:03:52.561151+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.142795] ftgmac100 1e660000.ethernet: Error applying setting, reverse things back - 
+<3>  2021-02-25T08:03:52.561636+00:00 QCTB4A9FCA8A235 kernel: kernel - - [    2.191571] ftgmac100 1e660000.ethernet: MII Probe failed! - 
+<1>  2021-02-25T08:03:52.566671+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   14.075324] Helper Module Driver Version 1.2 - 
+<1>  2021-02-25T08:03:52.566815+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   14.079623] Copyright (c) 2009-2015 American Megatrends Inc. - 
+<6>  2021-02-25T08:03:52.601497+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.704152] Watchdog Common Driver, (c) 2010 American Megatrends Inc. - 
+<6>  2021-02-25T08:03:52.601626+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.735260] PECI Common Driver, (c) 2009-2015 American Megatrends Inc. - 
+<6>  2021-02-25T08:03:52.602623+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.894605] PWMTACH Common Driver, (c) 2009-2015 American Megatrends Inc. - 
+<6>  2021-02-25T08:03:52.621627+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   33.266124] bonding: bond0 is being deleted... - 
+<6>  2021-02-25T08:03:52.621756+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   33.271301] bond0 (unregistering): Released all slaves - 
+<4>  2021-02-25T08:03:52.570227+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.384010] ami_snoop : Using Irq 30 from DT - 
+<4>  2021-02-25T08:03:52.600567+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.405349] ADC Driver Version 1.0 - 
+<4>  2021-02-25T08:03:52.600743+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.408772] Copyright (c) 2009-2015 American Megatrends Inc. - 
+<4>  2021-02-25T08:03:52.601065+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.671516] AST2500 ADC, CV: 7 - 
+<4>  2021-02-25T08:03:52.601234+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.674601] ADC auto compensating value: 7 - 
+<4>  2021-02-25T08:03:52.601371+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.678703] ADC HW module loaded - 
+<4>  2021-02-25T08:03:52.601755+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.754212] ami_peci : Using Irq 36 from DT - 
+<4>  2021-02-25T08:03:52.601880+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.776819] The JTAG Driver is loaded successfully. - 
+<4>  2021-02-25T08:03:52.602002+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.812908] The CPLD Hardware Driver is loaded successfully - 
+<4>  2021-02-25T08:03:52.602125+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.834023] Network Interface Monitor Version 6.4.0 - 
+<4>  2021-02-25T08:03:52.602249+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.838968] Copyright (c) 2009-2015 American Megatrends Inc. - 
+<4>  2021-02-25T08:03:52.602376+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.863844] AST UARTROUTE Driver Version 103.0 - 
+<4>  2021-02-25T08:03:52.602499+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.868315] Copyright (c) 2010 American Megatrends Inc. - 
+<4>  2021-02-25T08:03:52.602749+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.931336] The eSPI Driver is loaded successfully. - 
+<4>  2021-02-25T08:03:52.602869+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.954213] ast_espi: eSPI mode is not enable - 
+<4>  2021-02-25T08:03:52.602994+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.989591] Initializing USB Devices - 
+<4>  2021-02-25T08:03:52.603119+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.993317] USB Device Endpoint Driver  - 
+<4>  2021-02-25T08:03:52.603246+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   22.997166] Copyright 2006 American Megatrends Inc. - 
+<4>  2021-02-25T08:03:52.603574+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   23.022211] USB Driver is Successfully Initialized - 
+<4>  2021-02-25T08:03:52.603730+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   23.047095] Loading iUSB Module... - 
+<4>  2021-02-25T08:03:52.603858+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   23.075624] ami_usbhub : Using Irq 37 from DT - 
+<4>  2021-02-25T08:03:52.603985+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   23.112335] Loading CDROM Device Module... - 
+<4>  2021-02-25T08:03:52.604114+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   25.164531] Loading Hdisk Device Module... - 
+<4>  2021-02-25T08:03:52.604239+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   27.124240] Loading Ethernet Device Module... - 
+<4>  2021-02-25T08:03:52.604355+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   28.252459] dev 0 does not connect to host - 
+<4>  2021-02-25T08:03:52.604481+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   29.309545] dev 1 does not connect to host - 
+<4>  2021-02-25T08:03:52.604609+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.625382] NCSI Interface Driver Version 1.1 - 
+<4>  2021-02-25T08:03:52.604733+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.629761] Copyright (c) 2009-2015 American Megatrends Inc. - 
+<4>  2021-02-25T08:03:52.604857+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.636048] NCSI(eth0): Detect NCSI Packages and Channels - 
+<4>  2021-02-25T08:03:52.604980+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.645466] NCSI(eth0): Initializing the timer for change link status. - 
+<4>  2021-02-25T08:03:52.620817+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   31.652146] NCSI_Detect_Info>  - 
+<4>  2021-02-25T08:03:52.620995+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   32.131492] NCSI_Detect_Info> PackageID: 0: 2 - 
+<4>  2021-02-25T08:03:52.621340+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   32.611468] NCSI_Detect_Info> PackageID: 1: 2 - 
+<4>  2021-02-25T08:03:52.621490+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   33.091487] NCSI(eth0): No NCSI Interfaces detected - 
+<4>  2021-02-25T08:03:52.621885+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   33.935672] ami_gpio : Using Irq 21 from DT - 
+<4>  2021-02-25T08:03:52.622011+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   33.940450] ami_sgpio_master : Using Irq 38 from DT - 
+<46>  2021-02-25T08:03:53.481420+00:00 QCTB4A9FCA8A235 rsyslogd: rsyslogd - -  rsyslogd's groupid changed to 541 - 
+<46>  2021-02-25T08:03:53.483540+00:00 QCTB4A9FCA8A235 rsyslogd: rsyslogd - -  rsyslogd's userid changed to 404 - 
+<46>  2021-02-25T08:03:53.487010+00:00 QCTB4A9FCA8A235 rsyslogd: rsyslogd - -   [origin software="rsyslogd" swVersion="8.1901.0" x-pid="596" x-info="https://www.rsyslog.com"] start - 
+<6>  2021-02-25T08:03:54.193718+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   38.468765] bonding: bond0 is being created... - 
+<3>  2021-02-25T08:03:54.193470+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   38.461170] bonding: unable to delete non-existent bond0 - 
+<6>  2021-02-25T08:03:54.310688+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   38.578367] bond0: (slave eth1): Enslaving as a backup interface with a down link - 
+<6>  2021-02-25T08:03:54.356188+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   38.621838] bond0: (slave eth0): making interface the new active one - 
+<6>  2021-02-25T08:03:54.356439+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   38.628659] bond0: (slave eth0): Enslaving as an active interface with an up link - 
+<3>  2021-02-25T08:03:54.581044+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   38.843757] bond0: (slave eth1): Could not set as active slave; either eth1 is down or the link is down - 
+<3>  2021-02-25T08:03:54.581302+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   38.853365] bond0: option active_slave: invalid value (eth1) - 
+<7>  2021-02-25T08:03:54.660625+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   38.938661] NCSI(eth0): User Disable NCSI Packages and Channels - 
+<6>  2021-02-25T08:03:54.999472+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   39.260231] 8021q: adding VLAN 0 to HW filter on device bond0 - 
+<6>  2021-02-25T08:03:54.999729+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   39.266682] bond0: (slave eth0): link status definitely down, disabling slave - 
+<6>  2021-02-25T08:03:54.999892+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   39.274119] bond0: now running without any active interface! - 
+<6>  2021-02-25T08:03:59.490693+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   43.762758] ftgmac100 1e680000.ethernet eth1: Link is Up - 1Gbps/Full - flow control off - 
+<6>  2021-02-25T08:03:59.539352+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   43.801702] bond0: (slave eth1): link status definitely up, 1000 Mbps full duplex - 
+<6>  2021-02-25T08:03:59.551228+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   43.809280] bond0: (slave eth1): making interface the new active one - 
+<6>  2021-02-25T08:03:59.552437+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   43.816322] bond0: active interface up! - 
+<6>  2021-02-25T08:03:59.553722+00:00 QCTB4A9FCA8A235 kernel: kernel - - [   43.820815] IPv6: ADDRCONF(NETDEV_CHANGE): bond0: link becomes ready - 
+<27>  2021-02-25T08:04:20.542659+00:00 QCTB4A9FCA8A235 dhcp6c[1042]: dhcp6c 1042 -  dhcp6_ctl_authinit: failed to open /conf/dhcp6cctlkey: No such file or directory - 
+<6>  2021-02-25T08:05:30.293963+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  134.570739] LPC RESET - 
+<6>  2021-02-25T08:05:30.440998+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  134.710294] MCTP PCIE Common Driver, (c) 2014 American Megatrends Inc. - 
+<4>  2021-02-25T08:05:30.475802+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  134.740636] ami_mctp : Using Irq 39 from DT - 
+<4>  2021-02-25T08:05:30.476055+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  134.745637] ami_scu : Using Irq 20 from DT - 
+<4>  2021-02-25T08:05:30.476218+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  134.749878] The MCTP Over PCIE HW Driver is loaded successfully. - 
+<4>  2021-02-25T08:05:30.690548+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  134.960365] Enable MCTP over PCIE Downstream function - 
+<130>  2021-02-25T08:05:30.877595+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [356 : 452 CRITICAL][PDKHW.c:2248]Unable to Read /conf/eventgen.ini Configuration File - 
+<130>  2021-02-25T08:05:30.881829+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [356 : 452 CRITICAL][PDKHW.c:2255]Failed to get the Section Count of /conf/eventgen.ini file - 
+<130>  2021-02-25T08:05:30.884766+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [356 : 452 CRITICAL][PDKHW.c:522]Failed to log Deassertion Events for PUS:SoftPWRCtrlFail offset. - 
+<4>  2021-02-25T08:05:35.060905+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  139.335240] Reset MCTP Controller - 
+<4>  2021-02-25T08:05:35.191909+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  139.469158] Reset MCTP Controller - 
+<6>  2021-02-25T08:05:35.284134+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  139.561375] LPC RESET - 
+<4>  2021-02-25T08:05:35.902762+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  140.174530] ast_espi: eSPI mode is not enable - 
+<30>  2021-02-25T08:05:37.760703+00:00 QCTB4A9FCA8A235 init: init - -  Entering runlevel: 3 - 
+<38>  2021-02-25T08:05:45.571517+00:00 QCTB4A9FCA8A235 sshd[2216]: sshd 2216 -  Server listening on 0.0.0.0 port 22. - 
+<38>  2021-02-25T08:05:45.576612+00:00 QCTB4A9FCA8A235 sshd[2216]: sshd 2216 -  Server listening on :: port 22. - 
+<4>  2021-02-25T08:05:57.317103+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  160.585238] Loading HID Device Module... - 
+<4>  2021-02-25T08:05:57.370604+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  160.590854] UsbConfigureLS(): USB Device 3 is running in Low Speed - 
+<4>  2021-02-25T08:05:57.596923+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  161.826215] AST Video Capture Driver, (c) 2009-2015 American Megatrends Inc. - 
+<4>  2021-02-25T08:05:57.597181+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  161.834233] ami_videocap : Using Irq 40 from DT - 
+<78>  2021-02-25T08:06:02.960288+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: crond (busybox 1.21.1) started, log level 8 - 
+<14>  2021-02-25T08:06:31.211773+00:00 QCTB4A9FCA8A235 luajit: luajit - -  libipmi:get_fru_info: fru-size obtained for device-0 - 
+<14>  2021-02-25T08:06:31.374803+00:00 QCTB4A9FCA8A235 luajit: luajit - -  libipmi:get_fru_info: fru-size obtained for device-1 - 
+<14>  2021-02-25T08:06:31.544806+00:00 QCTB4A9FCA8A235 luajit: luajit - -  libipmi:get_fru_info: fru-size obtained for device-10 - 
+<14>  2021-02-25T08:06:31.614999+00:00 QCTB4A9FCA8A235 luajit: luajit - -  libipmi:get_fru_info: fru-size obtained for device-32 - 
+<14>  2021-02-25T08:06:31.640752+00:00 QCTB4A9FCA8A235 luajit: luajit - -  libipmi:get_fru_info: fru-size obtained for device-33 - 
+<14>  2021-02-25T08:06:31.681408+00:00 QCTB4A9FCA8A235 luajit: luajit - -  libipmi:get_fru_info: fru-size obtained for device-35 - 
+<4>  2021-02-25T08:06:32.651396+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  196.917776] Device IDCODE = 0318a0dd ---> ALTERA CPLD - 
+<7>  2021-02-25T08:06:40.730630+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.004927]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1728]1 3 2 - 
+<7>  2021-02-25T08:06:40.762084+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.040378]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1728]1 3 2 - 
+<7>  2021-02-25T08:06:40.762234+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.040710]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1260]32 e0 4 - 
+<7>  2021-02-25T08:06:40.762378+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.040735]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1260]5 0 0 - 
+<7>  2021-02-25T08:06:40.762523+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.040750]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1260]c 0 1 - 
+<7>  2021-02-25T08:06:40.762673+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.040981]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1460]ff 0 64 - 
+<7>  2021-02-25T08:06:40.762819+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.041510]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1460]ff 0 64 - 
+<4>  2021-02-25T08:06:40.761354+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.015267] UsbConfigureHS(): USB Device 0 is running in High Speed - 
+<4>  2021-02-25T08:06:40.761620+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.021584] UsbConfigureHS(): USB Device 1 is running in High Speed - 
+<4>  2021-02-25T08:06:40.761791+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.027864] UsbConfigureHS(): USB Device 2 is running in High Speed - 
+<4>  2021-02-25T08:06:40.761946+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.034144] UsbConfigureLS(): USB Device 3 is running in Low Speed - 
+<7>  2021-02-25T08:06:40.873839+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.142266]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 1 5 - 
+<4>  2021-02-25T08:06:40.874105+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.142617] HUB port 0 reset - 
+<4>  2021-02-25T08:06:40.874265+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.145584] UsbConfigureHS(): USB Device 0 is running in High Speed - 
+<7>  2021-02-25T08:06:40.901258+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.171965]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 10 5 - 
+<7>  2021-02-25T08:06:40.920573+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.192353]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 0 5 - 
+<7>  2021-02-25T08:06:40.996435+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.267436]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 1 5 - 
+<4>  2021-02-25T08:06:40.996713+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.267791] HUB port 1 reset - 
+<4>  2021-02-25T08:06:40.996871+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.270756] UsbConfigureHS(): USB Device 1 is running in High Speed - 
+<7>  2021-02-25T08:06:41.020694+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.297145]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 10 5 - 
+<7>  2021-02-25T08:06:41.041461+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.317462]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 0 5 - 
+<7>  2021-02-25T08:06:41.121611+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.392571]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 1 5 - 
+<4>  2021-02-25T08:06:41.121884+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.392921] HUB port 2 reset - 
+<4>  2021-02-25T08:06:41.122048+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.395905] UsbConfigureHS(): USB Device 2 is running in High Speed - 
+<7>  2021-02-25T08:06:41.150581+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.422351]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 10 5 - 
+<7>  2021-02-25T08:06:41.171583+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.442741]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 0 5 - 
+<7>  2021-02-25T08:06:41.248850+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.517944]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 1 3 - 
+<4>  2021-02-25T08:06:41.249127+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.518224] HUB port 3 reset - 
+<4>  2021-02-25T08:06:41.249290+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.521236] UsbConfigureLS(): USB Device 3 is running in Low Speed - 
+<7>  2021-02-25T08:06:41.270606+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.547583]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 10 3 - 
+<7>  2021-02-25T08:06:41.291253+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.567973]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 0 3 - 
+<7>  2021-02-25T08:06:41.370577+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.644560]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 0 1 - 
+<7>  2021-02-25T08:06:41.430629+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.707899]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1260]32 e0 4 - 
+<7>  2021-02-25T08:06:41.430909+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.707932]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1260]5 0 0 - 
+<7>  2021-02-25T08:06:41.431086+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.707946]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1260]c 0 1 - 
+<7>  2021-02-25T08:06:41.431237+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.708150]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1260]32 e0 4 - 
+<7>  2021-02-25T08:06:41.431380+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.708175]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1260]5 0 0 - 
+<7>  2021-02-25T08:06:41.431523+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  205.708189]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1260]c 0 1 - 
+<29>  2021-02-25T08:06:47.180492+00:00 QCTB4A9FCA8A235 timeoutd[3034]: timeoutd 3034 -  Daemon started. - 
+<78>  2021-02-25T08:07:01.039058+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 3154 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2021-02-25T08:07:01.049009+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 3155 cmd /etc/ipv6-advanced-route-script - 
+<4>  2021-02-25T08:07:10.193341+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  234.461719] CheckHdiskSupportedCmd(): SCSI Unsupported Command 0x85 for instance 0 - 
+<4>  2021-02-25T08:07:10.230584+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  234.494042] CheckHdiskSupportedCmd(): SCSI Unsupported Command 0x85 for instance 1 - 
+<134>  2021-02-25T08:07:26.417714+00:00 QCTB4A9FCA8A235 IPMIMain: IPMIMain - -  [356 : 406 INFO]PDK_After_BIOS_POST_END> gSyncTimePCH - 
+<134>  2021-02-25T08:07:38.750578+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2488 : 2503 INFO]Loading the Storelib Library - 
+<134>  2021-02-25T08:07:40.395791+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2488 : 2503 INFO]RAID Device ( 2) is not present on the bus 5 - 
+<134>  2021-02-25T08:07:40.420754+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2488 : 2503 INFO]RAID Device ( 2) is not present on the bus 2 - 
+<134>  2021-02-25T08:07:40.423721+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2488 : 2503 INFO]Error while initializing the storelib library - 
+<134>  2021-02-25T08:07:40.442753+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2488 : 2503 INFO]Loading the StorelibIT Library - 
+<134>  2021-02-25T08:07:41.805075+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2488 : 2503 INFO]SAS IT (HBA) Device ( a) is not present on the bus 5 - 
+<134>  2021-02-25T08:07:41.833762+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2488 : 2503 INFO]SAS IT (HBA) Device ( a) is not present on the bus 2 - 
+<134>  2021-02-25T08:07:41.839949+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2488 : 2503 INFO]Error while initializing the library, library type = 3 - 
+<7>  2021-02-25T08:07:46.189393+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  269.913793]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1728]1 3 2 - 
+<7>  2021-02-25T08:07:46.322272+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.052947]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1728]1 3 2 - 
+<7>  2021-02-25T08:07:46.322420+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.053223]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1260]32 e0 4 - 
+<7>  2021-02-25T08:07:46.322605+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.053249]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1260]5 0 0 - 
+<7>  2021-02-25T08:07:46.322850+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.053261]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1260]c 0 1 - 
+<7>  2021-02-25T08:07:46.323299+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.053462]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1260]32 e0 4 - 
+<7>  2021-02-25T08:07:46.323691+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.053485]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1260]5 0 0 - 
+<7>  2021-02-25T08:07:46.323951+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.053497]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1260]c 0 1 - 
+<7>  2021-02-25T08:07:46.324166+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.055306]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1460]ff 0 64 - 
+<7>  2021-02-25T08:07:46.324442+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.055650]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1483]0 0 0 - 
+<4>  2021-02-25T08:07:46.321315+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.027844] UsbConfigureHS(): USB Device 0 is running in High Speed - 
+<4>  2021-02-25T08:07:46.321668+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.034162] UsbConfigureHS(): USB Device 1 is running in High Speed - 
+<4>  2021-02-25T08:07:46.321911+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.040441] UsbConfigureHS(): USB Device 2 is running in High Speed - 
+<4>  2021-02-25T08:07:46.322111+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.046722] UsbConfigureLS(): USB Device 3 is running in Low Speed - 
+<7>  2021-02-25T08:07:46.429857+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.157775]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 1 5 - 
+<7>  2021-02-25T08:07:46.430119+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.158095]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 1 5 - 
+<7>  2021-02-25T08:07:46.430300+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.158370]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 1 5 - 
+<7>  2021-02-25T08:07:46.430446+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.158665]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 1 3 - 
+<7>  2021-02-25T08:07:46.430598+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.158899]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 0 1 - 
+<7>  2021-02-25T08:07:46.539387+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.261773]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 0 5 - 
+<4>  2021-02-25T08:07:46.663299+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.385585] HUB port 0 reset - 
+<4>  2021-02-25T08:07:46.663555+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.388558] UsbConfigureHS(): USB Device 0 is running in High Speed - 
+<7>  2021-02-25T08:07:46.679362+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.406803]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 10 5 - 
+<4>  2021-02-25T08:07:46.736475+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.459028] HUB port 0 reset - 
+<4>  2021-02-25T08:07:46.736725+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.461993] UsbConfigureHS(): USB Device 0 is running in High Speed - 
+<7>  2021-02-25T08:07:46.749394+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.479777]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 10 5 - 
+<7>  2021-02-25T08:07:46.825244+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.546574]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 0 5 - 
+<4>  2021-02-25T08:07:46.825522+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.546786] HUB port 1 reset - 
+<4>  2021-02-25T08:07:46.825679+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.549752] UsbConfigureHS(): USB Device 1 is running in High Speed - 
+<7>  2021-02-25T08:07:46.839761+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.567768]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 10 5 - 
+<134>  2021-02-25T08:07:46.859955+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2488 : 2503 INFO]RAID Device ( 2) is not present on the bus 5 - 
+<134>  2021-02-25T08:07:46.868920+00:00 QCTB4A9FCA8A235 compmanager: compmanager - -  [2488 : 2503 INFO]RAID Device ( 2) is not present on the bus 2 - 
+<4>  2021-02-25T08:07:46.897591+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.620007] HUB port 1 reset - 
+<4>  2021-02-25T08:07:46.897845+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.622966] UsbConfigureHS(): USB Device 1 is running in High Speed - 
+<7>  2021-02-25T08:07:46.909395+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.640770]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 10 5 - 
+<7>  2021-02-25T08:07:46.985395+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.707783]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 0 5 - 
+<4>  2021-02-25T08:07:46.985667+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.707989] HUB port 2 reset - 
+<4>  2021-02-25T08:07:46.985829+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.710975] UsbConfigureHS(): USB Device 2 is running in High Speed - 
+<7>  2021-02-25T08:07:47.001927+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.728763]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 10 5 - 
+<4>  2021-02-25T08:07:47.059667+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.781009] HUB port 2 reset - 
+<4>  2021-02-25T08:07:47.059910+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.784002] UsbConfigureHS(): USB Device 2 is running in High Speed - 
+<7>  2021-02-25T08:07:47.079339+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.801759]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 10 5 - 
+<7>  2021-02-25T08:07:47.147401+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.869688]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 0 3 - 
+<4>  2021-02-25T08:07:47.147670+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.869884] HUB port 3 reset - 
+<4>  2021-02-25T08:07:47.147830+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.872891] UsbConfigureLS(): USB Device 3 is running in Low Speed - 
+<7>  2021-02-25T08:07:47.159447+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.890762]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 10 3 - 
+<4>  2021-02-25T08:07:47.221880+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.943288] HUB port 3 reset - 
+<4>  2021-02-25T08:07:47.222135+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.946301] UsbConfigureLS(): USB Device 3 is running in Low Speed - 
+<7>  2021-02-25T08:07:47.239373+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  270.963763]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/usb1_hw-6.7.3.0.0-ARM-AST-src/data/ast_usbhub.c:1509]0 10 3 - 
+<7>  2021-02-25T08:07:48.580987+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  272.312653]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/eth-6.9.2.0.0-src/data/ether.c:448]EthReqHandler(): Unimplemented CDC request : 67 - 
+<4>  2021-02-25T08:07:48.580165+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  272.296594] ProcessStandardRequest(): WARNING : Unsupported Request. EP Stalled - 
+<4>  2021-02-25T08:07:48.580659+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  272.303945] ProcessStandardRequest(): WARNING : bmRequestType: 0x1 bmRequest: 0xb - 
+<7>  2021-02-25T08:07:51.509346+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  275.239889]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/eth-6.9.2.0.0-src/data/ether.c:448]EthReqHandler(): Unimplemented CDC request : 67 - 
+<7>  2021-02-25T08:07:51.519344+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  275.247026]  [KERNDEBUG] [/home/merlin/Git/s5x_kernel3/LTS12_Official/wolfpass_workspace/Build/.build/eth-6.9.2.0.0-src/data/ether.c:448]EthReqHandler(): Unimplemented CDC request : 67 - 
+<78>  2021-02-25T08:08:01.602874+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 3657 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2021-02-25T08:08:01.620144+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 3658 cmd /etc/ipv6-advanced-route-script - 
+<78>  2021-02-25T08:09:01.624303+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 3930 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2021-02-25T08:09:01.632186+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 3931 cmd /etc/ipv6-advanced-route-script - 
+<78>  2021-02-25T08:10:01.636418+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 4203 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2021-02-25T08:10:01.651250+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 4204 cmd /etc/ipv6-advanced-route-script - 
+<78>  2021-02-25T08:10:01.661755+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 4205 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<130>  2021-02-25T08:10:51.076495+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 CRITICAL][rest_default.c:365]ServiceRet 0 - 
+<130>  2021-02-25T08:10:51.137913+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 CRITICAL][rest_default.c:399]channel no wRet 0 - 
+<134>  2021-02-25T08:10:51.306468+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:10:51.308519+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:10:54.002201+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:10:54.004311+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:10:56.137503+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:10:56.139825+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:10:56.855745+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:10:56.869651+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:10:57.771900+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:10:57.780173+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:10:57.885171+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:10:57.887152+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:10:58.020419+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:10:58.022401+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:10:58.337335+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:10:58.339683+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:10:58.471327+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:10:58.479736+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<78>  2021-02-25T08:11:01.673196+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 4538 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2021-02-25T08:11:01.678345+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 4539 cmd /etc/ipv6-advanced-route-script - 
+<134>  2021-02-25T08:11:07.245368+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:11:07.247310+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:11:08.071647+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:11:08.072041+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<130>  2021-02-25T08:11:08.236903+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 CRITICAL][libipmi_AMIOEM.c:4162]Error in Get Service Configuration in raw IPMI command layer::403 - 
+<130>  2021-02-25T08:11:08.237396+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 CRITICAL][libipmi_AMIOEM.c:4258]Error While Getting service configuration 403 - 
+<130>  2021-02-25T08:11:08.259377+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 CRITICAL][libipmi_AMIOEM.c:4162]Error in Get Service Configuration in raw IPMI command layer::403 - 
+<130>  2021-02-25T08:11:08.259769+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 CRITICAL][libipmi_AMIOEM.c:4258]Error While Getting service configuration 403 - 
+<134>  2021-02-25T08:11:09.540752+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:11:09.542755+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:11:09.705892+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:11:09.707849+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:11:09.751270+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:11:09.753228+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:11:10.603255+00:00 QCTB4A9FCA8A235 adviserd: adviserd - -  [2414 : 2423 INFO]Adviserd:Initializing Encryption Handle - 
+<4>  2021-02-25T08:11:10.919464+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  474.645411] Mode Detected: 1024 x 768 - 
+<4>  2021-02-25T08:11:11.409444+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  475.128692] Mode Detected: 1024 x 768 - 
+<4>  2021-02-25T08:11:11.809397+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  475.528684] Mode Detected: 1024 x 768 - 
+<134>  2021-02-25T08:11:25.339802+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:11:25.341943+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:11:55.264782+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:11:55.267341+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<78>  2021-02-25T08:12:01.682774+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 4837 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2021-02-25T08:12:01.691821+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 4838 cmd /etc/ipv6-advanced-route-script - 
+<134>  2021-02-25T08:12:25.290187+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:12:25.297649+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:12:55.266821+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:12:55.268902+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<78>  2021-02-25T08:13:01.696101+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 5112 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2021-02-25T08:13:01.711032+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 5113 cmd /etc/ipv6-advanced-route-script - 
+<134>  2021-02-25T08:13:25.328494+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:13:25.330595+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:13:55.264222+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:13:55.266187+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<78>  2021-02-25T08:14:01.721594+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 5391 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2021-02-25T08:14:01.733799+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 5392 cmd /etc/ipv6-advanced-route-script - 
+<134>  2021-02-25T08:14:07.693748+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:14:07.696304+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:14:11.836281+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:14:11.838661+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:14:25.290751+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:14:25.293045+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:14:55.621736+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:14:55.624397+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<78>  2021-02-25T08:15:01.741917+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 5665 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2021-02-25T08:15:01.753853+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 5666 cmd /etc/ipv6-advanced-route-script - 
+<78>  2021-02-25T08:15:01.772143+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 5667 cmd /usr/local/sync-agent/extensions/ipmi/process-dhcp-ca-cert.script - 
+<134>  2021-02-25T08:15:25.270816+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:15:25.272764+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:15:55.264353+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:15:55.267289+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<78>  2021-02-25T08:16:01.789857+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 5944 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2021-02-25T08:16:01.801859+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 5945 cmd /etc/ipv6-advanced-route-script - 
+<130>  2021-02-25T08:16:06.697402+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 CRITICAL][rest_default.c:365]ServiceRet 0 - 
+<130>  2021-02-25T08:16:06.770463+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 CRITICAL][rest_default.c:399]channel no wRet 0 - 
+<134>  2021-02-25T08:16:07.280685+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:16:07.282650+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<130>  2021-02-25T08:16:10.465032+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 CRITICAL][rest_default.c:365]ServiceRet 0 - 
+<130>  2021-02-25T08:16:10.636785+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 CRITICAL][rest_default.c:399]channel no wRet 0 - 
+<130>  2021-02-25T08:16:23.674897+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 CRITICAL][rest_default.c:365]ServiceRet 0 - 
+<130>  2021-02-25T08:16:23.791155+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 CRITICAL][rest_default.c:399]channel no wRet 0 - 
+<134>  2021-02-25T08:16:25.309594+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:16:25.311527+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:16:31.609254+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:16:31.621559+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:16:33.497503+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:16:33.499681+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<130>  2021-02-25T08:16:41.142617+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 CRITICAL][rest_default.c:365]ServiceRet 0 - 
+<130>  2021-02-25T08:16:41.301970+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 CRITICAL][rest_default.c:399]channel no wRet 0 - 
+<134>  2021-02-25T08:16:47.088289+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:16:47.088774+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<14>  2021-02-25T08:16:47.220621+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-0 - 
+<14>  2021-02-25T08:16:47.394665+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-1 - 
+<14>  2021-02-25T08:16:47.610292+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-10 - 
+<132>  2021-02-25T08:16:47.640709+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 WARNING][fru.c:114]Invalid FRU Header Version for ID : 10 - 
+<14>  2021-02-25T08:16:47.666931+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-32 - 
+<132>  2021-02-25T08:16:47.691418+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 WARNING][fru.c:114]Invalid FRU Header Version for ID : 32 - 
+<14>  2021-02-25T08:16:47.725415+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-33 - 
+<132>  2021-02-25T08:16:47.750354+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 WARNING][fru.c:114]Invalid FRU Header Version for ID : 33 - 
+<14>  2021-02-25T08:16:47.766838+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  libipmi:get_fru_info: fru-size obtained for device-35 - 
+<132>  2021-02-25T08:16:47.789018+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 WARNING][fru.c:114]Invalid FRU Header Version for ID : 35 - 
+<134>  2021-02-25T08:16:48.314854+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:16:48.316813+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:16:55.008896+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:16:55.010986+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:17:00.852956+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:17:00.856507+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:17:01.174108+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:17:01.176476+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:17:01.594299+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:17:01.596390+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:17:01.627415+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO] in ipmi cmd GetLanReq.ChannelNum=1 - 
+<78>  2021-02-25T08:17:01.811571+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 6470 cmd [ 0 -eq `ps -ef | grep "/usr/sbin/logrotate" | grep -vc "grep"` ] && /usr/sbin/logrotate /etc/logrotate.conf - 
+<78>  2021-02-25T08:17:01.818035+00:00 QCTB4A9FCA8A235 crond[2510]: crond 2510 -  crond: USER sysadmin pid 6471 cmd /etc/ipv6-advanced-route-script - 
+<134>  2021-02-25T08:17:25.307719+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:17:25.318749+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<4>  2021-02-25T08:17:33.469606+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  857.193567] Device IDCODE = 0318a0dd ---> ALTERA CPLD - 
+<134>  2021-02-25T08:17:35.013349+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:17:35.015319+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:17:35.482526+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:17:35.485072+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:17:35.762574+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:17:35.765101+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<4>  2021-02-25T08:17:36.950280+00:00 QCTB4A9FCA8A235 kernel: kernel - - [  860.673017] Device IDCODE = 0318a0dd ---> ALTERA CPLD - 
+<134>  2021-02-25T08:17:37.609928+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:17:37.611867+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:17:38.086109+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:17:38.088067+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:17:38.607981+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:17:38.610891+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:17:40.248089+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:17:40.250806+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:17:40.635920+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:17:40.637862+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<134>  2021-02-25T08:17:40.953193+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:17:40.957377+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 
+<130>  2021-02-25T08:17:48.001339+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 CRITICAL][rest_default.c:365]ServiceRet 0 - 
+<130>  2021-02-25T08:17:48.112326+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 CRITICAL][rest_default.c:399]channel no wRet 0 - 
+<134>  2021-02-25T08:17:54.724594+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]IPMI Session established successfully - 
+<134>  2021-02-25T08:17:54.742791+00:00 QCTB4A9FCA8A235 spx_restservice: spx_restservice - -  [1166 : 1166 INFO]Privilege level for this session is 4 - 

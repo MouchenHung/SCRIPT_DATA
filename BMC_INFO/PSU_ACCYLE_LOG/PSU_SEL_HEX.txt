@@ -1,0 +1,31 @@
+      |Record|           |GenID|GenID |      |Sensor|        |EvtDir|Event|Event|Event|
+  ID  | Type | TimeStamp |(Low)|(High)|EvMRev| Type |Sensor #| Type |Data1|Data2|Data3|
+------|------|-----------|-----|------|------|------|--------|------|-----|-----|-----|
+
+ 0011h|   02h| 60092cc6h |  20h|   00h|   04h|   08h|     f7h|   0bh|  00h|  ffh|  ffh| //Redundancy on
+ 0010h|   02h| 60092cc2h |  20h|   00h|   04h|   08h|     fbh|   efh|  a2h|  08h|  00h| //PSU1 ON(BIT5 turn 0)
+ 000fh|   02h| 60092cc2h |  20h|   00h|   04h|   08h|     fbh|   efh|  a3h|  01h|  00h| //PSU1 ON(BIT4 turn 0)
+ 000eh|   02h| 60092cc2h |  20h|   00h|   04h|   08h|     fbh|   efh|  a3h|  00h|  00h| //PSU1 ON(BIT4 turn 0)
+// PLUG IN [PSU1] POWER CORE
+
+ 000dh|   02h| 60092cc2h |  20h|   00h|   04h|   08h|     f7h|   0bh|  01h|  ffh|  ffh| //Redundancy lost
+ 000ch|   02h| 60092cbeh |  20h|   00h|   04h|   08h|     fbh|   6fh|  a2h|  08h|  00h| //PSU1 LOST(BIT5 turn 1)
+ 000bh|   02h| 60092cbeh |  20h|   00h|   04h|   08h|     fbh|   6fh|  a3h|  01h|  00h| //PSU1 LOST(BIT4 turn 1)
+ 000ah|   02h| 60092cbeh |  20h|   00h|   04h|   08h|     fbh|   6fh|  a3h|  00h|  00h| //PSU1 LOST(BIT3 turn 1)
+// PLUG OFF [PSU1] POWER CORE
+
+
+ 0009h|   02h| 60092cb8h |  20h|   00h|   04h|   08h|     f7h|   0bh|  00h|  ffh|  ffh| //Redundancy on
+ 0008h|   02h| 60092cb5h |  20h|   00h|   04h|   08h|     f8h|   efh|  a2h|  08h|  00h| //PSU0 ON(BIT5 turn 0)
+ 0007h|   02h| 60092cb5h |  20h|   00h|   04h|   08h|     f8h|   efh|  a3h|  01h|  00h| //PSU0 ON(BIT4 turn 0)
+ 0006h|   02h| 60092cb5h |  20h|   00h|   04h|   08h|     f8h|   efh|  a3h|  00h|  00h| //PSU0 ON(BIT3 turn 0)
+// PLUG IN [PSU0] POWER CORE
+
+ 0005h|   02h| 60092cb5h |  20h|   00h|   04h|   08h|     f7h|   0bh|  01h|  ffh|  ffh| //Redundancy lost
+ 0004h|   02h| 60092cb1h |  20h|   00h|   04h|   08h|     f8h|   6fh|  a2h|  08h|  00h| //PSU0 LOST(BIT5 turn 1)
+ 0003h|   02h| 60092cb1h |  20h|   00h|   04h|   08h|     f8h|   6fh|  a3h|  01h|  00h| //PSU0 LOST(BIT4 turn 1)
+ 0002h|   02h| 60092cb1h |  20h|   00h|   04h|   08h|     f8h|   6fh|  a3h|  00h|  00h| //PSU0 LOST(BIT3 turn 1)
+// PLUG OFF [PSU0] POWER CORE
+
+*TEST: PSU0 PLUG OFF AND IN --> PSU1 PLUG OFF AND IN
+*NOTE: BIT means PSU_REG_STATUS_INPUT(0x7C)

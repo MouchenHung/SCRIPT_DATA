@@ -1,0 +1,76 @@
+A ====================================PATH SETTING==================================== A
+ITEM --- ENV_PATH ----------------------- DISABLE
+$PATH:/ss:/home/mouchen/VIN_DATA:/home/mouchen/PROJECT/F0C_data
+
+A ====================================TIME==================================== A
+ITEM --- NOW_TIME ----------------------- ENABLE
+date +%T
+
+A ====================================FOUNDAMENTAL COMMAND==================================== A
+ITEM --- BMC_IP ------------------------- ENABLE
+10 10 12 95
+
+ITEM --- BMC_USER ----------------------- ENABLE
+root
+
+ITEM --- BMC_PASSWORD ------------------- ENABLE
+0penBmc
+
+ITEM --- PROJECT_NAME ------------------- ENABLE
+F0C
+
+ITEM --- SlaveCommand ------------------- ENABLE
+ipmitool raw 0x30 0x34 0x05
+
+A ====================================GET SENSOR COMMAND==================================== A
+ITEM --- SensorCommand_OEM -------------- ENABLE
+0x36 0xF1
+
+ITEM --- SensorCommand_IPMI ------------- ENABLE
+0x04 0x2D
+
+A ====================================FILE SETTING==================================== A
+ITEM --- WORK_DIR ----------------------- DISABLE
+./
+
+ITEM --- LOG_FILE ----------------------- ENABLE
+/home/mouchen/VIM_DATA/log/F0C_SRRecord.txt
+
+ITEM --- LOG_LOOP_TIME ------------------ ENABLE
+3
+
+ITEM --- LOG_LOOP_SLEEP ----------------- ENABLE
+1 (second)
+
+A ====================================SENSOR COMMAND==================================== A
+ITEM --- Sensor_HSC --------------------- ENABLE
+HSC            HSC_IN_VOLT        0xC0    enable
+HSC            HSC_OUT_CURR       0xC1    enable
+HSC	       HSC_TEMP           0xC2    enable
+HSC            HSC_IN_POWER       0xC3    enable
+HSC            HSC_PEAK_IOUT      0xC4    enable
+HSC            HSC_PEAK_PIN       0xC5    enable
+HSC            HSC_OUT_VOLT       0xC6    enable
+HSC            HSC_PEAK_VIN       0xC7    enable
+
+ITEM --- Sensor_OEMEXTEND --------------- ENABLE
+FAN            SYS_FAN1A          0x66    disable
+FAN            SYS_FAN1B          0x67    disable
+FAN            SYS_FAN2A          0x68    disable
+FAN            SYS_FAN2B          0x69    disable
+FAN            SYS_FAN3A          0x6A    disable
+FAN            SYS_FAN3B          0x6B    disable
+FAN            SYS_FAN4A          0x6C    disable
+FAN            SYS_FAN4B          0x6D    disable
+
+ITEM --- Sensor_Voltage ----------------- ENABLE
+ADC            12V                0x7C    disable   
+ADC            3V3                0x80    disable
+ADC128         V_FAN0             0x54    disable
+ADC128         I_FAN0             0xA0    disable
+ADC128         V_FAN1             0x55    disable
+ADC128         I_FAN1             0xA1    disable
+ADC128         V_FAN2             0x56    disable
+ADC128         I_FAN2             0xA2    disable
+ADC128         V_FAN3             0x57    disable
+ADC128         I_FAN3             0xA3    disable

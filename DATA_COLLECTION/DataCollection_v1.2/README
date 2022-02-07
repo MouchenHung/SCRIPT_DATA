@@ -1,0 +1,146 @@
+==========================================================================
+                         BMC Data Collection Tool v1.2
+==========================================================================
+Version: 1.2
+Release Date: 2021.01.15
+
+[HowTo]:
+    1. Please execute the script "startup.sh" and give the BMC IP address for an argument.
+        For out-of-band:
+            > ./startup '192.168.0.120' 'UserName' 'Password'
+    2. It will generate a folder which be named to "log" after the script has been finished.
+        a. All of data, log, and configuration are in the sub-folder with name BMC MAC of "log" directory.
+    3. And the "log" folder will be compressed to a file which named "BMCCLLOG.tgz".
+        a. If you run the script to test two servers or above, it will combine all logs to "BMCCLLOG.tgz" automatically
+    4. Then send the "BMCCLLOG.tgz" package to provider for investigating.
+
+[Change]:
+    1. Add "LogServices" relative RedFish logs.
+
+[Notice]:
+    1. Minimum Version Requirement:
+        cURL:    7.68.0 or newer
+
+[Table of Log Contain]:
+    | Item                    | Interface | Log File                           |
+    |-------------------------|-----------|------------------------------------|
+    | BMC Console Log         | REST API  | BMC_Dump.<BMC_MAC>.dat             |
+    | SEL Log (HEX)           | REST API  | WebUI_SEL_HEX_<BMC_MAC>            |
+    | SEL Log (TEXT)          | REST API  | WebUI_SEL_TEXT_<BMC_MAC>           |
+    | Syslog                  | REST API  | syslog.<BMC_MAC>                   |
+    | Sensor                  | REST API  | Sensor_List_<BMC_MAC>              |
+    | BMC Firmware Version    | RedFish   | McInfo_<BMC_MAC>                   |
+    | BIOS Firmware Version   | RedFish   | System_<BMC_MAC>                   |
+    | PSU Firmware Version    | RedFish   | PSU_<BMC_MAC>                      |
+    | LogServices SEL         | RedFish   | LS_SEL_<BMC_MAC>                   |
+    | LogServices OEMSEL      | RedFish   | LS_OEMSEL_<BMC_MAC>                |
+    | LogServices EventLog    | RedFish   | LS_EVENTLOG_<BMC_MAC>              |
+    | LogServices BIOS        | RedFish   | LS_BIOS_<BMC_MAC>                  |
+    | LogServices ChassisLogs | RedFish   | LS_ChassisLogs_<BMC_MAC>           |
+    | BMC Linux Status        | REST API  | bmc-info.<BMC_MAC>                 |
+    | FRU                     | REST API  | Fru_Print_<BMC_MAC>                |
+    | BMC Network Setting     | REST API  | Network_Settings_<BMC_MAC>         |
+    | INTF System log         | REST API  | System_Inventory_System.txt        |
+    | INTF Processor log      | REST API  | System_Inventory_Processor.txt     |
+    | INTF Memory log         | REST API  | System_Inventory_Memory.txt        |
+    | INTF Baseboard log      | REST API  | System_Inventory_Baseboard.txt     |
+    | INTF Power log          | REST API  | System_Inventory_Power.txt         |
+    | INTF Thermal log        | REST API  | System_Inventory_Thermal.txt       |
+    | INTF PCIE function log  | REST API  | System_Inventory_PCIE_Function.txt |
+    | INTF Storage log        | REST API  | System_Inventory_PCIE_Storage.txt  |
+    | Tool Execution Log      |           | execute_fetch_bmc_file.log         |
+    | Tool Execution Log      |           | execute_fetch_bmc_info.log         |
+    | Tool Execution Log      |           | execute_fetch_bmc_mesg.log         |
+    | Tool Execution Log      |           | execute_startup.log                |
+
+==========================================================================
+                         BMC Data Collection Tool v1.1
+==========================================================================
+Version: 1.1
+Release Date: 2020.12.22
+
+[HowTo]:
+    1. Please execute the script "startup.sh" and give the BMC IP address for an argument.
+        For out-of-band:
+            > ./startup '192.168.0.120' 'UserName' 'Password'
+    2. It will generate a folder which be named to "log" after the script has been finished.
+        a. All of data, log, and configuration are in the sub-folder with name BMC MAC of "log" directory.
+    3. And the "log" folder will be compressed to a file which named "BMCCLLOG.tgz".
+        a. If you run the script to test two servers or above, it will combine all logs to "BMCCLLOG.tgz" automatically
+    4. Then send the "BMCCLLOG.tgz" package to provider for investigating.
+
+[Change]:
+    1. Add "INTF" relative REST API logs.
+
+[Notice]:
+    1. Minimum Version Requirement:
+        cURL:    7.68.0 or newer
+
+[Table of Log Contain]:
+    | Item                   | Interface | Log File                           |
+    |------------------------|-----------|------------------------------------|
+    | BMC Console Log        | REST API  | BMC_Dump.<BMC_MAC>.dat             |
+    | SEL Log (HEX)          | REST API  | WebUI_SEL_HEX_<BMC_MAC>            |
+    | SEL Log (TEXT)         | REST API  | WebUI_SEL_TEXT_<BMC_MAC>           |
+    | Syslog                 | REST API  | syslog.<BMC_MAC>                   |
+    | Sensor                 | REST API  | Sensor_List_<BMC_MAC>              |
+    | BMC Firmware Version   | RedFish   | McInfo_<BMC_MAC>                   |
+    | BIOS Firmware Version  | RedFish   | System_<BMC_MAC>                   |
+    | PSU Firmware Version   | RedFish   | PSU_<BMC_MAC>                      |
+    | BMC Linux Status       | REST API  | bmc-info.<BMC_MAC>                 |
+    | FRU                    | REST API  | Fru_Print_<BMC_MAC>                |
+    | BMC Network Setting    | REST API  | Network_Settings_<BMC_MAC>         |
+    | INTF System log        | REST API  | System_Inventory_System.txt        |
+    | INTF Processor log     | REST API  | System_Inventory_Processor.txt     |
+    | INTF Memory log        | REST API  | System_Inventory_Memory.txt        |
+    | INTF Baseboard log     | REST API  | System_Inventory_Baseboard.txt     |
+    | INTF Power log         | REST API  | System_Inventory_Power.txt         |
+    | INTF Thermal log       | REST API  | System_Inventory_Thermal.txt       |
+    | INTF PCIE function log | REST API  | System_Inventory_PCIE_Function.txt |
+    | INTF Storage log       | REST API  | System_Inventory_PCIE_Storage.txt  |
+    | Tool Execution Log     |           | execute_fetch_bmc_file.log         |
+    | Tool Execution Log     |           | execute_fetch_bmc_info.log         |
+    | Tool Execution Log     |           | execute_fetch_bmc_mesg.log         |
+    | Tool Execution Log     |           | execute_startup.log                |
+
+==========================================================================
+                         BMC Data Collection Tool v1.0
+==========================================================================
+Version: 1.0
+Release Date: 2020.08.31
+
+[HowTo]:
+    1. Please execute the script "startup.sh" and give the BMC IP address for an argument.
+        For out-of-band:
+            > ./startup '192.168.0.120' 'UserName' 'Password'
+    2. It will generate a folder which be named to "log" after the script has been finished.
+        a. All of data, log, and configuration are in the sub-folder with name BMC MAC of "log" directory.
+    3. And the "log" folder will be compressed to a file which named "BMCCLLOG.tgz".
+        a. If you run the script to test two servers or above, it will combine all logs to "BMCCLLOG.tgz" automatically
+    4. Then send the "BMCCLLOG.tgz" package to provider for investigating.
+
+[Change]:
+    1. First version for Yavin.
+
+[Notice]:
+    1. Minimum Version Requirement:
+        cURL:    7.68.0 or newer
+
+[Table of Log Contain]:
+    | Item                  | Interface | Log File                   |
+    |-----------------------|-----------|----------------------------|
+    | BMC Console Log       | REST API  | BMC_Dump.<BMC_MAC>.dat     |
+    | SEL Log (HEX)         | REST API  | WebUI_SEL_HEX_<BMC_MAC>    |
+    | SEL Log (TEXT)        | REST API  | WebUI_SEL_TEXT_<BMC_MAC>   |
+    | Syslog                | REST API  | syslog.<BMC_MAC>           |
+    | Sensor                | REST API  | Sensor_List_<BMC_MAC>      |
+    | BMC Firmware Version  | RedFish   | McInfo_<BMC_MAC>           |
+    | BIOS Firmware Version | RedFish   | System_<BMC_MAC>           |
+    | PSU Firmware Version  | RedFish   | PSU_<BMC_MAC>              |
+    | BMC Linux Status      | REST API  | bmc-info.<BMC_MAC>         |
+    | FRU                   | REST API  | Fru_Print_<BMC_MAC>        |
+    | BMC Network Setting   | REST API  | Network_Settings_<BMC_MAC> |
+    | Tool Execution Log    |           | execute_fetch_bmc_file.log |
+    | Tool Execution Log    |           | execute_fetch_bmc_info.log |
+    | Tool Execution Log    |           | execute_fetch_bmc_mesg.log |
+    | Tool Execution Log    |           | execute_startup.log        |

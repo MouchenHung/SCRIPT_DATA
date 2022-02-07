@@ -1,0 +1,108 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: channel
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: 1,
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: passwordStatus
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1870    0  1870    0     0   3132      0 --:--:-- --:--:-- --:--:--  3127
+[
+    {
+        "Storage_Drives": [
+            {
+                "Name": "NVMe_Device0_NSID1",
+                "SerialNumber": "Z78PA2BGPSLS",
+                "Manufacturer": "N/A",
+                "Location": "NA",
+                "Protocol": "NVMe",
+                "Model": "KBG30ZMS256G TOSHIBA",
+                "Revision": "NVMe Spec v1.2",
+                "EncryptionStatus": "Unlocked",
+                "MediaType": "SSD",
+                "State": "Enabled",
+                "Capacity": "256060514304"
+            },
+            {
+                "Name": "USB_Device1_PortC",
+                "SerialNumber": "AAAABBBBCCCC1",
+                "Manufacturer": "American Megatrends Inc.",
+                "Location": "NA",
+                "Protocol": "USB",
+                "Model": "Virtual Cdrom Device",
+                "Revision": "USB2.00",
+                "EncryptionStatus": "Unlocked",
+                "MediaType": "HDD",
+                "State": "Enabled",
+                "Capacity": "2048"
+            },
+            {
+                "Name": "USB_Device3_PortC",
+                "SerialNumber": "AAAABBBBCCCC3",
+                "Manufacturer": "American Megatrends Inc.",
+                "Location": "NA",
+                "Protocol": "USB",
+                "Model": "Virtual HardDisk Device",
+                "Revision": "USB2.00",
+                "EncryptionStatus": "Unlocked",
+                "MediaType": "HDD",
+                "State": "Enabled",
+                "Capacity": "65535"
+            },
+            {
+                "Name": "USB_Device2_PortC",
+                "SerialNumber": "AAAABBBBCCCC3",
+                "Manufacturer": "American Megatrends Inc.",
+                "Location": "NA",
+                "Protocol": "USB",
+                "Model": "Virtual HardDisk Device",
+                "Revision": "USB2.00",
+                "EncryptionStatus": "Unlocked",
+                "MediaType": "HDD",
+                "State": "Enabled",
+                "Capacity": "65535"
+            }
+        ],
+        "Storage_Contoller": [
+            {
+                "MemberId": "1",
+                "SerialNumber": "NA",
+                "Model": "NA",
+                "FirmwareVersion": "NA",
+                "SpeedGbps": "6",
+                "State": "Enabled",
+                "Name": "SATA_Controller_1"
+            },
+            {
+                "MemberId": "0",
+                "SerialNumber": "Z78PA2BGPSLS",
+                "Model": "KBG30ZMS256G TOSHIBA",
+                "FirmwareVersion": "ADGA0102",
+                "SpeedGbps": "8",
+                "State": "Enabled",
+                "Name": "NVMe_Controller_0"
+            },
+            {
+                "MemberId": "2",
+                "SerialNumber": "NA",
+                "Model": "NA",
+                "FirmwareVersion": "1.0",
+                "SpeedGbps": "5",
+                "State": "Enabled",
+                "Name": "USB_Controller2"
+            },
+            {
+                "MemberId": "3",
+                "SerialNumber": "NA",
+                "Model": "NA",
+                "FirmwareVersion": "NA",
+                "SpeedGbps": "6",
+                "State": "Enabled",
+                "Name": "SATA_Controller_3"
+            }
+        ]
+    }
+]

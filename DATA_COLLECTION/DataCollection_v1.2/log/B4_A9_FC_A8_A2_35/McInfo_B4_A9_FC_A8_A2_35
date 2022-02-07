@@ -1,0 +1,136 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0  2941    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0100  2941  100  2941    0     0    915      0  0:00:03  0:00:03 --:--:--   915
+{
+    "@odata.context": "/redfish/v1/$metadata#Manager.Manager",
+    "@odata.etag": "\"1614240386\"",
+    "@odata.id": "/redfish/v1/Managers/Self",
+    "@odata.type": "#Manager.v1_6_0.Manager",
+    "Actions": {
+        "#Manager.Reset": {
+            "@Redfish.ActionInfo": "/redfish/v1/Managers/Self/ResetActionInfo",
+            "@Redfish.OperationApplyTimeSupport": {
+                "@odata.type": "#Settings.v1_2_2.OperationApplyTimeSupport",
+                "MaintenanceWindowDurationInSeconds": 600,
+                "MaintenanceWindowResource": {
+                    "@odata.id": "/redfish/v1/Managers/Self"
+                },
+                "SupportedValues": [
+                    "Immediate",
+                    "AtMaintenanceWindowStart"
+                ]
+            },
+            "target": "/redfish/v1/Managers/Self/Actions/Manager.Reset"
+        },
+        "Oem": {
+            "#AMIManager.RedfishDBReset": {
+                "@Redfish.ActionInfo": "/redfish/v1/Managers/Self/Oem/RedfishDBResetActionInfo",
+                "target": "/redfish/v1/Managers/Self/Actions/Oem/AMIManager.RedfishDBReset"
+            },
+            "#AMIVirtualMedia.ConfigureCDInstance": {
+                "@Redfish.ActionInfo": "/redfish/v1/Managers/Self/Oem/ConfigureCDInstanceActionInfo",
+                "target": "/redfish/v1/Managers/Self/Actions/Oem/AMIVirtualMedia.ConfigureCDInstance"
+            },
+            "#AMIVirtualMedia.EnableRMedia": {
+                "@Redfish.ActionInfo": "/redfish/v1/Managers/Self/Oem/EnableRMediaActionInfo",
+                "target": "/redfish/v1/Managers/Self/Actions/Oem/AMIVirtualMedia.EnableRMedia"
+            },
+            "#Manager.FactoryReset": {
+                "FactoryResetType@Redfish.AllowableValues": [
+                    "ResetAll"
+                ],
+                "target": "/redfish/v1/Managers/Self/Actions/Manager.FactoryReset"
+            }
+        }
+    },
+    "CommandShell": {
+        "ConnectTypesSupported": [
+            "SSH",
+            "IPMI"
+        ],
+        "MaxConcurrentSessions": 25,
+        "ServiceEnabled": true
+    },
+    "DateTime": "2021-02-25T08:17:05+00:00",
+    "DateTimeLocalOffset": "+00:00",
+    "Description": "BMC",
+    "EthernetInterfaces": {
+        "@odata.id": "/redfish/v1/Managers/Self/EthernetInterfaces"
+    },
+    "FirmwareVersion": "3.01.07",
+    "GraphicalConsole": {
+        "ConnectTypesSupported": [
+            "KVMIP"
+        ],
+        "MaxConcurrentSessions": 2,
+        "ServiceEnabled": true
+    },
+    "HostInterfaces": {
+        "@odata.id": "/redfish/v1/Managers/Self/HostInterfaces"
+    },
+    "Id": "Self",
+    "Links": {
+        "ManagerInChassis": {
+            "@odata.id": "/redfish/v1/Chassis/Self"
+        },
+        "Oem": {
+            "Sensors": {
+                "@odata.id": "/redfish/v1/Managers/Self/OemSensors"
+            }
+        }
+    },
+    "LogServices": {
+        "@odata.id": "/redfish/v1/Managers/Self/LogServices"
+    },
+    "ManagerType": "BMC",
+    "Model": "136562130",
+    "Name": "Manager",
+    "NetworkProtocol": {
+        "@odata.id": "/redfish/v1/Managers/Self/NetworkProtocol"
+    },
+    "Oem": {
+        "Ami": {
+            "@odata.type": "#AMIManager.v1_0_0.AMIManager",
+            "ManagerServiceInfo": {
+                "CommandShellServiceInfo": {
+                    "IPMI": {
+                        "MaxConcurrentSessions": 20
+                    },
+                    "SSH": {
+                        "MaxConcurrentSessions": 5
+                    }
+                },
+                "Links": {
+                    "NetworkProtocol": {
+                        "@odata.id": "/redfish/v1/Managers/Self/NetworkProtocol"
+                    }
+                }
+            },
+            "VirtualMedia": {
+                "CDInstances": 1,
+                "RMediaStatus": "Disabled"
+            }
+        }
+    },
+    "PowerState": "On",
+    "Redundancy@odata.count": 0,
+    "SerialConsole": {
+        "ConnectTypesSupported": [
+            "IPMI"
+        ],
+        "MaxConcurrentSessions": 1,
+        "ServiceEnabled": true
+    },
+    "SerialInterfaces": {
+        "@odata.id": "/redfish/v1/Managers/Self/SerialInterfaces"
+    },
+    "ServiceEntryPointUUID": "deacbea9-445e-ea11-a45a-b4a9fca8a235",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "UUID": "deacbea9-445e-ea11-a45a-b4a9fca8a235",
+    "VirtualMedia": {
+        "@odata.id": "/redfish/v1/Managers/Self/VirtualMedia"
+    }
+}

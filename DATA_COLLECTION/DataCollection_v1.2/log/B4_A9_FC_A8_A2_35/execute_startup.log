@@ -1,0 +1,41 @@
+Collect BMC data script (Version 1.2) - 2021/01/15
+Start to collection data, please wait about 5 minutes.
+Dump BMC console.
+Done.
+Dump BMC configuration.
+Done.
+Dump BMC syslog
+Done.
+tar -zcvf ../BMCCLLOG.tgz ../log/ 2>&1
+tar: Removing leading `../' from member names
+../log/
+../log/B4_A9_FC_A8_A2_35/
+../log/B4_A9_FC_A8_A2_35/LS_OEMSEL_B4_A9_FC_A8_A2_35
+../log/B4_A9_FC_A8_A2_35/WebUI_SEL_HEX_B4_A9_FC_A8_A2_35
+../log/B4_A9_FC_A8_A2_35/syslog.B4_A9_FC_A8_A2_35
+../log/B4_A9_FC_A8_A2_35/LS_SEL_B4_A9_FC_A8_A2_35
+../log/B4_A9_FC_A8_A2_35/LS_ChassisLogs_B4_A9_FC_A8_A2_35
+../log/B4_A9_FC_A8_A2_35/Fru_Print_B4_A9_FC_A8_A2_35
+../log/B4_A9_FC_A8_A2_35/PSU_B4_A9_FC_A8_A2_35
+../log/B4_A9_FC_A8_A2_35/LS_BIOS_B4_A9_FC_A8_A2_35
+../log/B4_A9_FC_A8_A2_35/Network_Settings_B4_A9_FC_A8_A2_35
+../log/B4_A9_FC_A8_A2_35/McInfo_B4_A9_FC_A8_A2_35
+../log/B4_A9_FC_A8_A2_35/INTF/
+../log/B4_A9_FC_A8_A2_35/INTF/System_Inventory_Power.txt
+../log/B4_A9_FC_A8_A2_35/INTF/System_Inventory_Storage.txt
+../log/B4_A9_FC_A8_A2_35/INTF/System_Inventory_Process.txt
+../log/B4_A9_FC_A8_A2_35/INTF/System_Inventory_Thermal.txt
+../log/B4_A9_FC_A8_A2_35/INTF/System_Inventory_System.txt
+../log/B4_A9_FC_A8_A2_35/INTF/System_Inventory_PCIE_Funciton.txt
+../log/B4_A9_FC_A8_A2_35/INTF/System_Inventory_Memory.txt
+../log/B4_A9_FC_A8_A2_35/INTF/System_Inventory_Baseboard.txt
+../log/B4_A9_FC_A8_A2_35/WebUI_SEL_TEXT_B4_A9_FC_A8_A2_35
+../log/B4_A9_FC_A8_A2_35/execute_fetch_bmc_info.log
+../log/B4_A9_FC_A8_A2_35/bmc-info.B4_A9_FC_A8_A2_35
+../log/B4_A9_FC_A8_A2_35/execute_fetch_bmc_mesg.log
+../log/B4_A9_FC_A8_A2_35/execute_startup.log
+../log/B4_A9_FC_A8_A2_35/System_B4_A9_FC_A8_A2_35
+../log/B4_A9_FC_A8_A2_35/LS_EventLog_B4_A9_FC_A8_A2_35
+../log/B4_A9_FC_A8_A2_35/Sensor_List_B4_A9_FC_A8_A2_35
+../log/B4_A9_FC_A8_A2_35/BMC_Dump.B4_A9_FC_A8_A2_35.dat
+../log/B4_A9_FC_A8_A2_35/execute_fetch_bmc_file.log

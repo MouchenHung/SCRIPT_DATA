@@ -1,0 +1,65 @@
+A ====================================PATH SETTING==================================== A
+ITEM --- ENV_PATH ----------------------- DISABLE
+$PATH:/ss:/home/mouchen/VIN_DATA:/home/mouchen/PROJECT/F0C_data
+
+A ====================================TIME==================================== A
+ITEM --- NOW_TIME ----------------------- ENABLE
+date +%T
+
+A ====================================FOUNDAMENTAL COMMAND==================================== A
+ITEM --- BMC_IP ------------------------- ENABLE
+10 10 15 44
+
+ITEM --- BMC_USER ----------------------- ENABLE
+root
+
+ITEM --- BMC_PASSWORD ------------------- ENABLE
+0penBmc
+
+ITEM --- PROJECT_NAME ------------------- ENABLE
+YV2
+
+ITEM --- SlaveCommand ------------------- DISABLE
+ipmitool raw 0x30 0x34 0x05
+
+A ====================================GET SENSOR COMMAND==================================== A
+ITEM --- SensorCommand_PATH ------------- ENABLE
+/usr/local/bin/
+
+ITEM --- SensorCommand_OBMC ------------- ENABLE
+sensor-util spb
+
+A ====================================FILE SETTING==================================== A
+ITEM --- WORK_DIR ----------------------- DISABLE
+./
+
+ITEM --- LOG_FILE ----------------------- ENABLE
+/home/mouchen/VIM_DATA/log/YV2_SRRecord.txt
+
+ITEM --- pLOG_FILE ----------------------- ENABLE
+/home/mouchen/VIM_DATA/log/YV2_SRR_VAL.txt
+
+ITEM --- LOG_LOOP_TIME ------------------ ENABLE
+300
+
+ITEM --- LOG_LOOP_SLEEP ----------------- ENABLE
+1m (None:second, m:minute)
+
+A ====================================SENSOR COMMAND==================================== A
+ITEM --- Sensor_TMP --------------------- ENABLE
+MB             SP_INLET_TMP       0x91    enable
+MB             SP_OUTLET_TMP      0x90    enable
+
+ITEM --- Sensor_RPM --------------------- ENABLE
+FAN            SP_FAN0_TACH       0x46    enable
+FAN            SP_FAN1_TACH       0x47    enable
+
+ITEM --- Sensor_Voltage ----------------- ENABLE
+MB             P5V                0xE0    enable
+MB             P12V               0xE1    enable  
+MB             P3V3_STBY          0xE2    enable
+MB             P12V_SLOT1         0xE3    enable
+MB             P3V3               0xE7    enable
+BMC_SENSOR     S_P1V15_STB        0xC8    enable
+BMC_SENSOR     S_P1V2_STBY        0xC9    enable
+BMC_SENSOR     S_P2V5_STBY        0xCA    enable

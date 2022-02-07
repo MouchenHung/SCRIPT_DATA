@@ -1,0 +1,40 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: channel
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: 1,
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: passwordStatus
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   652    0   652    0     0    407      0 --:--:--  0:00:01 --:--:--   406
+[
+    {
+        "Id": "DevType1_CPU0",
+        "Name": "DevType1_CPU0",
+        "Manufacturer": "Intel(R) Corporation",
+        "MaxSpeedMHz": "4000",
+        "Model": "Genuine Intel(R) CPU $0000%@, 24 Core(s), 48 Logical Processor(s)",
+        "ProcessorArchitecture": "x86",
+        "ProcessorType": "CPU",
+        "Socket": "CPU_0",
+        "State": "Enabled",
+        "EffectiveFamily": "Genuine Intel(R) CPU $0000%@",
+        "TotalCores": "24"
+    },
+    {
+        "Id": "DevType1_CPU1",
+        "Name": "DevType1_CPU1",
+        "Manufacturer": "NA",
+        "MaxSpeedMHz": "NA",
+        "Model": "<null string>, 0 Core(s), 0 Logical Processor(s)",
+        "ProcessorArchitecture": "x86",
+        "ProcessorType": "NA",
+        "Socket": "NA",
+        "State": "Absent",
+        "EffectiveFamily": "NA",
+        "TotalCores": "NA"
+    }
+]

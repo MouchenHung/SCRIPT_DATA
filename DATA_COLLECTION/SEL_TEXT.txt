@@ -1,0 +1,29 @@
+Event ID		Time Stamp					Severity	Sensor Name			Sensor Type				Description
+	28		Dec/25/2020    14:39:29		[Information]	[Login Info]	[Login success]	Login success -- Account:  root /  IP:10.10.14.32
+	27		Dec/25/2020    14:39:23		[Information]	[Login Info]	[Logout]		Logout    -- Account:  root /  IP:10.10.14.32
+	26		Dec/25/2020    14:39:10		[Information]	[Login Info]	[Login success]	Login success -- Account:  root /  IP:10.10.14.32
+	25		Dec/25/2020    14:38:56		[Information]	[Login Info]	[Login success]	Login success -- Account:  root /  IP:10.10.14.32
+	24		Dec/25/2020    14:38:50		[Information]	[Login Info]	[Login success]	Login success -- Account:  root /  IP:10.10.14.32
+	23		Dec/25/2020    13:49:52		[Information]	[Login Info]	[Auto Logout]	Auto Logout -- Account:  root /  IP:10.10.14.112
+	22		Dec/25/2020    13:34:07		[Information]	[Login Info]	[Login success]	Login success -- Account:  root /  IP:10.10.14.112
+	21		Dec/25/2020    13:27:25		[Information]	[Login Info]	[Auto Logout]	Auto Logout -- Account:  root /  IP:10.10.14.112
+	20		Dec/25/2020    13:11:30		[Information]	[Login Info]	[Login success]	Login success -- Account:  root /  IP:10.10.14.112
+	19		Dec/25/2020    13:10:57		[Information]	[Login Info]	[Login success]	Login success -- Account:  root /  IP:10.10.14.112
+	18		Dec/25/2020    13:10:47		[Warning]		[Login Info]	[Login failed]	Login failed -- Account:  root /  IP:10.10.14.112
+	17		Dec/25/2020    11:34:23		[Information]	[LAN Info]	[BMC]		NCSI Shared NIC Ethernet Interface(OCP card) Detect Failed
+	16		Dec/25/2020    11:34:23		[Information]	[Time synchronization]	[BMC Time synchronization]	BMC system time synchronization method:NTP
+	15		Dec/24/2020    19:18:08		[Critical]		[CPU1_DIMMB1_DIS]	[Fan]		Device Inserted / Device Present - Deasserted
+	14		Dec/24/2020    19:18:08		[Critical]		[CPU1_DIMMB0_DIS]	[Fan]		Device Inserted / Device Present - Deasserted
+	13		Dec/24/2020    19:18:08		[Critical]		[CPU1_DIMMA1_DIS]	[Fan]		Device Inserted / Device Present - Deasserted
+	12		Dec/24/2020    19:18:08		[Critical]		[CPU1_DIMMA0_DIS]	[Fan]		Device Inserted / Device Present - Deasserted
+	11		Dec/24/2020    19:18:08		[Critical]		[CPU0_DIMMH1_DIS]	[Fan]		Device Inserted / Device Present - Deasserted
+	10		Dec/24/2020    19:18:08		[Critical]		[CPU0_DIMMH0_DIS]	[Fan]		Device Inserted / Device Present - Deasserted
+	9		Dec/24/2020    19:18:08		[Critical]		[CPU0_DIMMG1_DIS]	[Fan]		Device Inserted / Device Present - Deasserted
+	8		Dec/24/2020    19:18:08		[Critical]		[CPU0_DIMMG0_DIS]	[Fan]		Device Inserted / Device Present - Deasserted
+	7		Dec/24/2020    19:17:37		[Information]	[Chassis]		[Physical Security]	General Chassis Intrusion - Asserted
+	6		Dec/24/2020    19:17:37		[Critical]		[BMC FW Health]	[OEM]		SKU  - Chassis - Unavailability - Asserted
+	5		Dec/24/2020    19:17:37		[Information]	[FW Update Info]	[Management Subsystem Health]	BMC image update from 2.13.07 to 2.13.07 success
+	4		Dec/25/2020    11:27:42		[Information]	[Login Info]	[Login success]	Login success -- Account:  root /  IP:10.10.14.112
+	3		Dec/25/2020    11:27:25		[Information]	[Login Info]	[Login success]	Login success -- Account:  root /  IP:10.10.14.112
+	2		Dec/25/2020    10:56:31		[Information]	[Login Info]	[Auto Logout]	Auto Logout -- Account:  root /  IP:10.10.14.112
+	1		Dec/25/2020    10:40:35		[Information]	[Event Log]	[Event Logging Disabled]	Log Area Reset/Cleared - Asserted

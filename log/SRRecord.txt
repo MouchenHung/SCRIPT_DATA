@@ -1,0 +1,18 @@
+loop[ 1 ] --- sensor reading --- 09:44:03
+read sensor No.0
+sshpass -p 0penBmc ssh root@10.10.12.95 ipmitool raw 0x30 0x34 0x05 0x36 0xF1 0xC0
+read sensor No.1
+sshpass -p 0penBmc ssh root@10.10.12.95 ipmitool raw 0x30 0x34 0x05 0x36 0xF1 0xC1
+
+loop[ 2 ] --- sensor reading --- 09:44:03
+read sensor No.0
+sshpass -p 0penBmc ssh root@10.10.12.95 ipmitool raw 0x30 0x34 0x05 0x36 0xF1 0xC0
+read sensor No.1
+sshpass -p 0penBmc ssh root@10.10.12.95 ipmitool raw 0x30 0x34 0x05 0x36 0xF1 0xC1
+
+loop[ 3 ] --- sensor reading --- 09:44:03
+read sensor No.0
+sshpass -p 0penBmc ssh root@10.10.12.95 ipmitool raw 0x30 0x34 0x05 0x36 0xF1 0xC0
+read sensor No.1
+sshpass -p 0penBmc ssh root@10.10.12.95 ipmitool raw 0x30 0x34 0x05 0x36 0xF1 0xC1
+

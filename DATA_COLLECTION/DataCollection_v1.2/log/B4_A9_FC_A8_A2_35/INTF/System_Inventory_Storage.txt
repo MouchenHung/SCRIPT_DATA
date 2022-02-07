@@ -1,0 +1,108 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: channel
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: 1,
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: passwordStatus
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1903    0  1903    0     0   4509      0 --:--:-- --:--:-- --:--:--  4509
+[
+    {
+        "Storage_Drives": [
+            {
+                "Name": "USB_Device1_PortC",
+                "SerialNumber": "AAAABBBBCCCC1",
+                "Manufacturer": "American Megatrends Inc.",
+                "Location": "NA",
+                "Protocol": "USB",
+                "Model": "Virtual Cdrom Device",
+                "Revision": "USB2.00",
+                "EncryptionStatus": "Unlocked",
+                "MediaType": "HDD",
+                "State": "Enabled",
+                "Capacity": "2048"
+            },
+            {
+                "Name": "USB_Device3_PortC",
+                "SerialNumber": "AAAABBBBCCCC3",
+                "Manufacturer": "American Megatrends Inc.",
+                "Location": "NA",
+                "Protocol": "USB",
+                "Model": "Virtual HardDisk Device",
+                "Revision": "USB2.00",
+                "EncryptionStatus": "Unlocked",
+                "MediaType": "HDD",
+                "State": "Enabled",
+                "Capacity": "65535"
+            },
+            {
+                "Name": "USB_Device2_PortC",
+                "SerialNumber": "AAAABBBBCCCC3",
+                "Manufacturer": "American Megatrends Inc.",
+                "Location": "NA",
+                "Protocol": "USB",
+                "Model": "Virtual HardDisk Device",
+                "Revision": "USB2.00",
+                "EncryptionStatus": "Unlocked",
+                "MediaType": "HDD",
+                "State": "Enabled",
+                "Capacity": "65535"
+            },
+            {
+                "Name": "NVMe_Device0_NSID1",
+                "SerialNumber": "Z78PA2BGPSLS",
+                "Manufacturer": "N/A",
+                "Location": "NA",
+                "Protocol": "NVMe",
+                "Model": "KBG30ZMS256G TOSHIBA",
+                "Revision": "NVMe Spec v1.2",
+                "EncryptionStatus": "Unlocked",
+                "MediaType": "SSD",
+                "State": "Enabled",
+                "Capacity": "256060514304"
+            }
+        ],
+        "Storage_Contoller": [
+            {
+                "MemberId": "2",
+                "SerialNumber": "NA",
+                "Model": "NA",
+                "FirmwareVersion": "1.0",
+                "SpeedGbps": "5",
+                "State": "Enabled",
+                "Name": "USB_Controller2"
+            },
+            {
+                "MemberId": "1",
+                "SerialNumber": "NA",
+                "Model": "NA",
+                "FirmwareVersion": "NA",
+                "SpeedGbps": "6",
+                "State": "Enabled",
+                "Name": "SATA_Controller_1"
+            },
+            {
+                "MemberId": "0",
+                "SerialNumber": "Z78PA2BGPSLS",
+                "Model": "KBG30ZMS256G TOSHIBA",
+                "FirmwareVersion": "ADGA0102",
+                "SpeedGbps": "0",
+                "State": "Enabled",
+                "Name": "NVMe_Controller_0"
+            },
+            {
+                "MemberId": "3",
+                "SerialNumber": "Not Available",
+                "Model": "Not Available",
+                "FirmwareVersion": "Not Available",
+                "SpeedGbps": "NA",
+                "State": "Enabled",
+                "Name": "SCSI_Controller3"
+            }
+        ]
+    }
+]

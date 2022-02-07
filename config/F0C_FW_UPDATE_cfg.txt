@@ -1,0 +1,24 @@
+ITEM --- BMC_IP --- 1
+10 10 12 95
+
+ITEM --- BMC_USER --- 1
+root
+
+ITEM --- BMC_PASSWORD --- 1
+0penBmc
+
+ITEM --- PROJECT_NAME --- 1
+F0C
+
+A ====================================   FW_UPDATE.sh   ==================================== A
+ITEM --- SIGN_SSH_FILE --- 1
+fb_sign.sh
+
+ITEM --- BIN_FILE --- 1
+F0C.bin
+
+ITEM --- BMC_UPDATE_CMD --- 1
+UPDATE_BMC "fw-util mb --update bmc"
+UPDATE_BIOS "fw-util mb --update bios"
+UPDATE_CM "fw-util pdb --update cm"
+
